@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: fa358fa63d713ac408738ce34b27e526
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0nixpH$hD2$xLwip3vL96O
+    100002: 0p1Mt3h7nDeQ1Q4N9eEl9H
+    100004: 0YIVuBlyXF3PI_fXw2b_vJ
+    100006: 18PQUIFELEARLM4c0brquf
+    100008: 1_hrYGMATEmeNbEHgfoKxd
+    100010: 1FCKjvOWnEAv7x1dg2f7BI
+    100012: 1njbY3IMb4IedX5fLGTCRc
+    100014: 20nncC0vDDp9h64AX6XevC
+    100016: //RootNode
+    100018: 2d24khq3H2EhLI7osiekrD
+    100020: 2FYBB$DerEng8G$eISvGgZ
+    100022: 2k6vBG3yn9hRJUYx$GK5vo
+    100024: 2pX0sc7rf06usjFMq1TsGs
+    100026: 2SfY7UTIz1E82rEMOUSWux
+    100028: 2ZDRA4lYXAawe3WLk$RpXy
+    100030: 31UFds84f5oAxxal4G6S8P
+    100032: 3c7FFURCHAIuL_Uqfwogkh
+    100034: 3nS8Xe8c5BpfdWxU$cBkvz
+    100036: 3QI0Za4AD7g9EDuOxKtL4z
+    400000: 0nixpH$hD2$xLwip3vL96O
+    400002: 0p1Mt3h7nDeQ1Q4N9eEl9H
+    400004: 0YIVuBlyXF3PI_fXw2b_vJ
+    400006: 18PQUIFELEARLM4c0brquf
+    400008: 1_hrYGMATEmeNbEHgfoKxd
+    400010: 1FCKjvOWnEAv7x1dg2f7BI
+    400012: 1njbY3IMb4IedX5fLGTCRc
+    400014: 20nncC0vDDp9h64AX6XevC
+    400016: //RootNode
+    400018: 2d24khq3H2EhLI7osiekrD
+    400020: 2FYBB$DerEng8G$eISvGgZ
+    400022: 2k6vBG3yn9hRJUYx$GK5vo
+    400024: 2pX0sc7rf06usjFMq1TsGs
+    400026: 2SfY7UTIz1E82rEMOUSWux
+    400028: 2ZDRA4lYXAawe3WLk$RpXy
+    400030: 31UFds84f5oAxxal4G6S8P
+    400032: 3c7FFURCHAIuL_Uqfwogkh
+    400034: 3nS8Xe8c5BpfdWxU$cBkvz
+    400036: 3QI0Za4AD7g9EDuOxKtL4z
+    2100000: Holz_Kiefer.006
+    2100002: Holz_Esche.006
+    2300000: 0nixpH$hD2$xLwip3vL96O
+    2300002: 0p1Mt3h7nDeQ1Q4N9eEl9H
+    2300004: 0YIVuBlyXF3PI_fXw2b_vJ
+    2300006: 18PQUIFELEARLM4c0brquf
+    2300008: 1_hrYGMATEmeNbEHgfoKxd
+    2300010: 1FCKjvOWnEAv7x1dg2f7BI
+    2300012: 1njbY3IMb4IedX5fLGTCRc
+    2300014: 20nncC0vDDp9h64AX6XevC
+    2300016: 2d24khq3H2EhLI7osiekrD
+    2300018: 2FYBB$DerEng8G$eISvGgZ
+    2300020: 2k6vBG3yn9hRJUYx$GK5vo
+    2300022: 2pX0sc7rf06usjFMq1TsGs
+    2300024: 2SfY7UTIz1E82rEMOUSWux
+    2300026: 2ZDRA4lYXAawe3WLk$RpXy
+    2300028: 31UFds84f5oAxxal4G6S8P
+    2300030: 3c7FFURCHAIuL_Uqfwogkh
+    2300032: 3nS8Xe8c5BpfdWxU$cBkvz
+    2300034: 3QI0Za4AD7g9EDuOxKtL4z
+    3300000: 0nixpH$hD2$xLwip3vL96O
+    3300002: 0p1Mt3h7nDeQ1Q4N9eEl9H
+    3300004: 0YIVuBlyXF3PI_fXw2b_vJ
+    3300006: 18PQUIFELEARLM4c0brquf
+    3300008: 1_hrYGMATEmeNbEHgfoKxd
+    3300010: 1FCKjvOWnEAv7x1dg2f7BI
+    3300012: 1njbY3IMb4IedX5fLGTCRc
+    3300014: 20nncC0vDDp9h64AX6XevC
+    3300016: 2d24khq3H2EhLI7osiekrD
+    3300018: 2FYBB$DerEng8G$eISvGgZ
+    3300020: 2k6vBG3yn9hRJUYx$GK5vo
+    3300022: 2pX0sc7rf06usjFMq1TsGs
+    3300024: 2SfY7UTIz1E82rEMOUSWux
+    3300026: 2ZDRA4lYXAawe3WLk$RpXy
+    3300028: 31UFds84f5oAxxal4G6S8P
+    3300030: 3c7FFURCHAIuL_Uqfwogkh
+    3300032: 3nS8Xe8c5BpfdWxU$cBkvz
+    3300034: 3QI0Za4AD7g9EDuOxKtL4z
+    4300000: 31UFds84f5oAxxal4G6S8P
+    4300002: 1_hrYGMATEmeNbEHgfoKxd
+    4300004: 18PQUIFELEARLM4c0brquf
+    4300006: 2k6vBG3yn9hRJUYx$GK5vo
+    4300008: 1FCKjvOWnEAv7x1dg2f7BI
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

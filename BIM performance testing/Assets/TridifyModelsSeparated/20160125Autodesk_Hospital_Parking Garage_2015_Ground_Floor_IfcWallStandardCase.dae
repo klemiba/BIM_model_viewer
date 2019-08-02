@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:35:01</created>
+    <modified>2019-06-14T13:35:01</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Concrete_-_Cast-in-Place_Concrete-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.776471 0.733333 0.733333 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Concrete_-_Cast-in-Place_Concrete">
+      <instance_effect url="#Concrete_-_Cast-in-Place_Concrete-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-180264-layerset-180316-openings-180301">
+      <mesh>
+        <source id="representation-180264-layerset-180316-openings-180301-positions">
+          <float_array id="representation-180264-layerset-180316-openings-180301-positions-array" count="108">22.4536 0.1905 0.0 1.6256 0.1905 0.0 1.6256 0.1905 0.222504 1.42109e-14 0.1905 0.222504 1.42109e-14 0.1905 3.57336 22.4536 0.1905 3.57336 22.4536 -0.1905 0.0 22.4536 0.1905 0.0 1.6256 -0.1905 0.0 1.6256 0.1905 0.0 1.6256 0.1905 0.0 1.6256 -0.1905 0.0 1.6256 -0.1905 0.222504 1.6256 0.1905 0.222504 1.6256 0.1905 0.222504 1.42109e-14 0.1905 0.222504 1.42109e-14 -0.1905 0.222504 1.6256 -0.1905 0.222504 1.42109e-14 -0.1905 0.222504 1.42109e-14 -0.1905 3.57336 1.42109e-14 0.1905 3.57336 1.42109e-14 0.1905 0.222504 22.4536 0.1905 3.57336 1.42109e-14 0.1905 3.57336 1.42109e-14 -0.1905 3.57336 22.4536 -0.1905 3.57336 22.4536 -0.1905 0.0 22.4536 -0.1905 3.57336 22.4536 0.1905 3.57336 22.4536 0.1905 0.0 1.6256 -0.1905 0.0 22.4536 -0.1905 0.0 22.4536 -0.1905 3.57336 1.42109e-14 -0.1905 3.57336 1.42109e-14 -0.1905 0.222504 1.6256 -0.1905 0.222504</float_array>
+          <technique_common>
+            <accessor source="#representation-180264-layerset-180316-openings-180301-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-180264-layerset-180316-openings-180301-normals">
+          <float_array id="representation-180264-layerset-180316-openings-180301-normals-array" count="108">0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-180264-layerset-180316-openings-180301-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-180264-layerset-180316-openings-180301-texcoord-0">
+          <float_array id="representation-180264-layerset-180316-openings-180301-texcoord-0-array" count="72">-22.4536 0.0 -1.6256 0.0 -1.6256 0.222504 -1.42109e-14 0.222504 -1.42109e-14 3.57336 -22.4536 3.57336 -22.4536 -0.1905 -22.4536 0.1905 -1.6256 -0.1905 -1.6256 0.1905 -0.1905 0.0 0.1905 0.0 0.1905 0.222504 -0.1905 0.222504 -1.6256 0.1905 -1.42109e-14 0.1905 -1.42109e-14 -0.1905 -1.6256 -0.1905 0.1905 0.222504 0.1905 3.57336 -0.1905 3.57336 -0.1905 0.222504 22.4536 0.1905 1.42109e-14 0.1905 1.42109e-14 -0.1905 22.4536 -0.1905 -0.1905 0.0 -0.1905 3.57336 0.1905 3.57336 0.1905 0.0 1.6256 0.0 22.4536 0.0 22.4536 3.57336 1.42109e-14 3.57336 1.42109e-14 0.222504 1.6256 0.222504</float_array>
+          <technique_common>
+            <accessor source="#representation-180264-layerset-180316-openings-180301-texcoord-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-180264-layerset-180316-openings-180301-texcoord-1">
+          <float_array id="representation-180264-layerset-180316-openings-180301-texcoord-1-array" count="72">0.419791 0.0 0.419791 0.927602 0.393652 0.927602 0.393652 1.0 4.20134e-07 1.0 0.0 0.0 0.929101 0.0 0.884342 0.0 0.929102 0.927602 0.884343 0.927602 1.0 0.0 1.0 0.0169683 0.973861 0.0169683 0.973861 6.63642e-10 0.929102 0.308379 0.929102 0.380777 0.973861 0.380777 0.973861 0.308379 0.973861 0.159144 0.973861 0.308379 0.929102 0.308379 0.929102 0.159144 0.884342 0.0 0.884342 1.0 0.839583 1.0 0.839583 0.0 0.929102 9.10219e-10 0.929102 0.159144 0.973861 0.159144 0.973861 0.0 0.839583 0.0723982 0.839583 1.0 0.419792 1.0 0.419791 1.12669e-08 0.813443 0.0 0.813443 0.0723982</float_array>
+          <technique_common>
+            <accessor source="#representation-180264-layerset-180316-openings-180301-texcoord-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-180264-layerset-180316-openings-180301-vertices">
+          <input semantic="POSITION" source="#representation-180264-layerset-180316-openings-180301-positions"/>
+        </vertices>
+        <triangles material="Concrete_-_Cast-in-Place_Concrete" count="20">
+          <input semantic="VERTEX" source="#representation-180264-layerset-180316-openings-180301-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-180264-layerset-180316-openings-180301-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-180264-layerset-180316-openings-180301-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-180264-layerset-180316-openings-180301-texcoord-1" offset="0" set="1"/>
+          <p>4 5 2 5 0 2 2 0 1 4 2 3 6 8 7 8 9 7 13 10 11 13 11 12 15 17 16 15 14 17 19 20 18 20 21 18 22 23 24 22 24 25 27 26 29 28 27 29 33 34 35 33 35 32 35 30 31 32 35 31 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="31_3dcr1v6H9i9G_hbMGei" name="31_3dcr1v6H9i9G_hbMGei" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.4 0.0348954 -0.999391 0.0 168.952 0.0 0.0 1.0 165.203 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-180264-layerset-180316-openings-180301">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Concrete_-_Cast-in-Place_Concrete" target="#Concrete_-_Cast-in-Place_Concrete"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

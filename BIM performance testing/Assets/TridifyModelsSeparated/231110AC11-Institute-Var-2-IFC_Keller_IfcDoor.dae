@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:34:34</created>
+    <modified>2019-06-14T13:34:34</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Holz_Esche.003-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.661569 0.584706 0.433726 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Farbe,_braun.003-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.581177 0.391176 0.160196 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Holz_Kiefer.001-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.656078 0.55451 0.312941 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Holz_Esche.003">
+      <instance_effect url="#Holz_Esche.003-fx"/>
+    </material>
+    <material id="Farbe,_braun.003">
+      <instance_effect url="#Farbe,_braun.003-fx"/>
+    </material>
+    <material id="Holz_Kiefer.001">
+      <instance_effect url="#Holz_Kiefer.001-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-17644">
+      <mesh>
+        <source id="representation-17644-positions">
+          <float_array id="representation-17644-positions-array" count="264">0.0 0.1 0.0 0.05 0.1 0.0 0.05 -3.55271e-15 0.0 0.0 0.0 0.0 0.0 0.1 0.0 0.0 0.1 2.1 1.8 0.1 2.1 1.8 0.1 0.0 1.75 0.1 0.0 1.75 0.1 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.05 0.1 2.05 0.05 0.1 0.0 0.05 -3.55271e-15 2.05 0.05 -3.55271e-15 0.0 0.05 -3.55271e-15 0.0 0.0 0.0 0.0 0.05 -3.55271e-15 2.05 1.75 -3.55271e-15 2.05 1.75 -3.55271e-15 0.0 1.8 -3.55271e-15 0.0 1.8 -3.55271e-15 2.1 0.0 -3.55271e-15 2.1 0.0 0.1 0.0 0.0 0.1 2.1 0.0 0.0 0.0 0.0 -3.55271e-15 2.1 0.0 0.1 2.1 1.8 0.1 2.1 0.0 -3.55271e-15 2.1 1.8 -3.55271e-15 2.1 1.8 0.1 2.1 1.8 0.1 0.0 1.8 -3.55271e-15 2.1 1.8 -3.55271e-15 0.0 1.8 0.1 0.0 1.75 0.1 0.0 1.8 -3.55271e-15 0.0 1.75 -3.55271e-15 0.0 1.75 0.1 0.0 1.75 0.1 2.05 1.75 -3.55271e-15 0.0 1.75 -3.55271e-15 2.05 1.75 0.1 2.05 0.05 0.1 2.05 1.75 -3.55271e-15 2.05 0.05 -3.55271e-15 2.05 1.75 0.1 0.0 1.75 0.1 2.05 1.75 0.06 2.05 1.75 0.06 0.0 0.9 0.1 0.0 0.9 0.1 2.05 0.9 0.1 2.05 1.75 0.1 2.05 0.9 0.06 2.05 1.75 0.06 2.05 1.75 0.06 2.05 1.75 0.06 0.0 0.9 0.06 2.05 0.9 0.06 0.0 1.75 0.1 0.0 0.9 0.1 0.0 1.75 0.06 0.0 0.9 0.06 0.0 0.9 0.1 0.0 0.9 0.1 2.05 0.9 0.06 0.0 0.9 0.06 2.05 0.9 0.1 0.0 0.9 0.06 0.0 0.05 0.06 0.0 0.05 0.1 0.0 0.9 0.1 2.05 0.9 0.1 0.0 0.9 0.06 2.05 0.9 0.06 0.0 0.05 0.06 0.0 0.9 0.06 2.05 0.05 0.06 2.05 0.05 0.1 0.0 0.05 0.1 2.05 0.05 0.06 0.0 0.05 0.06 2.05 0.05 0.1 2.05 0.9 0.1 2.05 0.05 0.06 2.05</float_array>
+          <technique_common>
+            <accessor source="#representation-17644-positions-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-17644-normals">
+          <float_array id="representation-17644-normals-array" count="264">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-17644-normals-array" count="88" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-17644-texcoord-0">
+          <float_array id="representation-17644-texcoord-0-array" count="176">0.0 0.1 -0.05 0.1 -0.05 -3.55271e-15 0.0 0.0 0.0 0.0 0.0 2.1 -1.8 2.1 -1.8 0.0 -1.75 0.0 -1.75 2.05 -0.05 2.05 -0.05 0.0 0.1 2.05 0.1 0.0 -3.55271e-15 2.05 -3.55271e-15 0.0 0.05 0.0 0.0 0.0 0.05 2.05 1.75 2.05 1.75 0.0 1.8 0.0 1.8 2.1 0.0 2.1 -0.1 0.0 -0.1 2.1 0.0 0.0 3.55271e-15 2.1 0.0 0.1 1.8 0.1 0.0 -3.55271e-15 1.8 -3.55271e-15 0.1 2.1 0.1 0.0 -3.55271e-15 2.1 -3.55271e-15 0.0 -1.8 0.1 -1.75 0.1 -1.8 -3.55271e-15 -1.75 -3.55271e-15 -0.1 0.0 -0.1 2.05 3.55271e-15 0.0 3.55271e-15 2.05 -1.75 0.1 -0.05 0.1 -1.75 -3.55271e-15 -0.05 -3.55271e-15 0.1 0.0 0.1 2.05 0.06 2.05 0.06 0.0 -0.9 0.0 -0.9 2.05 0.9 0.1 1.75 0.1 0.9 0.06 1.75 0.06 1.75 2.05 1.75 0.0 0.9 2.05 0.9 0.0 -1.75 0.1 -0.9 0.1 -1.75 0.06 -0.9 0.06 -0.1 0.0 -0.1 2.05 -0.06 0.0 -0.06 2.05 -0.9 0.1 -0.9 0.06 -0.05 0.06 -0.05 0.0 0.1 2.05 0.1 0.0 0.06 2.05 0.06 0.0 0.05 0.0 0.9 2.05 0.05 2.05 -0.1 0.0 -0.1 2.05 -0.06 0.0 -0.06 2.05 0.05 0.1 0.9 0.1 0.05 0.06</float_array>
+          <technique_common>
+            <accessor source="#representation-17644-texcoord-0-array" count="88" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-17644-texcoord-1">
+          <float_array id="representation-17644-texcoord-1-array" count="176">0.504902 0.506024 0.495098 0.710843 0.517157 0.53012 0.504902 0.53012 1.22715e-07 0.506024 0.0 1.149e-07 0.441176 0.0 0.441176 0.506024 0.428921 0.506024 0.428921 0.0120482 0.0122549 0.0120483 0.012255 0.506024 0.980392 0.493976 0.980392 5.02737e-10 0.955882 0.493976 0.955882 0.0 0.870098 0.506024 0.882353 0.506024 0.870098 0.0120482 0.453431 0.0120483 0.453431 0.506024 0.441176 0.506024 0.441176 1.149e-07 0.882353 0.0 0.882353 1.81923e-09 0.882353 0.506024 0.906862 0.0 0.906862 0.506024 0.441176 0.939759 0.441176 0.506024 0.416667 0.939759 0.416667 0.506024 0.931372 0.506024 0.931372 0.0 0.906862 0.506024 0.906862 1.29258e-09 0.529412 0.506024 0.517157 0.506024 0.529412 0.53012 0.517157 0.53012 0.955882 0.493976 0.955882 0.0 0.931372 0.493976 0.931372 0.0 0.441176 0.506024 0.441176 0.915663 0.465686 0.506024 0.465686 0.915663 0.965686 0.493976 0.965686 0.987952 0.955882 0.987952 0.955882 0.493976 0.220588 0.506024 0.220588 0.0120483 0.47549 0.710843 0.47549 0.506024 0.47549 0.506024 0.465686 0.506024 0.0 0.506024 5.84359e-08 1.0 0.208333 0.506024 0.208333 1.0 0.485294 0.506024 0.485294 0.710843 0.495098 0.506024 0.495098 0.710843 0.990196 0.493976 0.990196 0.0 0.980392 0.493976 0.980392 0.0 0.495098 0.506024 0.504902 0.506024 0.504902 0.710843 0.012255 0.506024 0.931372 0.493976 0.931372 0.987952 0.941176 0.493976 0.941176 0.987952 0.416667 1.0 0.208333 0.506024 0.416667 0.506024 1.0 0.493976 1.0 0.0 0.990196 0.493976 0.990196 0.0 0.485294 0.710843 0.485294 0.506024 0.47549 0.710843</float_array>
+          <technique_common>
+            <accessor source="#representation-17644-texcoord-1-array" count="88" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-17644-vertices">
+          <input semantic="POSITION" source="#representation-17644-positions"/>
+        </vertices>
+        <triangles material="Holz_Esche.003" count="28">
+          <input semantic="VERTEX" source="#representation-17644-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-17644-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-17644-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-17644-texcoord-1" offset="0" set="1"/>
+          <p>1 2 3 0 1 3 9 5 6 9 10 5 4 5 10 11 4 10 7 8 9 7 9 6 12 14 15 12 15 13 19 22 23 19 23 18 17 18 23 16 18 17 21 19 20 21 22 19 26 25 24 26 27 25 28 30 31 28 31 29 32 34 35 32 35 33 37 36 38 37 38 39 42 41 40 42 43 41 45 44 46 45 46 47 </p>
+        </triangles>
+        <triangles material="Farbe,_braun.003" count="24">
+          <input semantic="VERTEX" source="#representation-17644-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-17644-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-17644-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-17644-texcoord-1" offset="0" set="1"/>
+          <p>49 50 51 49 51 48 9 8 52 9 52 53 54 56 57 54 57 55 61 59 58 61 58 60 63 62 64 63 64 65 69 67 66 69 66 68 1 70 71 1 71 72 53 73 10 53 52 73 74 76 77 74 77 75 78 61 79 78 79 80 84 82 81 84 81 83 85 87 56 85 56 86 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-16695">
+      <mesh>
+        <source id="representation-16695-positions">
+          <float_array id="representation-16695-positions-array" count="267">1.8 0.1 0.0 1.8 -7.10543e-15 0.0 1.75 -7.10543e-15 0.0 1.75 0.1 0.0 1.8 0.1 2.1 1.8 -7.10543e-15 2.1 1.8 -7.10543e-15 0.0 1.8 0.1 0.0 1.8 -7.10543e-15 2.1 1.8 -7.10543e-15 0.0 0.0 -7.10543e-15 2.1 0.0 0.0 0.0 0.05 -7.10543e-15 0.0 0.05 -7.10543e-15 2.05 1.75 -7.10543e-15 2.05 1.75 -7.10543e-15 0.0 1.75 -7.10543e-15 0.0 1.75 0.1 0.0 1.75 -7.10543e-15 2.05 1.75 0.1 2.05 1.75 0.1 0.0 1.8 0.1 0.0 1.75 0.1 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.0 0.1 0.0 0.0 0.1 2.1 1.8 0.1 2.1 0.0 0.1 2.1 0.0 -7.10543e-15 2.1 1.8 -7.10543e-15 2.1 1.8 0.1 2.1 0.0 0.1 0.0 0.0 0.0 0.0 0.0 -7.10543e-15 2.1 0.0 0.1 2.1 0.05 0.1 0.0 0.05 -7.10543e-15 0.0 0.0 0.0 0.0 0.0 0.1 0.0 0.05 0.1 2.05 0.05 -7.10543e-15 2.05 0.05 -7.10543e-15 0.0 0.05 0.1 0.0 1.75 -7.10543e-15 2.05 1.75 0.1 2.05 0.05 -7.10543e-15 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.05 0.06 0.0 0.05 0.06 2.05 0.05 0.1 2.05 0.9 0.1 0.0 0.9 0.06 0.0 0.05 0.06 0.0 0.05 0.1 0.0 0.9 0.06 0.0 0.05 0.06 0.0 0.9 0.06 2.05 0.05 0.06 2.05 0.05 0.06 2.05 0.05 0.1 2.05 0.9 0.06 2.05 0.9 0.1 2.05 0.9 0.1 2.05 0.9 0.1 0.0 0.9 0.06 2.05 0.9 0.1 2.05 0.9 0.06 0.0 0.9 0.1 0.0 1.75 0.06 0.0 1.75 0.1 2.05 1.75 0.06 2.05 1.75 0.06 0.0 1.75 0.1 0.0 1.75 0.06 2.05 1.75 0.06 0.0 0.9 0.06 0.0 0.9 0.06 0.0 0.9 0.1 0.0 0.9 0.06 2.05 0.9 0.1 2.05 0.9 0.1 0.0 1.75 0.1 0.0 0.9 0.1 2.05 1.75 0.1 2.05 0.9 0.06 2.05 1.75 0.06 2.05 1.75 0.1 2.05</float_array>
+          <technique_common>
+            <accessor source="#representation-16695-positions-array" count="89" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-16695-normals">
+          <float_array id="representation-16695-normals-array" count="267">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-16695-normals-array" count="89" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-16695-texcoord-0">
+          <float_array id="representation-16695-texcoord-0-array" count="178">-1.8 0.1 -1.8 -7.10543e-15 -1.75 -7.10543e-15 -1.75 0.1 0.1 2.1 -7.10543e-15 2.1 -7.10543e-15 0.0 0.1 0.0 1.8 2.1 1.8 0.0 0.0 2.1 0.0 0.0 0.05 0.0 0.05 2.05 1.75 2.05 1.75 0.0 7.10543e-15 0.0 -0.1 0.0 7.10543e-15 2.05 -0.1 2.05 -1.75 0.0 -1.8 0.0 -1.75 2.05 -0.05 2.05 -0.05 0.0 0.0 0.0 0.0 2.1 -1.8 2.1 0.0 0.1 0.0 -7.10543e-15 1.8 -7.10543e-15 1.8 0.1 -0.1 0.0 0.0 0.0 7.10543e-15 2.1 -0.1 2.1 -0.05 0.1 -0.05 -7.10543e-15 0.0 0.0 0.0 0.1 0.1 2.05 -7.10543e-15 2.05 -7.10543e-15 0.0 0.1 0.0 -1.75 -7.10543e-15 -1.75 0.1 -0.05 -7.10543e-15 -0.05 0.1 -0.1 0.0 -0.06 0.0 -0.06 2.05 -0.1 2.05 -0.9 0.1 -0.9 0.06 -0.05 0.06 -0.05 0.1 0.9 0.0 0.05 0.0 0.9 2.05 0.05 2.05 0.05 0.06 0.05 0.1 0.9 0.06 0.9 0.1 -0.9 2.05 -0.9 0.0 0.06 2.05 0.1 2.05 0.06 0.0 0.1 0.0 -1.75 0.06 0.1 2.05 0.06 2.05 0.06 0.0 0.1 0.0 1.75 2.05 1.75 0.0 0.9 0.0 -0.06 0.0 -0.1 0.0 -0.06 2.05 -0.1 2.05 -0.9 0.0 -1.75 0.0 -0.9 2.05 -1.75 2.05 0.9 0.06 1.75 0.06 1.75 0.1</float_array>
+          <technique_common>
+            <accessor source="#representation-16695-texcoord-0-array" count="89" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-16695-texcoord-1">
+          <float_array id="representation-16695-texcoord-1-array" count="178">0.715686 0.53012 0.715686 0.554217 0.703431 0.554217 0.67402 0.506024 0.931372 0.506024 0.906862 0.506024 0.906862 1.29258e-09 0.931372 0.0 0.441176 5.74502e-08 0.441176 0.506024 0.882353 0.0 0.882353 0.506024 0.870098 0.506024 0.870098 0.0120482 0.453431 0.0120482 0.453431 0.506024 0.931372 0.493976 0.955882 0.493976 0.931372 0.0 0.955882 0.0 0.428921 0.506024 0.441176 0.506024 0.428921 0.0120482 0.0122549 0.0120483 0.012255 0.506024 1.22715e-07 0.506024 0.0 1.149e-07 0.441176 0.0 0.64951 0.939759 0.625 0.939759 0.625 0.506024 0.64951 0.506024 0.882353 1.81923e-09 0.906862 0.0 0.906862 0.506024 0.882353 0.506024 0.715686 0.506024 0.715686 0.53012 0.703431 0.53012 0.703431 0.506024 0.980392 0.493976 0.955882 0.493976 0.955882 0.0 0.980392 5.02737e-10 0.67402 0.506024 0.64951 0.506024 0.67402 0.915663 0.64951 0.915663 1.0 0.493976 0.990196 0.493976 0.990196 0.0 1.0 0.0 0.67402 0.710843 0.683824 0.710843 0.683824 0.915663 0.67402 0.915663 0.416667 1.0 0.625 1.0 0.208333 0.506024 0.625 0.506024 0.693628 0.710843 0.703431 0.710843 0.693628 0.506024 0.693628 0.710843 0.220588 0.0120483 0.220588 0.506024 0.941176 0.493976 0.931372 0.493976 0.941176 0.987952 0.931372 0.987952 0.683824 0.506024 0.965686 0.987952 0.955882 0.987952 0.955882 0.493976 0.965686 0.493976 0.0 0.506024 5.84359e-08 1.0 0.208333 1.0 0.980392 0.493976 0.990196 0.493976 0.980392 0.0 0.990196 0.0 0.416667 0.506024 0.208333 0.506024 0.416667 1.0 0.208333 1.0 0.683824 0.710843 0.683824 0.506024 0.693627 0.506024</float_array>
+          <technique_common>
+            <accessor source="#representation-16695-texcoord-1-array" count="89" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-16695-vertices">
+          <input semantic="POSITION" source="#representation-16695-positions"/>
+        </vertices>
+        <triangles material="Holz_Esche.003" count="28">
+          <input semantic="VERTEX" source="#representation-16695-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-16695-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-16695-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-16695-texcoord-1" offset="0" set="1"/>
+          <p>3 0 1 3 1 2 4 5 6 4 6 7 14 8 10 14 10 13 11 13 10 12 13 11 9 14 15 9 8 14 16 18 19 16 19 17 22 26 27 22 23 26 25 26 23 24 25 23 21 20 22 21 22 27 31 28 29 31 29 30 33 34 35 33 35 32 36 37 38 39 36 38 40 41 42 40 42 43 47 45 44 47 44 46 </p>
+        </triangles>
+        <triangles material="Farbe,_braun.003" count="24">
+          <input semantic="VERTEX" source="#representation-16695-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-16695-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-16695-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-16695-texcoord-1" offset="0" set="1"/>
+          <p>49 50 51 49 51 48 55 52 53 55 53 54 57 56 58 57 58 59 63 61 60 63 60 62 64 24 23 64 65 24 66 68 69 66 69 67 52 3 70 52 70 53 72 73 74 72 74 71 77 76 75 77 75 58 78 80 81 78 81 79 85 83 82 85 82 84 88 63 86 88 86 87 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-11998">
+      <mesh>
+        <source id="representation-11998-positions">
+          <float_array id="representation-11998-positions-array" count="204">0.0 0.1 0.0 0.05 0.1 0.0 0.05 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.0 0.0 0.1 2.1 1.0 0.1 2.1 1.0 0.1 0.0 0.95 0.1 0.0 0.95 0.1 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.05 0.1 2.05 0.05 0.1 0.0 0.05 0.0 2.05 0.05 0.0 0.0 0.05 0.0 0.0 0.0 0.0 0.0 0.05 0.0 2.05 0.95 0.0 2.05 0.95 0.0 0.0 1.0 0.0 0.0 1.0 0.0 2.1 0.0 0.0 2.1 0.0 0.1 0.0 0.0 0.1 2.1 0.0 0.0 0.0 0.0 0.0 2.1 0.0 0.1 2.1 1.0 0.1 2.1 0.0 0.0 2.1 1.0 0.0 2.1 1.0 0.1 2.1 1.0 0.1 0.0 1.0 0.0 2.1 1.0 0.0 0.0 1.0 0.1 0.0 0.95 0.1 0.0 1.0 0.0 0.0 0.95 0.0 0.0 0.95 0.1 0.0 0.95 0.1 2.05 0.95 0.0 0.0 0.95 0.0 2.05 0.95 0.1 2.05 0.05 0.1 2.05 0.95 0.0 2.05 0.05 0.0 2.05 0.95 0.1 0.0 0.95 0.1 2.05 0.95 0.06 2.05 0.95 0.06 0.0 0.05 0.1 0.0 0.05 0.1 2.05 0.95 0.1 2.05 0.05 0.06 2.05 0.95 0.06 2.05 0.95 0.06 2.05 0.95 0.06 0.0 0.05 0.06 2.05 0.05 0.06 0.0 0.95 0.1 0.0 0.95 0.06 0.0 0.05 0.06 0.0 0.05 0.1 0.0 0.05 0.1 2.05 0.05 0.06 0.0 0.05 0.06 2.05</float_array>
+          <technique_common>
+            <accessor source="#representation-11998-positions-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11998-normals">
+          <float_array id="representation-11998-normals-array" count="204">0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11998-normals-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11998-texcoord-0">
+          <float_array id="representation-11998-texcoord-0-array" count="136">0.0 0.1 -0.05 0.1 -0.05 0.0 0.0 0.0 0.0 0.0 0.0 2.1 -1.0 2.1 -1.0 0.0 -0.95 0.0 -0.95 2.05 -0.05 2.05 -0.05 0.0 0.1 2.05 0.1 0.0 0.0 2.05 0.0 0.0 0.05 0.0 0.0 0.0 0.05 2.05 0.95 2.05 0.95 0.0 1.0 0.0 1.0 2.1 0.0 2.1 -0.1 0.0 -0.1 2.1 0.0 0.0 0.0 2.1 0.0 0.1 1.0 0.1 0.0 0.0 1.0 0.0 0.1 2.1 0.1 0.0 0.0 2.1 0.0 0.0 -1.0 0.1 -0.95 0.1 -1.0 0.0 -0.95 0.0 -0.1 0.0 -0.1 2.05 0.0 0.0 0.0 2.05 -0.95 0.1 -0.05 0.1 -0.95 0.0 -0.05 0.0 0.1 0.0 0.1 2.05 0.06 2.05 0.06 0.0 -0.05 0.0 0.05 0.1 0.95 0.1 0.05 0.06 0.95 0.06 0.95 2.05 0.95 0.0 0.05 2.05 0.05 0.0 -0.95 0.1 -0.95 0.06 -0.05 0.06 -0.1 0.0 -0.1 2.05 -0.06 0.0 -0.06 2.05</float_array>
+          <technique_common>
+            <accessor source="#representation-11998-texcoord-0-array" count="68" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11998-texcoord-1">
+          <float_array id="representation-11998-texcoord-1-array" count="136">0.0 0.688525 0.650887 0.967213 0.0147929 0.721312 7.0538e-09 0.721312 1.4813e-07 0.688525 0.0 0.0 0.295858 0.0 0.295858 0.688525 0.281065 0.688525 0.281065 0.0163935 0.0147929 0.0163935 0.014793 0.688525 0.976331 0.672131 0.976331 6.84052e-10 0.946745 0.672131 0.946745 0.0 0.576923 0.688525 0.591716 0.688525 0.576923 0.0163934 0.310651 0.0163934 0.310651 0.688525 0.295858 0.688525 0.295858 0.0 0.591716 0.0 0.887574 0.688525 0.887574 0.0 0.857988 0.688525 0.857988 0.0 0.621302 1.0 0.621302 0.672131 0.591716 1.0 0.591716 0.672131 0.917159 0.688525 0.917159 0.0 0.887574 0.688525 0.887574 1.75876e-09 0.0295858 0.688525 0.0147929 0.688525 0.0295858 0.721312 0.0147929 0.721312 0.946745 0.672131 0.946745 0.0 0.91716 0.672131 0.91716 0.0 0.621302 0.672131 0.621302 0.967213 0.650887 0.672131 0.650887 0.967213 1.0 0.0 1.0 0.672131 0.988166 0.672131 0.988166 7.03504e-10 0.014793 0.688525 0.674556 0.967213 0.674556 0.672131 0.662722 0.967213 0.662722 0.672131 0.591716 0.0 0.591716 0.672131 0.857988 0.0 0.857988 0.672131 0.650887 0.672131 0.662722 0.672131 0.662722 0.967213 0.988166 0.672131 0.988166 0.0 0.976331 0.672131 0.976331 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11998-texcoord-1-array" count="68" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-11998-vertices">
+          <input semantic="POSITION" source="#representation-11998-positions"/>
+        </vertices>
+        <triangles material="Holz_Kiefer.001" count="28">
+          <input semantic="VERTEX" source="#representation-11998-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-11998-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-11998-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-11998-texcoord-1" offset="0" set="1"/>
+          <p>0 1 2 0 2 3 9 5 6 9 10 5 4 5 10 11 4 10 7 8 9 7 9 6 12 14 15 12 15 13 19 22 23 19 23 18 17 18 23 16 18 17 21 19 20 21 22 19 26 25 24 26 27 25 28 30 31 28 31 29 34 33 32 34 35 33 37 36 38 37 38 39 43 41 40 43 40 42 45 44 46 45 46 47 </p>
+        </triangles>
+        <triangles material="Holz_Esche.003" count="12">
+          <input semantic="VERTEX" source="#representation-11998-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-11998-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-11998-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-11998-texcoord-1" offset="0" set="1"/>
+          <p>49 50 51 49 51 48 8 52 10 8 10 9 54 53 55 54 55 56 60 58 57 60 57 59 1 61 62 1 62 63 67 65 64 67 64 66 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-11554">
+      <mesh>
+        <source id="representation-11554-positions">
+          <float_array id="representation-11554-positions-array" count="207">1.0 0.1 0.0 1.0 0.0 0.0 0.95 0.0 0.0 0.95 0.1 0.0 1.0 0.1 2.1 1.0 0.0 2.1 1.0 0.0 0.0 1.0 0.1 0.0 1.0 0.0 2.1 1.0 0.0 0.0 0.0 0.0 2.1 0.0 0.0 0.0 0.05 0.0 0.0 0.05 0.0 2.05 0.95 0.0 2.05 0.95 0.0 0.0 0.95 0.0 0.0 0.95 0.1 0.0 0.95 0.0 2.05 0.95 0.1 2.05 0.95 0.1 0.0 1.0 0.1 0.0 0.95 0.1 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.0 0.1 0.0 0.0 0.1 2.1 1.0 0.1 2.1 0.0 0.1 2.1 0.0 0.0 2.1 1.0 0.0 2.1 1.0 0.1 2.1 0.0 0.1 0.0 0.0 0.0 0.0 0.0 0.0 2.1 0.0 0.1 2.1 0.05 0.1 0.0 0.05 0.0 0.0 0.0 0.0 0.0 0.0 0.1 0.0 0.05 0.1 2.05 0.05 0.0 2.05 0.05 0.0 0.0 0.05 0.1 0.0 0.95 0.0 2.05 0.95 0.1 2.05 0.05 0.0 2.05 0.05 0.1 2.05 0.05 0.1 0.0 0.05 0.06 0.0 0.05 0.06 2.05 0.05 0.1 2.05 0.95 0.06 0.0 0.05 0.06 0.0 0.05 0.1 0.0 0.95 0.06 0.0 0.05 0.06 0.0 0.95 0.06 2.05 0.05 0.06 2.05 0.05 0.06 2.05 0.05 0.1 2.05 0.95 0.06 2.05 0.95 0.1 2.05 0.95 0.1 2.05 0.95 0.1 0.0 0.95 0.06 2.05 0.95 0.1 2.05 0.95 0.06 0.0 0.95 0.1 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11554-positions-array" count="69" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11554-normals">
+          <float_array id="representation-11554-normals-array" count="207">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11554-normals-array" count="69" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11554-texcoord-0">
+          <float_array id="representation-11554-texcoord-0-array" count="138">-1.0 0.1 -1.0 0.0 -0.95 0.0 -0.95 0.1 0.1 2.1 0.0 2.1 0.0 0.0 0.1 0.0 1.0 2.1 1.0 0.0 0.0 2.1 0.0 0.0 0.05 0.0 0.05 2.05 0.95 2.05 0.95 0.0 0.0 0.0 -0.1 0.0 0.0 2.05 -0.1 2.05 -0.95 0.0 -1.0 0.0 -0.95 2.05 -0.05 2.05 -0.05 0.0 0.0 0.0 0.0 2.1 -1.0 2.1 0.0 0.1 0.0 0.0 1.0 0.0 1.0 0.1 -0.1 0.0 0.0 0.0 0.0 2.1 -0.1 2.1 -0.05 0.1 -0.05 0.0 0.0 0.0 0.0 0.1 0.1 2.05 0.0 2.05 0.0 0.0 0.1 0.0 -0.95 0.0 -0.95 0.1 -0.05 0.0 -0.05 0.1 -0.1 0.0 -0.06 0.0 -0.06 2.05 -0.1 2.05 -0.95 0.06 -0.05 0.06 -0.05 0.1 0.95 0.0 0.05 0.0 0.95 2.05 0.05 2.05 0.05 0.06 0.05 0.1 0.95 0.06 0.95 0.1 -0.95 2.05 -0.95 0.0 0.06 2.05 0.1 2.05 0.06 0.0 0.1 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11554-texcoord-0-array" count="69" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-11554-texcoord-1">
+          <float_array id="representation-11554-texcoord-1-array" count="138">0.0295858 0.688525 0.0295858 0.721312 0.0147929 0.721312 0.650887 0.672131 0.917159 0.688525 0.887574 0.688525 0.887574 1.75876e-09 0.917159 0.0 0.295858 0.0 0.295858 0.688525 0.591716 0.0 0.591716 0.688525 0.576923 0.688525 0.576923 0.0163934 0.310651 0.0163934 0.310651 0.688525 0.91716 0.672131 0.946745 0.672131 0.91716 0.0 0.946745 0.0 0.281065 0.688525 0.295858 0.688525 0.281065 0.0163935 0.0147929 0.0163935 0.014793 0.688525 1.4813e-07 0.688525 0.0 0.0 0.295858 0.0 0.621302 1.0 0.591716 1.0 0.591716 0.672131 0.621302 0.672131 0.887574 0.688525 0.857988 0.688525 0.857988 0.0 0.887574 0.0 0.0147929 0.688525 0.0147929 0.721312 7.0538e-09 0.721312 0.0 0.688525 0.976331 0.672131 0.946745 0.672131 0.946745 0.0 0.976331 6.84052e-10 0.650887 0.672131 0.621302 0.672131 0.650887 0.967213 0.621302 0.967213 0.988166 0.672131 0.976331 0.672131 0.976331 0.0 0.988166 0.0 0.662722 0.672131 0.662722 0.967213 0.650887 0.967213 0.591716 0.672131 0.857988 0.672131 0.591716 0.0 0.857988 0.0 0.662722 0.967213 0.674556 0.967213 0.662722 0.672131 0.674556 0.672131 0.281065 0.0163935 0.281065 0.688525 0.988166 0.672131 1.0 0.672131 0.988166 7.03504e-10 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-11554-texcoord-1-array" count="69" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-11554-vertices">
+          <input semantic="POSITION" source="#representation-11554-positions"/>
+        </vertices>
+        <triangles material="Holz_Kiefer.001" count="28">
+          <input semantic="VERTEX" source="#representation-11554-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-11554-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-11554-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-11554-texcoord-1" offset="0" set="1"/>
+          <p>3 0 1 3 1 2 5 6 7 5 7 4 14 8 10 14 10 13 11 13 10 12 13 11 9 14 15 9 8 14 16 18 19 16 19 17 22 26 27 22 23 26 25 26 23 24 25 23 21 20 22 21 22 27 31 28 29 31 29 30 33 34 35 33 35 32 39 36 37 39 37 38 41 42 43 41 43 40 46 45 44 46 47 45 </p>
+        </triangles>
+        <triangles material="Holz_Esche.003" count="12">
+          <input semantic="VERTEX" source="#representation-11554-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-11554-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-11554-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-11554-texcoord-1" offset="0" set="1"/>
+          <p>49 50 51 49 51 48 54 3 52 54 52 53 56 55 57 56 57 58 62 60 59 62 59 61 64 24 23 64 23 63 65 67 68 65 68 66 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="2pe3RqZ0j8ogoAvp7iGUAH" name="2pe3RqZ0j8ogoAvp7iGUAH" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 18.215 1.0 -4.37114e-08 0.0 7.0996 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-17644">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+              <instance_material symbol="Farbe,_braun.003" target="#Farbe,_braun.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3sXEZFiePFsxi_o7909$c3" name="3sXEZFiePFsxi_o7909$c3" type="NODE">
+        <matrix sid="transform">-4.37114e-08 1.0 0.0 23.785 -1.0 -4.37114e-08 0.0 8.9 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-16695">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+              <instance_material symbol="Farbe,_braun.003" target="#Farbe,_braun.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0Ti0dr3tHAq8uzw2luJtyI" name="0Ti0dr3tHAq8uzw2luJtyI" type="NODE">
+        <matrix sid="transform">-4.37114e-08 1.0 0.0 29.885 -1.0 -4.37114e-08 0.0 8.9 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-16695">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+              <instance_material symbol="Farbe,_braun.003" target="#Farbe,_braun.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="123VQUHCn26ei6whtqvtKu" name="123VQUHCn26ei6whtqvtKu" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 25.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2$tv64Cn5DZx8YisuS365o" name="2$tv64Cn5DZx8YisuS365o" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 28.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1lf5dxZ1LE_xJj$eJu8Rhu" name="1lf5dxZ1LE_xJj$eJu8Rhu" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 26.8 -8.74228e-08 -1.0 0.0 6.915 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3rmqVs9ZL3qgw1cva2u9Fv" name="3rmqVs9ZL3qgw1cva2u9Fv" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 22.0 -8.74228e-08 -1.0 0.0 6.915 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="29qQ5ECrL6nQEhooPP__BH" name="29qQ5ECrL6nQEhooPP__BH" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 13.2 -8.74228e-08 -1.0 0.0 6.915 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2MHPtmLzv5OhZf$6Z1Y75J" name="2MHPtmLzv5OhZf$6Z1Y75J" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 7.2 -8.74228e-08 -1.0 0.0 6.915 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1nDSxVMDT3hh2Ql2HEz6Lg" name="1nDSxVMDT3hh2Ql2HEz6Lg" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 1.4 -8.74228e-08 -1.0 0.0 6.915 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3NTkL25Pb8Y8HEKKJUt_B_" name="3NTkL25Pb8Y8HEKKJUt_B_" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 1.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0Xbk1qGZnCY9arQDkkuJ8L" name="0Xbk1qGZnCY9arQDkkuJ8L" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 10.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="31Gx3VvgP1fvwL2I0a9YtY" name="31Gx3VvgP1fvwL2I0a9YtY" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 7.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="17n0YjYkvEshOmsrIPLGOb" name="17n0YjYkvEshOmsrIPLGOb" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 4.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0_flqizUv5_A_EGt7DzP3T" name="0_flqizUv5_A_EGt7DzP3T" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 13.8 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11998">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3qloCPnZDEQBom1ZjBlwJP" name="3qloCPnZDEQBom1ZjBlwJP" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 15.2 0.0 1.0 0.0 9.085 0.0 0.0 1.0 -3.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-11554">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Holz_Kiefer.001" target="#Holz_Kiefer.001"/>
+              <instance_material symbol="Holz_Esche.003" target="#Holz_Esche.003"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

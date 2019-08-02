@@ -1,0 +1,1698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:36:16</created>
+    <modified>2019-06-14T13:36:16</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Glazing_-_Core_&amp;_Shell_Curtain_Wall-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.568627 0.878431 1.0 1.0</color>
+            </diffuse>
+            <transparency>
+              <float>0.3</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Glazing_-_Core_&amp;_Shell_Curtain_Wall">
+      <instance_effect url="#Glazing_-_Core_&amp;_Shell_Curtain_Wall-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-156927">
+      <mesh>
+        <source id="representation-156927-positions">
+          <float_array id="representation-156927-positions-array" count="72">0.481012 -0.0127 0.0 0.481012 -0.0127 1.50812 0.481012 0.0127 0.0 0.481012 0.0127 1.50812 0.481012 0.0127 0.0 0.481012 0.0127 1.50812 -0.481012 0.0127 0.0 -0.481012 0.0127 1.50812 -0.481012 0.0127 0.0 -0.481012 0.0127 1.50812 -0.481012 -0.0127 0.0 -0.481012 -0.0127 1.50812 -0.481012 -0.0127 0.0 -0.481012 -0.0127 1.50812 0.481012 -0.0127 0.0 0.481012 -0.0127 1.50812 0.481012 -0.0127 0.0 0.481012 0.0127 0.0 -0.481012 0.0127 0.0 -0.481012 -0.0127 0.0 0.481012 -0.0127 1.50812 0.481012 0.0127 1.50812 -0.481012 0.0127 1.50812 -0.481012 -0.0127 1.50812</float_array>
+          <technique_common>
+            <accessor source="#representation-156927-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156927-normals">
+          <float_array id="representation-156927-normals-array" count="72">1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156927-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156927-texcoord-0">
+          <float_array id="representation-156927-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 1.50812 0.0127 0.0 0.0127 1.50812 -0.481012 0.0 -0.481012 1.50812 0.481012 0.0 0.481012 1.50812 -0.0127 0.0 -0.0127 1.50812 0.0127 0.0 0.0127 1.50812 -0.481012 0.0 -0.481012 1.50812 0.481012 0.0 0.481012 1.50812 -0.481012 -0.0127 -0.481012 0.0127 0.481012 0.0127 0.481012 -0.0127 0.481012 -0.0127 0.481012 0.0127 -0.481012 0.0127 -0.481012 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-156927-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156927-texcoord-1">
+          <float_array id="representation-156927-texcoord-1-array" count="48">0.974603 7.08148e-10 0.974603 0.783828 0.987302 0.0 0.987301 0.783828 0.480952 0.783828 0.480952 0.0 1.93691e-07 0.783828 0.0 0.0 0.974603 0.783828 0.974603 0.0 0.961905 0.783828 0.961905 0.0 0.961905 0.783828 0.961904 0.0 0.480952 0.783828 0.480952 0.0 1.0 0.0 0.987302 0.0 0.987302 0.5 1.0 0.5 0.987302 0.5 1.0 0.5 1.0 1.0 0.987302 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156927-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156927-vertices">
+          <input semantic="POSITION" source="#representation-156927-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-156927-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156927-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156927-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156927-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-156873">
+      <mesh>
+        <source id="representation-156873-positions">
+          <float_array id="representation-156873-positions-array" count="72">-0.373857 -0.0127 1.22125e-15 -0.373857 0.0127 1.22125e-15 -0.373857 -0.0127 2.19392 -0.373857 0.0127 2.19392 -0.373857 -0.0127 2.19392 -0.373857 0.0127 2.19392 0.373857 -0.0127 2.19392 0.373857 0.0127 2.19392 0.373857 -0.0127 2.19392 0.373857 0.0127 2.19392 0.373857 -0.0127 1.22125e-15 0.373857 0.0127 1.22125e-15 0.373857 -0.0127 1.22125e-15 0.373857 0.0127 1.22125e-15 -0.373857 -0.0127 1.22125e-15 -0.373857 0.0127 1.22125e-15 -0.373857 -0.0127 1.22125e-15 -0.373857 -0.0127 2.19392 0.373857 -0.0127 2.19392 0.373857 -0.0127 1.22125e-15 -0.373857 0.0127 1.22125e-15 -0.373857 0.0127 2.19392 0.373857 0.0127 2.19392 0.373857 0.0127 1.22125e-15</float_array>
+          <technique_common>
+            <accessor source="#representation-156873-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156873-normals">
+          <float_array id="representation-156873-normals-array" count="72">-1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156873-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156873-texcoord-0">
+          <float_array id="representation-156873-texcoord-0-array" count="48">0.0127 1.22125e-15 -0.0127 1.22125e-15 0.0127 2.19392 -0.0127 2.19392 -0.373857 -0.0127 -0.373857 0.0127 0.373857 -0.0127 0.373857 0.0127 -0.0127 2.19392 0.0127 2.19392 -0.0127 1.22125e-15 0.0127 1.22125e-15 -0.373857 -0.0127 -0.373857 0.0127 0.373857 -0.0127 0.373857 0.0127 -0.373857 1.22125e-15 -0.373857 2.19392 0.373857 2.19392 0.373857 1.22125e-15 0.373857 1.22125e-15 0.373857 2.19392 -0.373857 2.19392 -0.373857 1.22125e-15</float_array>
+          <technique_common>
+            <accessor source="#representation-156873-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156873-texcoord-1">
+          <float_array id="representation-156873-texcoord-1-array" count="48">0.951515 1.0 0.967677 1.0 0.951515 0.0 0.967676 0.0 0.983838 0.340811 1.0 0.340811 0.983838 0.0 1.0 0.0 0.967677 1.0 0.983838 1.0 0.967677 6.21039e-10 0.983838 0.0 1.0 0.340811 0.983838 0.340811 1.0 0.681621 0.983838 0.681621 0.951515 1.0 0.951515 0.0 0.475758 0.0 0.475758 1.0 3.22366e-07 1.0 0.0 0.0 0.475757 0.0 0.475758 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156873-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156873-vertices">
+          <input semantic="POSITION" source="#representation-156873-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-156873-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156873-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156873-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156873-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-156815">
+      <mesh>
+        <source id="representation-156815-positions">
+          <float_array id="representation-156815-positions-array" count="72">0.481012 -0.0127 0.0 0.481012 -0.0127 0.714375 0.481012 0.0127 0.0 0.481012 0.0127 0.714375 0.481012 0.0127 0.0 0.481012 0.0127 0.714375 -0.481012 0.0127 0.0 -0.481012 0.0127 0.714375 -0.481012 0.0127 0.0 -0.481012 0.0127 0.714375 -0.481012 -0.0127 0.0 -0.481012 -0.0127 0.714375 -0.481012 -0.0127 0.0 -0.481012 -0.0127 0.714375 0.481012 -0.0127 0.0 0.481012 -0.0127 0.714375 0.481012 -0.0127 0.0 0.481012 0.0127 0.0 -0.481012 0.0127 0.0 -0.481012 -0.0127 0.0 0.481012 -0.0127 0.714375 0.481012 0.0127 0.714375 -0.481012 0.0127 0.714375 -0.481012 -0.0127 0.714375</float_array>
+          <technique_common>
+            <accessor source="#representation-156815-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156815-normals">
+          <float_array id="representation-156815-normals-array" count="72">1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156815-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156815-texcoord-0">
+          <float_array id="representation-156815-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 0.714375 0.0127 0.0 0.0127 0.714375 -0.481012 0.0 -0.481012 0.714375 0.481012 0.0 0.481012 0.714375 -0.0127 0.0 -0.0127 0.714375 0.0127 0.0 0.0127 0.714375 -0.481012 0.0 -0.481012 0.714375 0.481012 0.0 0.481012 0.714375 -0.481012 -0.0127 -0.481012 0.0127 0.481012 0.0127 0.481012 -0.0127 0.481012 -0.0127 0.481012 0.0127 -0.481012 0.0127 -0.481012 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-156815-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156815-texcoord-1">
+          <float_array id="representation-156815-texcoord-1-array" count="48">0.983122 0.5 0.983122 1.0 1.0 0.5 1.0 1.0 0.949367 0.0 0.474683 1.04295e-07 0.949367 0.673333 0.474684 0.673333 1.0 0.5 1.0 0.0 0.983122 0.5 0.983122 0.0 1.04145e-07 0.673333 0.474683 0.673333 0.0 8.34361e-08 0.474683 0.0 0.966244 0.0 0.949367 0.0 0.949367 0.673333 0.966245 0.673333 0.966245 0.0 0.983122 0.0 0.983122 0.673333 0.966245 0.673333</float_array>
+          <technique_common>
+            <accessor source="#representation-156815-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156815-vertices">
+          <input semantic="POSITION" source="#representation-156815-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-156815-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156815-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156815-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156815-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-156781">
+      <mesh>
+        <source id="representation-156781-positions">
+          <float_array id="representation-156781-positions-array" count="72">0.373857 -0.0127 0.0 0.373857 -0.0127 0.714375 0.373857 0.0127 0.0 0.373857 0.0127 0.714375 0.373857 0.0127 0.0 0.373857 0.0127 0.714375 -0.373857 0.0127 0.0 -0.373857 0.0127 0.714375 -0.373857 0.0127 0.0 -0.373857 0.0127 0.714375 -0.373857 -0.0127 0.0 -0.373857 -0.0127 0.714375 -0.373857 -0.0127 0.0 -0.373857 -0.0127 0.714375 0.373857 -0.0127 0.0 0.373857 -0.0127 0.714375 0.373857 -0.0127 0.0 0.373857 0.0127 0.0 -0.373857 0.0127 0.0 -0.373857 -0.0127 0.0 0.373857 -0.0127 0.714375 0.373857 0.0127 0.714375 -0.373857 0.0127 0.714375 -0.373857 -0.0127 0.714375</float_array>
+          <technique_common>
+            <accessor source="#representation-156781-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156781-normals">
+          <float_array id="representation-156781-normals-array" count="72">1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156781-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156781-texcoord-0">
+          <float_array id="representation-156781-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 0.714375 0.0127 0.0 0.0127 0.714375 -0.373857 0.0 -0.373857 0.714375 0.373857 0.0 0.373857 0.714375 -0.0127 0.0 -0.0127 0.714375 0.0127 0.0 0.0127 0.714375 -0.373857 0.0 -0.373857 0.714375 0.373857 0.0 0.373857 0.714375 -0.373857 -0.0127 -0.373857 0.0127 0.373857 0.0127 0.373857 -0.0127 0.373857 -0.0127 0.373857 0.0127 -0.373857 0.0127 -0.373857 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-156781-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156781-texcoord-1">
+          <float_array id="representation-156781-texcoord-1-array" count="48">0.0171675 0.511401 0.0171675 1.0 0.0343348 0.511401 0.0343348 1.0 0.965665 0.0 0.482833 1.01917e-07 0.965665 0.511401 0.482833 0.511401 0.0171675 1.0 0.0171674 0.511401 7.86829e-08 1.0 0.0 0.511401 8.23344e-08 0.511401 0.482833 0.511401 0.0 8.15336e-08 0.482832 0.0 0.982832 0.0 0.965665 0.0 0.965665 0.511401 0.982832 0.511401 0.982832 0.0 1.0 0.0 1.0 0.511401 0.982833 0.511401</float_array>
+          <technique_common>
+            <accessor source="#representation-156781-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156781-vertices">
+          <input semantic="POSITION" source="#representation-156781-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-156781-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156781-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156781-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156781-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-156747">
+      <mesh>
+        <source id="representation-156747-positions">
+          <float_array id="representation-156747-positions-array" count="108">-0.373857 -0.0127 0.0 -0.373857 0.0127 0.0 -0.373857 -0.0127 2.15741 -0.373857 0.0127 2.15741 -0.373857 -0.0127 2.15741 -0.373857 0.0127 2.15741 0.373857 -0.0127 2.15741 0.373857 0.0127 2.15741 0.373857 -0.0127 2.15741 0.373857 0.0127 2.15741 0.373857 -0.0127 0.725487 0.373857 0.0127 0.725487 0.373857 -0.0127 0.725487 0.373857 0.0127 0.725487 -0.350044 -0.0127 0.725487 -0.350044 0.0127 0.725487 -0.350044 -0.0127 0.725487 -0.350044 0.0127 0.725487 -0.350044 -0.0127 0.0 -0.350044 0.0127 0.0 -0.350044 -0.0127 0.0 -0.350044 0.0127 0.0 -0.373857 -0.0127 0.0 -0.373857 0.0127 0.0 -0.373857 -0.0127 0.0 -0.373857 -0.0127 2.15741 0.373857 -0.0127 2.15741 0.373857 -0.0127 0.725487 -0.350044 -0.0127 0.725487 -0.350044 -0.0127 0.0 -0.373857 0.0127 0.0 -0.373857 0.0127 2.15741 0.373857 0.0127 2.15741 0.373857 0.0127 0.725487 -0.350044 0.0127 0.725487 -0.350044 0.0127 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156747-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156747-normals">
+          <float_array id="representation-156747-normals-array" count="108">-1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156747-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156747-texcoord-0">
+          <float_array id="representation-156747-texcoord-0-array" count="72">0.0127 0.0 -0.0127 0.0 0.0127 2.15741 -0.0127 2.15741 -0.373857 -0.0127 -0.373857 0.0127 0.373857 -0.0127 0.373857 0.0127 -0.0127 2.15741 0.0127 2.15741 -0.0127 0.725487 0.0127 0.725487 -0.373857 -0.0127 -0.373857 0.0127 0.350044 -0.0127 0.350044 0.0127 -0.0127 0.725487 0.0127 0.725487 -0.0127 0.0 0.0127 0.0 0.350044 -0.0127 0.350044 0.0127 0.373857 -0.0127 0.373857 0.0127 -0.373857 0.0 -0.373857 2.15741 0.373857 2.15741 0.373857 0.725487 -0.350044 0.725487 -0.350044 0.0 0.373857 0.0 0.373857 2.15741 -0.373857 2.15741 -0.373857 0.725487 0.350044 0.725487 0.350044 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156747-texcoord-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156747-texcoord-1">
+          <float_array id="representation-156747-texcoord-1-array" count="72">0.952286 0.0 0.936381 8.88864e-10 0.952286 1.0 0.936382 1.0 0.968191 0.346578 0.984095 0.346578 0.968191 0.0 0.984095 0.0 0.952286 0.663723 0.968191 0.663723 0.952286 0.0 0.968191 0.0 1.0 0.0 0.984095 0.0 1.0 0.335541 0.984095 0.335541 0.968191 0.682855 0.984095 0.682855 0.968191 0.346578 0.984095 0.346578 0.967197 0.675497 0.967197 0.663723 0.952286 0.675497 0.952286 0.663723 0.468191 1.0 0.468191 0.0 0.0 0.0 7.46445e-08 0.663723 0.45328 0.663723 0.45328 1.0 0.936381 0.0 0.936381 1.0 0.468191 1.0 0.468191 0.336277 0.921471 0.336277 0.921471 8.6337e-10</float_array>
+          <technique_common>
+            <accessor source="#representation-156747-texcoord-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156747-vertices">
+          <input semantic="POSITION" source="#representation-156747-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="20">
+          <input semantic="VERTEX" source="#representation-156747-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156747-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156747-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156747-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 19 17 18 21 20 22 23 21 22 24 29 28 28 27 26 25 28 26 28 25 24 34 35 30 32 33 34 32 34 31 30 31 34 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-156473">
+      <mesh>
+        <source id="representation-156473-positions">
+          <float_array id="representation-156473-positions-array" count="108">0.350044 -0.0127 0.0 0.350044 0.0127 0.0 0.373857 -0.0127 0.0 0.373857 0.0127 0.0 0.373857 -0.0127 0.0 0.373857 0.0127 0.0 0.373857 -0.0127 2.15741 0.373857 0.0127 2.15741 0.373857 -0.0127 2.15741 0.373857 0.0127 2.15741 -0.373857 -0.0127 2.15741 -0.373857 0.0127 2.15741 -0.373857 -0.0127 2.15741 -0.373857 0.0127 2.15741 -0.373857 -0.0127 0.725487 -0.373857 0.0127 0.725487 -0.373857 -0.0127 0.725487 -0.373857 0.0127 0.725487 0.350044 -0.0127 0.725487 0.350044 0.0127 0.725487 0.350044 -0.0127 0.725487 0.350044 0.0127 0.725487 0.350044 -0.0127 0.0 0.350044 0.0127 0.0 0.350044 -0.0127 0.0 0.373857 -0.0127 0.0 0.373857 -0.0127 2.15741 -0.373857 -0.0127 2.15741 -0.373857 -0.0127 0.725487 0.350044 -0.0127 0.725487 0.350044 0.0127 0.0 0.373857 0.0127 0.0 0.373857 0.0127 2.15741 -0.373857 0.0127 2.15741 -0.373857 0.0127 0.725487 0.350044 0.0127 0.725487</float_array>
+          <technique_common>
+            <accessor source="#representation-156473-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156473-normals">
+          <float_array id="representation-156473-normals-array" count="108">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-156473-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156473-texcoord-0">
+          <float_array id="representation-156473-texcoord-0-array" count="72">-0.350044 -0.0127 -0.350044 0.0127 -0.373857 -0.0127 -0.373857 0.0127 -0.0127 0.0 0.0127 0.0 -0.0127 2.15741 0.0127 2.15741 0.373857 -0.0127 0.373857 0.0127 -0.373857 -0.0127 -0.373857 0.0127 0.0127 2.15741 -0.0127 2.15741 0.0127 0.725487 -0.0127 0.725487 0.373857 -0.0127 0.373857 0.0127 -0.350044 -0.0127 -0.350044 0.0127 0.0127 0.725487 -0.0127 0.725487 0.0127 0.0 -0.0127 0.0 0.350044 0.0 0.373857 0.0 0.373857 2.15741 -0.373857 2.15741 -0.373857 0.725487 0.350044 0.725487 -0.350044 0.0 -0.373857 0.0 -0.373857 2.15741 0.373857 2.15741 0.373857 0.725487 -0.350044 0.725487</float_array>
+          <technique_common>
+            <accessor source="#representation-156473-texcoord-0-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-156473-texcoord-1">
+          <float_array id="representation-156473-texcoord-1-array" count="72">0.952286 0.675497 0.952286 0.663723 0.967196 0.675497 0.967196 0.663723 0.936381 6.31549e-10 0.952286 0.0 0.936381 1.0 0.952286 1.0 0.968191 0.0 0.984095 0.0 0.968191 0.346578 0.984095 0.346578 0.952286 0.0 0.96819 0.0 0.952286 0.663723 0.968191 0.663723 1.0 0.335541 0.984095 0.335541 1.0 0.0 0.984095 0.0 0.984095 0.682855 0.968191 0.682855 0.984095 0.346578 0.968191 0.346578 0.921471 0.0 0.936381 0.0 0.936381 1.0 0.468191 1.0 0.468191 0.336277 0.921471 0.336277 0.45328 1.0 0.468191 1.0 0.468191 0.0 7.46445e-08 0.0 0.0 0.663723 0.45328 0.663723</float_array>
+          <technique_common>
+            <accessor source="#representation-156473-texcoord-1-array" count="36" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-156473-vertices">
+          <input semantic="POSITION" source="#representation-156473-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="20">
+          <input semantic="VERTEX" source="#representation-156473-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-156473-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-156473-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-156473-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 1 3 6 4 5 6 5 7 10 8 9 10 9 11 14 12 13 14 13 15 18 16 17 18 17 19 22 20 21 22 21 23 29 24 25 27 28 29 27 29 26 25 26 29 31 30 35 35 34 33 32 35 33 35 32 31 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-154065">
+      <mesh>
+        <source id="representation-154065-positions">
+          <float_array id="representation-154065-positions-array" count="72">0.589756 -0.0127 0.0 0.589756 -0.0127 2.19392 0.589756 0.0127 0.0 0.589756 0.0127 2.19392 0.589756 0.0127 0.0 0.589756 0.0127 2.19392 -0.589756 0.0127 0.0 -0.589756 0.0127 2.19392 -0.589756 0.0127 0.0 -0.589756 0.0127 2.19392 -0.589756 -0.0127 0.0 -0.589756 -0.0127 2.19392 -0.589756 -0.0127 0.0 -0.589756 -0.0127 2.19392 0.589756 -0.0127 0.0 0.589756 -0.0127 2.19392 0.589756 -0.0127 0.0 0.589756 0.0127 0.0 -0.589756 0.0127 0.0 -0.589756 -0.0127 0.0 0.589756 -0.0127 2.19392 0.589756 0.0127 2.19392 -0.589756 0.0127 2.19392 -0.589756 -0.0127 2.19392</float_array>
+          <technique_common>
+            <accessor source="#representation-154065-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154065-normals">
+          <float_array id="representation-154065-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-154065-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154065-texcoord-0">
+          <float_array id="representation-154065-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 2.19392 0.0127 0.0 0.0127 2.19392 -0.589756 0.0 -0.589756 2.19392 0.589756 0.0 0.589756 2.19392 -0.0127 0.0 -0.0127 2.19392 0.0127 0.0 0.0127 2.19392 -0.589756 0.0 -0.589756 2.19392 0.589756 0.0 0.589756 2.19392 -0.589756 -0.0127 -0.589756 0.0127 0.589756 0.0127 0.589756 -0.0127 0.589756 -0.0127 0.589756 0.0127 -0.589756 0.0127 -0.589756 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-154065-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154065-texcoord-1">
+          <float_array id="representation-154065-texcoord-1-array" count="48">0.97914 5.77574e-10 0.97914 0.930014 0.98957 0.0 0.98957 0.930014 0.484355 0.930013 0.484354 0.0 2.4476e-07 0.930013 0.0 0.0 0.979139 0.930014 0.979139 0.0 0.968709 0.930014 0.968709 0.0 0.968709 0.930013 0.968709 0.0 0.484355 0.930013 0.484355 0.0 1.0 0.0 0.98957 0.0 0.98957 0.5 1.0 0.5 0.98957 0.5 1.0 0.5 1.0 1.0 0.98957 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-154065-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-154065-vertices">
+          <input semantic="POSITION" source="#representation-154065-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-154065-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-154065-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-154065-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-154065-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-154028">
+      <mesh>
+        <source id="representation-154028-positions">
+          <float_array id="representation-154028-positions-array" count="72">0.589756 -0.0127 0.0 0.589756 -0.0127 2.16217 0.589756 0.0127 0.0 0.589756 0.0127 2.16217 0.589756 0.0127 0.0 0.589756 0.0127 2.16217 -0.589756 0.0127 0.0 -0.589756 0.0127 2.16217 -0.589756 0.0127 0.0 -0.589756 0.0127 2.16217 -0.589756 -0.0127 0.0 -0.589756 -0.0127 2.16217 -0.589756 -0.0127 0.0 -0.589756 -0.0127 2.16217 0.589756 -0.0127 0.0 0.589756 -0.0127 2.16217 0.589756 -0.0127 0.0 0.589756 0.0127 0.0 -0.589756 0.0127 0.0 -0.589756 -0.0127 0.0 0.589756 -0.0127 2.16217 0.589756 0.0127 2.16217 -0.589756 0.0127 2.16217 -0.589756 -0.0127 2.16217</float_array>
+          <technique_common>
+            <accessor source="#representation-154028-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154028-normals">
+          <float_array id="representation-154028-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-154028-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154028-texcoord-0">
+          <float_array id="representation-154028-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 2.16217 0.0127 0.0 0.0127 2.16217 -0.589756 0.0 -0.589756 2.16217 0.589756 0.0 0.589756 2.16217 -0.0127 0.0 -0.0127 2.16217 0.0127 0.0 0.0127 2.16217 -0.589756 0.0 -0.589756 2.16217 0.589756 0.0 0.589756 2.16217 -0.589756 -0.0127 -0.589756 0.0127 0.589756 0.0127 0.589756 -0.0127 0.589756 -0.0127 0.589756 0.0127 -0.589756 0.0127 -0.589756 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-154028-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-154028-texcoord-1">
+          <float_array id="representation-154028-texcoord-1-array" count="48">0.97914 5.77574e-10 0.97914 0.916555 0.98957 0.0 0.98957 0.916555 0.484355 0.916554 0.484354 0.0 2.4476e-07 0.916555 0.0 0.0 0.979139 0.916555 0.979139 0.0 0.968709 0.916555 0.968709 0.0 0.968709 0.916554 0.968709 0.0 0.484355 0.916555 0.484355 0.0 1.0 0.0 0.98957 0.0 0.98957 0.5 1.0 0.5 0.98957 0.5 1.0 0.5 1.0 1.0 0.98957 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-154028-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-154028-vertices">
+          <input semantic="POSITION" source="#representation-154028-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-154028-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-154028-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-154028-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-154028-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-46739">
+      <mesh>
+        <source id="representation-46739-positions">
+          <float_array id="representation-46739-positions-array" count="72">0.233362 -0.0127 0.0 0.233362 -0.0127 18.8944 0.233362 0.0127 0.0 0.233362 0.0127 18.8944 0.233362 0.0127 0.0 0.233362 0.0127 18.8944 -0.233362 0.0127 0.0 -0.233362 0.0127 18.8944 -0.233362 0.0127 0.0 -0.233362 0.0127 18.8944 -0.233362 -0.0127 0.0 -0.233362 -0.0127 18.8944 -0.233362 -0.0127 0.0 -0.233362 -0.0127 18.8944 0.233362 -0.0127 0.0 0.233362 -0.0127 18.8944 0.233362 -0.0127 0.0 0.233362 0.0127 0.0 -0.233362 0.0127 0.0 -0.233362 -0.0127 0.0 0.233362 -0.0127 18.8944 0.233362 0.0127 18.8944 -0.233362 0.0127 18.8944 -0.233362 -0.0127 18.8944</float_array>
+          <technique_common>
+            <accessor source="#representation-46739-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46739-normals">
+          <float_array id="representation-46739-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-46739-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46739-texcoord-0">
+          <float_array id="representation-46739-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 18.8944 0.0127 0.0 0.0127 18.8944 -0.233362 0.0 -0.233362 18.8944 0.233362 0.0 0.233362 18.8944 -0.0127 0.0 -0.0127 18.8944 0.0127 0.0 0.0127 18.8944 -0.233362 0.0 -0.233362 18.8944 0.233362 0.0 0.233362 18.8944 -0.233362 -0.0127 -0.233362 0.0127 0.233362 0.0127 0.233362 -0.0127 0.233362 -0.0127 0.233362 0.0127 -0.233362 0.0127 -0.233362 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-46739-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46739-texcoord-1">
+          <float_array id="representation-46739-texcoord-1-array" count="48">0.949686 7.21119e-11 0.949686 1.0 0.974843 0.0 0.974843 1.0 0.462263 2.21809e-09 0.462264 1.0 0.924524 0.0 0.924525 1.0 0.949686 1.0 0.949683 0.0 0.924529 1.0 0.924525 0.0 0.462263 1.0 0.462261 0.0 1.63821e-06 1.0 0.0 0.0 1.0 0.0 0.974843 0.0 0.974843 0.0247017 1.0 0.0247017 0.974843 0.0247017 1.0 0.0247017 1.0 0.0494035 0.974843 0.0494035</float_array>
+          <technique_common>
+            <accessor source="#representation-46739-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-46739-vertices">
+          <input semantic="POSITION" source="#representation-46739-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-46739-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-46739-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-46739-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-46739-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-46399">
+      <mesh>
+        <source id="representation-46399-positions">
+          <float_array id="representation-46399-positions-array" count="72">0.700881 -0.0127 0.0 0.700881 -0.0127 22.0186 0.700881 0.0127 0.0 0.700881 0.0127 22.0186 0.700881 0.0127 0.0 0.700881 0.0127 22.0186 -0.700881 0.0127 0.0 -0.700881 0.0127 22.0186 -0.700881 0.0127 0.0 -0.700881 0.0127 22.0186 -0.700881 -0.0127 0.0 -0.700881 -0.0127 22.0186 -0.700881 -0.0127 0.0 -0.700881 -0.0127 22.0186 0.700881 -0.0127 0.0 0.700881 -0.0127 22.0186 0.700881 -0.0127 0.0 0.700881 0.0127 0.0 -0.700881 0.0127 0.0 -0.700881 -0.0127 0.0 0.700881 -0.0127 22.0186 0.700881 0.0127 22.0186 -0.700881 0.0127 22.0186 -0.700881 -0.0127 22.0186</float_array>
+          <technique_common>
+            <accessor source="#representation-46399-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46399-normals">
+          <float_array id="representation-46399-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-46399-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46399-texcoord-0">
+          <float_array id="representation-46399-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -0.700881 0.0 -0.700881 22.0186 0.700881 0.0 0.700881 22.0186 -0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -0.700881 0.0 -0.700881 22.0186 0.700881 0.0 0.700881 22.0186 -0.700881 -0.0127 -0.700881 0.0127 0.700881 0.0127 0.700881 -0.0127 0.700881 -0.0127 0.700881 0.0127 -0.700881 0.0127 -0.700881 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-46399-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46399-texcoord-1">
+          <float_array id="representation-46399-texcoord-1-array" count="48">0.982359 6.188e-11 0.982359 1.0 0.99118 0.0 0.99118 1.0 0.48677 1.0 0.486768 0.0 1.82142e-06 1.0 0.0 0.0 0.982359 1.0 0.982358 0.0 0.973539 1.0 0.973538 0.0 0.973538 1.0 0.973537 0.0 0.48677 1.0 0.48677 0.0 1.0 0.0 0.99118 0.0 0.99118 0.0636626 1.0 0.0636626 0.99118 0.0636626 1.0 0.0636626 1.0 0.127325 0.99118 0.127325</float_array>
+          <technique_common>
+            <accessor source="#representation-46399-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-46399-vertices">
+          <input semantic="POSITION" source="#representation-46399-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-46399-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-46399-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-46399-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-46399-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 7 5 4 7 4 6 9 8 10 11 9 10 15 13 12 15 12 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-46188">
+      <mesh>
+        <source id="representation-46188-positions">
+          <float_array id="representation-46188-positions-array" count="72">1.61925 -0.0127 0.0 1.61925 -0.0127 22.0186 1.61925 0.0127 0.0 1.61925 0.0127 22.0186 1.61925 0.0127 0.0 1.61925 0.0127 22.0186 -1.61925 0.0127 0.0 -1.61925 0.0127 22.0186 -1.61925 0.0127 0.0 -1.61925 0.0127 22.0186 -1.61925 -0.0127 0.0 -1.61925 -0.0127 22.0186 -1.61925 -0.0127 0.0 -1.61925 -0.0127 22.0186 1.61925 -0.0127 0.0 1.61925 -0.0127 22.0186 1.61925 -0.0127 0.0 1.61925 0.0127 0.0 -1.61925 0.0127 0.0 -1.61925 -0.0127 0.0 1.61925 -0.0127 22.0186 1.61925 0.0127 22.0186 -1.61925 0.0127 22.0186 -1.61925 -0.0127 22.0186</float_array>
+          <technique_common>
+            <accessor source="#representation-46188-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46188-normals">
+          <float_array id="representation-46188-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-46188-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46188-texcoord-0">
+          <float_array id="representation-46188-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -1.61925 0.0 -1.61925 22.0186 1.61925 0.0 1.61925 22.0186 -0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -1.61925 0.0 -1.61925 22.0186 1.61925 0.0 1.61925 22.0186 -1.61925 -0.0127 -1.61925 0.0127 1.61925 0.0127 1.61925 -0.0127 1.61925 -0.0127 1.61925 0.0127 -1.61925 0.0127 -1.61925 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-46188-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-46188-texcoord-1">
+          <float_array id="representation-46188-texcoord-1-array" count="48">0.992248 6.188e-11 0.992248 1.0 0.996124 0.0 0.996124 1.0 0.494186 1.0 0.494185 0.0 8.18594e-07 1.0 0.0 0.0 0.992248 1.0 0.992247 0.0 0.988372 1.0 0.988371 0.0 0.988371 1.0 0.988371 0.0 0.494186 1.0 0.494186 0.0 1.0 0.0 0.996124 0.0 0.996124 0.14708 1.0 0.14708 0.996124 0.14708 1.0 0.14708 1.0 0.29416 0.996124 0.29416</float_array>
+          <technique_common>
+            <accessor source="#representation-46188-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-46188-vertices">
+          <input semantic="POSITION" source="#representation-46188-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-46188-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-46188-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-46188-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-46188-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-45944">
+      <mesh>
+        <source id="representation-45944-positions">
+          <float_array id="representation-45944-positions-array" count="72">3.19882 -0.0127 0.0 3.19882 -0.0127 22.0186 3.19882 0.0127 0.0 3.19882 0.0127 22.0186 3.19882 0.0127 0.0 3.19882 0.0127 22.0186 -3.19882 0.0127 0.0 -3.19882 0.0127 22.0186 -3.19882 0.0127 0.0 -3.19882 0.0127 22.0186 -3.19882 -0.0127 0.0 -3.19882 -0.0127 22.0186 -3.19882 -0.0127 0.0 -3.19882 -0.0127 22.0186 3.19882 -0.0127 0.0 3.19882 -0.0127 22.0186 3.19882 -0.0127 0.0 3.19882 0.0127 0.0 -3.19882 0.0127 0.0 -3.19882 -0.0127 0.0 3.19882 -0.0127 22.0186 3.19882 0.0127 22.0186 -3.19882 0.0127 22.0186 -3.19882 -0.0127 22.0186</float_array>
+          <technique_common>
+            <accessor source="#representation-45944-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-45944-normals">
+          <float_array id="representation-45944-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-45944-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-45944-texcoord-0">
+          <float_array id="representation-45944-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -3.19882 0.0 -3.19882 22.0186 3.19882 0.0 3.19882 22.0186 -0.0127 0.0 -0.0127 22.0186 0.0127 0.0 0.0127 22.0186 -3.19882 0.0 -3.19882 22.0186 3.19882 0.0 3.19882 22.0186 -3.19882 -0.0127 -3.19882 0.0127 3.19882 0.0127 3.19882 -0.0127 3.19882 -0.0127 3.19882 0.0127 -3.19882 0.0127 -3.19882 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-45944-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-45944-texcoord-1">
+          <float_array id="representation-45944-texcoord-1-array" count="48">0.996053 6.188e-11 0.996053 1.0 0.998027 0.0 0.998027 1.0 0.49704 1.0 0.497039 0.0 4.07505e-07 1.0 0.0 0.0 0.996053 1.0 0.996053 0.0 0.99408 1.0 0.99408 0.0 0.99408 1.0 0.994079 0.0 0.49704 1.0 0.49704 0.0 1.0 0.0 0.998027 0.0 0.998027 0.290556 1.0 0.290556 0.998027 0.290556 1.0 0.290556 1.0 0.581113 0.998027 0.581113</float_array>
+          <technique_common>
+            <accessor source="#representation-45944-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-45944-vertices">
+          <input semantic="POSITION" source="#representation-45944-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-45944-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-45944-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-45944-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-45944-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-33809">
+      <mesh>
+        <source id="representation-33809-positions">
+          <float_array id="representation-33809-positions-array" count="72">0.2921 -0.0127 0.0 0.2921 -0.0127 18.2086 0.2921 0.0127 0.0 0.2921 0.0127 18.2086 0.2921 0.0127 0.0 0.2921 0.0127 18.2086 -0.2921 0.0127 0.0 -0.2921 0.0127 18.2086 -0.2921 0.0127 0.0 -0.2921 0.0127 18.2086 -0.2921 -0.0127 0.0 -0.2921 -0.0127 18.2086 -0.2921 -0.0127 0.0 -0.2921 -0.0127 18.2086 0.2921 -0.0127 0.0 0.2921 -0.0127 18.2086 0.2921 -0.0127 0.0 0.2921 0.0127 0.0 -0.2921 0.0127 0.0 -0.2921 -0.0127 0.0 0.2921 -0.0127 18.2086 0.2921 0.0127 18.2086 -0.2921 0.0127 18.2086 -0.2921 -0.0127 18.2086</float_array>
+          <technique_common>
+            <accessor source="#representation-33809-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33809-normals">
+          <float_array id="representation-33809-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-33809-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33809-texcoord-0">
+          <float_array id="representation-33809-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 18.2086 0.0127 0.0 0.0127 18.2086 -0.2921 0.0 -0.2921 18.2086 0.2921 0.0 0.2921 18.2086 -0.0127 0.0 -0.0127 18.2086 0.0127 0.0 0.0127 18.2086 -0.2921 0.0 -0.2921 18.2086 0.2921 0.0 0.2921 18.2086 -0.2921 -0.0127 -0.2921 0.0127 0.2921 0.0127 0.2921 -0.0127 0.2921 -0.0127 0.2921 0.0127 -0.2921 0.0127 -0.2921 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-33809-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33809-texcoord-1">
+          <float_array id="representation-33809-texcoord-1-array" count="48">0.959184 7.48279e-11 0.959184 1.0 0.979592 0.0 0.979592 1.0 0.469388 1.0 0.469384 0.0 3.4481e-06 1.0 0.0 0.0 0.959184 1.0 0.959181 0.0 0.938776 1.0 0.938773 0.0 0.938773 1.0 0.938772 0.0 0.469389 1.0 0.469388 0.0 1.0 0.0 0.979592 0.0 0.979592 0.0320837 1.0 0.0320837 0.979592 0.0320837 1.0 0.0320837 1.0 0.0641674 0.979592 0.0641674</float_array>
+          <technique_common>
+            <accessor source="#representation-33809-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-33809-vertices">
+          <input semantic="POSITION" source="#representation-33809-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-33809-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-33809-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-33809-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-33809-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-33494">
+      <mesh>
+        <source id="representation-33494-positions">
+          <float_array id="representation-33494-positions-array" count="72">0.6985 -0.0127 0.0 0.6985 -0.0127 21.3201 0.6985 0.0127 0.0 0.6985 0.0127 21.3201 0.6985 0.0127 0.0 0.6985 0.0127 21.3201 -0.6985 0.0127 0.0 -0.6985 0.0127 21.3201 -0.6985 0.0127 0.0 -0.6985 0.0127 21.3201 -0.6985 -0.0127 0.0 -0.6985 -0.0127 21.3201 -0.6985 -0.0127 0.0 -0.6985 -0.0127 21.3201 0.6985 -0.0127 0.0 0.6985 -0.0127 21.3201 0.6985 -0.0127 0.0 0.6985 0.0127 0.0 -0.6985 0.0127 0.0 -0.6985 -0.0127 0.0 0.6985 -0.0127 21.3201 0.6985 0.0127 21.3201 -0.6985 0.0127 21.3201 -0.6985 -0.0127 21.3201</float_array>
+          <technique_common>
+            <accessor source="#representation-33494-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33494-normals">
+          <float_array id="representation-33494-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-33494-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33494-texcoord-0">
+          <float_array id="representation-33494-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 21.3201 0.0127 0.0 0.0127 21.3201 -0.6985 0.0 -0.6985 21.3201 0.6985 0.0 0.6985 21.3201 -0.0127 0.0 -0.0127 21.3201 0.0127 0.0 0.0127 21.3201 -0.6985 0.0 -0.6985 21.3201 0.6985 0.0 0.6985 21.3201 -0.6985 -0.0127 -0.6985 0.0127 0.6985 0.0127 0.6985 -0.0127 0.6985 -0.0127 0.6985 0.0127 -0.6985 0.0127 -0.6985 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-33494-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-33494-texcoord-1">
+          <float_array id="representation-33494-texcoord-1-array" count="48">0.982301 6.39073e-11 0.982301 1.0 0.99115 0.0 0.99115 1.0 0.486726 1.0 0.486724 0.0 1.78593e-06 1.0 0.0 0.0 0.982301 1.0 0.9823 0.0 0.973451 1.0 0.97345 0.0 0.97345 1.0 0.973449 0.0 0.486726 1.0 0.486726 0.0 1.0 0.0 0.99115 0.0 0.99115 0.0655249 1.0 0.0655249 0.99115 0.0655249 1.0 0.0655249 1.0 0.13105 0.99115 0.13105</float_array>
+          <technique_common>
+            <accessor source="#representation-33494-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-33494-vertices">
+          <input semantic="POSITION" source="#representation-33494-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-33494-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-33494-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-33494-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-33494-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-24802">
+      <mesh>
+        <source id="representation-24802-positions">
+          <float_array id="representation-24802-positions-array" count="72">-0.372269 -0.0127 1.22125e-15 -0.372269 0.0127 1.22125e-15 -0.372269 -0.0127 2.19392 -0.372269 0.0127 2.19392 -0.372269 -0.0127 2.19392 -0.372269 0.0127 2.19392 0.372269 -0.0127 2.19392 0.372269 0.0127 2.19392 0.372269 -0.0127 2.19392 0.372269 0.0127 2.19392 0.372269 -0.0127 1.22125e-15 0.372269 0.0127 1.22125e-15 0.372269 -0.0127 1.22125e-15 0.372269 0.0127 1.22125e-15 -0.372269 -0.0127 1.22125e-15 -0.372269 0.0127 1.22125e-15 -0.372269 -0.0127 1.22125e-15 -0.372269 -0.0127 2.19392 0.372269 -0.0127 2.19392 0.372269 -0.0127 1.22125e-15 -0.372269 0.0127 1.22125e-15 -0.372269 0.0127 2.19392 0.372269 0.0127 2.19392 0.372269 0.0127 1.22125e-15</float_array>
+          <technique_common>
+            <accessor source="#representation-24802-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24802-normals">
+          <float_array id="representation-24802-normals-array" count="72">-1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24802-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24802-texcoord-0">
+          <float_array id="representation-24802-texcoord-0-array" count="48">0.0127 1.22125e-15 -0.0127 1.22125e-15 0.0127 2.19392 -0.0127 2.19392 -0.372269 -0.0127 -0.372269 0.0127 0.372269 -0.0127 0.372269 0.0127 -0.0127 2.19392 0.0127 2.19392 -0.0127 1.22125e-15 0.0127 1.22125e-15 -0.372269 -0.0127 -0.372269 0.0127 0.372269 -0.0127 0.372269 0.0127 -0.372269 1.22125e-15 -0.372269 2.19392 0.372269 2.19392 0.372269 1.22125e-15 0.372269 1.22125e-15 0.372269 2.19392 -0.372269 2.19392 -0.372269 1.22125e-15</float_array>
+          <technique_common>
+            <accessor source="#representation-24802-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24802-texcoord-1">
+          <float_array id="representation-24802-texcoord-1-array" count="48">0.951318 1.0 0.967546 1.0 0.951318 0.0 0.967545 0.0 0.983773 0.339363 1.0 0.339363 0.983773 0.0 1.0 0.0 0.967546 1.0 0.983773 1.0 0.967546 6.21039e-10 0.983773 0.0 1.0 0.339363 0.983773 0.339363 1.0 0.678726 0.983773 0.678726 0.951318 1.0 0.951318 0.0 0.475659 0.0 0.475659 1.0 3.42714e-07 1.0 0.0 0.0 0.475659 0.0 0.475659 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24802-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-24802-vertices">
+          <input semantic="POSITION" source="#representation-24802-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-24802-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-24802-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-24802-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-24802-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-24740">
+      <mesh>
+        <source id="representation-24740-positions">
+          <float_array id="representation-24740-positions-array" count="72">0.3683 -0.0127 0.0 0.3683 -0.0127 1.50812 0.3683 0.0127 0.0 0.3683 0.0127 1.50812 0.3683 0.0127 0.0 0.3683 0.0127 1.50812 -0.3683 0.0127 0.0 -0.3683 0.0127 1.50812 -0.3683 0.0127 0.0 -0.3683 0.0127 1.50812 -0.3683 -0.0127 0.0 -0.3683 -0.0127 1.50812 -0.3683 -0.0127 0.0 -0.3683 -0.0127 1.50812 0.3683 -0.0127 0.0 0.3683 -0.0127 1.50812 0.3683 -0.0127 0.0 0.3683 0.0127 0.0 -0.3683 0.0127 0.0 -0.3683 -0.0127 0.0 0.3683 -0.0127 1.50812 0.3683 0.0127 1.50812 -0.3683 0.0127 1.50812 -0.3683 -0.0127 1.50812</float_array>
+          <technique_common>
+            <accessor source="#representation-24740-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24740-normals">
+          <float_array id="representation-24740-normals-array" count="72">1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24740-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24740-texcoord-0">
+          <float_array id="representation-24740-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 1.50812 0.0127 0.0 0.0127 1.50812 -0.3683 0.0 -0.3683 1.50812 0.3683 0.0 0.3683 1.50812 -0.0127 0.0 -0.0127 1.50812 0.0127 0.0 0.0127 1.50812 -0.3683 0.0 -0.3683 1.50812 0.3683 0.0 0.3683 1.50812 -0.3683 -0.0127 -0.3683 0.0127 0.3683 0.0127 0.3683 -0.0127 0.3683 -0.0127 0.3683 0.0127 -0.3683 0.0127 -0.3683 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-24740-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24740-texcoord-1">
+          <float_array id="representation-24740-texcoord-1-array" count="48">0.967213 9.03448e-10 0.967213 1.0 0.983606 0.0 0.983606 1.0 0.0 4.19925e-08 9.61737e-08 1.0 0.47541 0.0 0.47541 1.0 0.967213 1.0 0.967213 0.0 0.95082 1.0 0.950819 0.0 0.950819 1.0 0.950819 0.0 0.47541 1.0 0.47541 0.0 1.0 0.0 0.983606 0.0 0.983607 0.488421 1.0 0.488421 0.983606 0.488421 1.0 0.488421 1.0 0.976842 0.983607 0.976842</float_array>
+          <technique_common>
+            <accessor source="#representation-24740-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-24740-vertices">
+          <input semantic="POSITION" source="#representation-24740-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-24740-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-24740-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-24740-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-24740-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-24683">
+      <mesh>
+        <source id="representation-24683-positions">
+          <float_array id="representation-24683-positions-array" count="72">-0.372269 -0.0127 -8.88178e-16 -0.372269 0.0127 -8.88178e-16 -0.372269 -0.0127 2.16217 -0.372269 0.0127 2.16217 -0.372269 -0.0127 2.16217 -0.372269 0.0127 2.16217 0.372269 -0.0127 2.16217 0.372269 0.0127 2.16217 0.372269 -0.0127 2.16217 0.372269 0.0127 2.16217 0.372269 -0.0127 -8.88178e-16 0.372269 0.0127 -8.88178e-16 0.372269 -0.0127 -8.88178e-16 0.372269 0.0127 -8.88178e-16 -0.372269 -0.0127 -8.88178e-16 -0.372269 0.0127 -8.88178e-16 -0.372269 -0.0127 -8.88178e-16 -0.372269 -0.0127 2.16217 0.372269 -0.0127 2.16217 0.372269 -0.0127 -8.88178e-16 -0.372269 0.0127 -8.88178e-16 -0.372269 0.0127 2.16217 0.372269 0.0127 2.16217 0.372269 0.0127 -8.88178e-16</float_array>
+          <technique_common>
+            <accessor source="#representation-24683-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24683-normals">
+          <float_array id="representation-24683-normals-array" count="72">-1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24683-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24683-texcoord-0">
+          <float_array id="representation-24683-texcoord-0-array" count="48">0.0127 -8.88178e-16 -0.0127 -8.88178e-16 0.0127 2.16217 -0.0127 2.16217 -0.372269 -0.0127 -0.372269 0.0127 0.372269 -0.0127 0.372269 0.0127 -0.0127 2.16217 0.0127 2.16217 -0.0127 -8.88178e-16 0.0127 -8.88178e-16 -0.372269 -0.0127 -0.372269 0.0127 0.372269 -0.0127 0.372269 0.0127 -0.372269 -8.88178e-16 -0.372269 2.16217 0.372269 2.16217 0.372269 -8.88178e-16 0.372269 -8.88178e-16 0.372269 2.16217 -0.372269 2.16217 -0.372269 -8.88178e-16</float_array>
+          <technique_common>
+            <accessor source="#representation-24683-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24683-texcoord-1">
+          <float_array id="representation-24683-texcoord-1-array" count="48">0.951318 1.0 0.967546 1.0 0.951318 0.0 0.967545 0.0 0.983773 0.344346 1.0 0.344346 0.983773 0.0 1.0 0.0 0.967546 1.0 0.983773 1.0 0.967546 6.30158e-10 0.983773 0.0 1.0 0.344346 0.983773 0.344346 1.0 0.688693 0.983773 0.688693 0.951318 1.0 0.951318 0.0 0.475659 0.0 0.475659 1.0 3.04635e-07 1.0 0.0 0.0 0.475659 0.0 0.475659 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24683-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-24683-vertices">
+          <input semantic="POSITION" source="#representation-24683-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-24683-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-24683-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-24683-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-24683-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-24387">
+      <mesh>
+        <source id="representation-24387-positions">
+          <float_array id="representation-24387-positions-array" count="72">2.64769 -0.0127 0.0 2.64769 -0.0127 21.3201 2.64769 0.0127 0.0 2.64769 0.0127 21.3201 2.64769 0.0127 0.0 2.64769 0.0127 21.3201 -2.64769 0.0127 0.0 -2.64769 0.0127 21.3201 -2.64769 0.0127 0.0 -2.64769 0.0127 21.3201 -2.64769 -0.0127 0.0 -2.64769 -0.0127 21.3201 -2.64769 -0.0127 0.0 -2.64769 -0.0127 21.3201 2.64769 -0.0127 0.0 2.64769 -0.0127 21.3201 2.64769 -0.0127 0.0 2.64769 0.0127 0.0 -2.64769 0.0127 0.0 -2.64769 -0.0127 0.0 2.64769 -0.0127 21.3201 2.64769 0.0127 21.3201 -2.64769 0.0127 21.3201 -2.64769 -0.0127 21.3201</float_array>
+          <technique_common>
+            <accessor source="#representation-24387-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24387-normals">
+          <float_array id="representation-24387-normals-array" count="72">1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-24387-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24387-texcoord-0">
+          <float_array id="representation-24387-texcoord-0-array" count="48">-0.0127 0.0 -0.0127 21.3201 0.0127 0.0 0.0127 21.3201 -2.64769 0.0 -2.64769 21.3201 2.64769 0.0 2.64769 21.3201 -0.0127 0.0 -0.0127 21.3201 0.0127 0.0 0.0127 21.3201 -2.64769 0.0 -2.64769 21.3201 2.64769 0.0 2.64769 21.3201 -2.64769 -0.0127 -2.64769 0.0127 2.64769 0.0127 2.64769 -0.0127 2.64769 -0.0127 2.64769 0.0127 -2.64769 0.0127 -2.64769 -0.0127</float_array>
+          <technique_common>
+            <accessor source="#representation-24387-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-24387-texcoord-1">
+          <float_array id="representation-24387-texcoord-1-array" count="48">0.995238 6.39073e-11 0.995238 1.0 0.997619 0.0 0.997619 1.0 0.496428 1.0 0.496428 0.0 5.14076e-07 1.0 0.0 0.0 0.995238 1.0 0.995237 0.0 0.992856 1.0 0.992856 0.0 0.992856 1.0 0.992856 0.0 0.496428 1.0 0.496428 0.0 1.0 0.0 0.997619 0.0 0.997619 0.248374 1.0 0.248374 0.997619 0.248374 1.0 0.248374 1.0 0.496749 0.997619 0.496749</float_array>
+          <technique_common>
+            <accessor source="#representation-24387-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-24387-vertices">
+          <input semantic="POSITION" source="#representation-24387-positions"/>
+        </vertices>
+        <triangles material="Glazing_-_Core_&amp;_Shell_Curtain_Wall" count="12">
+          <input semantic="VERTEX" source="#representation-24387-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-24387-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-24387-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-24387-texcoord-1" offset="0" set="1"/>
+          <p>1 0 2 3 1 2 5 4 6 7 5 6 9 8 10 11 9 10 13 12 14 15 13 14 17 16 18 16 19 18 22 20 21 22 23 20 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="3OW$tKlfTEKO1v0QAmwGig" name="3OW$tKlfTEKO1v0QAmwGig" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 185.708 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGil" name="3OW$tKlfTEKO1v0QAmwGil" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 182.661 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGii" name="3OW$tKlfTEKO1v0QAmwGii" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 179.613 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGiX" name="3OW$tKlfTEKO1v0QAmwGiX" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 176.564 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGic" name="3OW$tKlfTEKO1v0QAmwGic" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 173.516 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGix" name="3OW$tKlfTEKO1v0QAmwGix" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 170.469 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156927">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGjY" name="3OW$tKlfTEKO1v0QAmwGjY" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGfi" name="3OW$tKlfTEKO1v0QAmwGfi" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGjd" name="3OW$tKlfTEKO1v0QAmwGjd" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGgE" name="3OW$tKlfTEKO1v0QAmwGgE" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGja" name="3OW$tKlfTEKO1v0QAmwGja" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGge" name="3OW$tKlfTEKO1v0QAmwGge" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGjv" name="3OW$tKlfTEKO1v0QAmwGjv" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGhA" name="3OW$tKlfTEKO1v0QAmwGhA" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGj_" name="3OW$tKlfTEKO1v0QAmwGj_" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGhh" name="3OW$tKlfTEKO1v0QAmwGhh" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGjp" name="3OW$tKlfTEKO1v0QAmwGjp" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGDA" name="3OW$tKlfTEKO1v0QAmwGDA" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156873">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJP2" name="3OW$tKlfTEKO1v0QAmwJP2" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.876 0.999391 0.0348993 0.0 134.18 0.0 0.0 1.0 168.214 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156815">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJPC" name="3OW$tKlfTEKO1v0QAmwJPC" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 168.214 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156781">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJP1" name="3OW$tKlfTEKO1v0QAmwJP1" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 168.214 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156781">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwGjn" name="3OW$tKlfTEKO1v0QAmwGjn" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.906 0.999391 0.0348993 0.0 135.05 0.0 0.0 1.0 166.041 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156747">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1itcVTZhD87QA6mzuiLzYe" name="1itcVTZhD87QA6mzuiLzYe" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 202.846 0.999391 0.0348993 0.0 133.309 0.0 0.0 1.0 166.041 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-156473">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJsd" name="3OW$tKlfTEKO1v0QAmwJsd" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJt7" name="3OW$tKlfTEKO1v0QAmwJt7" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJtb" name="3OW$tKlfTEKO1v0QAmwJtb" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJm5" name="3OW$tKlfTEKO1v0QAmwJm5" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJnU" name="3OW$tKlfTEKO1v0QAmwJnU" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJFC" name="3OW$tKlfTEKO1v0QAmwJFC" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwIMZ" name="3OW$tKlfTEKO1v0QAmwIMZ" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwINm" name="3OW$tKlfTEKO1v0QAmwINm" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwIH7" name="3OW$tKlfTEKO1v0QAmwIH7" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwIIc" name="3OW$tKlfTEKO1v0QAmwIIc" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwIJq" name="3OW$tKlfTEKO1v0QAmwIJq" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3OW$tKlfTEKO1v0QAmwJjl" name="3OW$tKlfTEKO1v0QAmwJjl" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154065">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1itcVTZhD87QA6mzuiLzYR" name="1itcVTZhD87QA6mzuiLzYR" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 202.22 0.0348954 -0.999391 0.0 135.562 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154028">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1itcVTZhD87QA6mzuiLziB" name="1itcVTZhD87QA6mzuiLziB" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 202.125 -0.0348995 0.999391 0.0 132.846 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-154028">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3yftiXRYjCxvPDDKeWxrSH" name="3yftiXRYjCxvPDDKeWxrSH" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 131.208 -0.999391 -0.0348996 0.0 50.581 0.0 0.0 1.0 166.081 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-46739">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3yftiXRYjCxvPDDKeWxrjQ" name="3yftiXRYjCxvPDDKeWxrjQ" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 130.419 -0.0348995 0.999391 0.0 50.2972 0.0 0.0 1.0 166.081 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-46399">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3yftiXRYjCxvPDDKeWxriz" name="3yftiXRYjCxvPDDKeWxriz" type="NODE">
+        <matrix sid="transform">0.0348993 -0.999391 0.0 129.662 0.999391 0.0348993 0.0 48.7034 0.0 0.0 1.0 166.081 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-46188">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2dSf0svjP7rhVlUcWVMVfy" name="2dSf0svjP7rhVlUcWVMVfy" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 132.802 0.0348954 -0.999391 0.0 46.9735 0.0 0.0 1.0 166.081 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-45944">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3PP3KPmZ16$glfW6EwN9Fz" name="3PP3KPmZ16$glfW6EwN9Fz" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 200.702 -0.999391 -0.0348996 0.0 128.321 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-33809">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1$wvjrhQLCMwTVnMWfzLEl" name="1$wvjrhQLCMwTVnMWfzLEl" type="NODE">
+        <matrix sid="transform">-0.999391 -0.0348954 0.0 201.41 0.0348954 -0.999391 0.0 128.589 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-33494">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSm" name="0xlz8LznrCqOt$4uSObrSm" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrTM" name="0xlz8LznrCqOt$4uSObrTM" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 185.023 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSr" name="0xlz8LznrCqOt$4uSObrSr" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrQz" name="0xlz8LznrCqOt$4uSObrQz" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 181.975 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSg" name="0xlz8LznrCqOt$4uSObrSg" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrQa" name="0xlz8LznrCqOt$4uSObrQa" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 178.927 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSl" name="0xlz8LznrCqOt$4uSObrSl" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrQ3" name="0xlz8LznrCqOt$4uSObrQ3" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 175.879 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSi" name="0xlz8LznrCqOt$4uSObrSi" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrPW" name="0xlz8LznrCqOt$4uSObrPW" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 172.831 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSX" name="0xlz8LznrCqOt$4uSObrSX" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrKv" name="0xlz8LznrCqOt$4uSObrKv" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 169.783 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24802">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrUS" name="0xlz8LznrCqOt$4uSObrUS" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 185.708 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXo" name="0xlz8LznrCqOt$4uSObrXo" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 185.708 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrUH" name="0xlz8LznrCqOt$4uSObrUH" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 182.661 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXt" name="0xlz8LznrCqOt$4uSObrXt" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 182.661 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrUM" name="0xlz8LznrCqOt$4uSObrUM" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 179.613 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXq" name="0xlz8LznrCqOt$4uSObrXq" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 179.613 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrUB" name="0xlz8LznrCqOt$4uSObrUB" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 176.564 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXf" name="0xlz8LznrCqOt$4uSObrXf" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 176.564 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrU8" name="0xlz8LznrCqOt$4uSObrU8" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 173.516 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXk" name="0xlz8LznrCqOt$4uSObrXk" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 173.516 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrUD" name="0xlz8LznrCqOt$4uSObrUD" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 170.469 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrXZ" name="0xlz8LznrCqOt$4uSObrXZ" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 170.469 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObraQ" name="0xlz8LznrCqOt$4uSObraQ" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.266 -0.999391 -0.0348996 0.0 129.803 0.0 0.0 1.0 167.421 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObraP" name="0xlz8LznrCqOt$4uSObraP" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.292 -0.999391 -0.0348996 0.0 130.555 0.0 0.0 1.0 167.421 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24740">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0xlz8LznrCqOt$4uSObrSd" name="0xlz8LznrCqOt$4uSObrSd" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.239 -0.999391 -0.0348996 0.0 129.046 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24683">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1$wvjrhQLCMwTVnMWfzLEO" name="1$wvjrhQLCMwTVnMWfzLEO" type="NODE">
+        <matrix sid="transform">-0.0348996 0.999391 0.0 202.318 -0.999391 -0.0348996 0.0 131.311 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24683">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1$wvjrhQLCMwTVnMWfzL1s" name="1$wvjrhQLCMwTVnMWfzL1s" type="NODE">
+        <matrix sid="transform">0.999391 0.0348995 0.0 199.575 -0.0348995 0.999391 0.0 131.893 0.0 0.0 1.0 166.766 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-24387">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Glazing_-_Core_&amp;_Shell_Curtain_Wall" target="#Glazing_-_Core_&amp;_Shell_Curtain_Wall"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,217 @@
+fileFormatVersion: 2
+guid: 20af07a16c00ee54c99d0071176e5f8c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0fm7WLZUT8bAGZt82jGnvp
+    100002: 0fm7WLZUT8bAGZt82jGnvq
+    100004: 0MyI6$vKbDogRAQsMIcn6T
+    100006: 0MyI6$vKbDogRAQsMIcn7Y
+    100008: 0MyI6$vKbDogRAQsMIcnBC
+    100010: 1jjw93lYf4QP0IrrL41VE$
+    100012: 1qOiKbwbn82gUcOev9ltTe
+    100014: 1qOiKbwbn82gUcOev9ltTf
+    100016: 1qOiKbwbn82gUcOev9ltTk
+    100018: 1qOiKbwbn82gUcOev9ltTl
+    100020: 1w9iTi82nBJxMiICwcwbH8
+    100022: 1w9iTi82nBJxMiICwcwbH9
+    100024: 1w9iTi82nBJxMiICwcwbHA
+    100026: 1w9iTi82nBJxMiICwcwbHB
+    100028: 1w9iTi82nBJxMiICwcwbJa
+    100030: 1w9iTi82nBJxMiICwcwbJb
+    100032: 1w9iTi82nBJxMiICwcwbJY
+    100034: 1w9iTi82nBJxMiICwcwbT2
+    100036: 1w9iTi82nBJxMiICwcwbT3
+    100038: 1w9iTi82nBJxMiICwcwbT5
+    100040: //RootNode
+    100042: 2usksQzSfFAfxJiF$_vGtS
+    100044: 2usksQzSfFAfxJiF$_vGtV
+    100046: 3U0EBpZK51MhXWvYfuEtyT
+    100048: 3U0EBpZK51MhXWvYfuEtzM
+    400000: 0fm7WLZUT8bAGZt82jGnvp
+    400002: 0fm7WLZUT8bAGZt82jGnvq
+    400004: 0MyI6$vKbDogRAQsMIcn6T
+    400006: 0MyI6$vKbDogRAQsMIcn7Y
+    400008: 0MyI6$vKbDogRAQsMIcnBC
+    400010: 1jjw93lYf4QP0IrrL41VE$
+    400012: 1qOiKbwbn82gUcOev9ltTe
+    400014: 1qOiKbwbn82gUcOev9ltTf
+    400016: 1qOiKbwbn82gUcOev9ltTk
+    400018: 1qOiKbwbn82gUcOev9ltTl
+    400020: 1w9iTi82nBJxMiICwcwbH8
+    400022: 1w9iTi82nBJxMiICwcwbH9
+    400024: 1w9iTi82nBJxMiICwcwbHA
+    400026: 1w9iTi82nBJxMiICwcwbHB
+    400028: 1w9iTi82nBJxMiICwcwbJa
+    400030: 1w9iTi82nBJxMiICwcwbJb
+    400032: 1w9iTi82nBJxMiICwcwbJY
+    400034: 1w9iTi82nBJxMiICwcwbT2
+    400036: 1w9iTi82nBJxMiICwcwbT3
+    400038: 1w9iTi82nBJxMiICwcwbT5
+    400040: //RootNode
+    400042: 2usksQzSfFAfxJiF$_vGtS
+    400044: 2usksQzSfFAfxJiF$_vGtV
+    400046: 3U0EBpZK51MhXWvYfuEtyT
+    400048: 3U0EBpZK51MhXWvYfuEtzM
+    2100000: Concrete_-_Cast-in-Place_Concrete
+    2100002: Concrete_-_Cast-in-Place_Concrete_hatch_surface
+    2100004: Misc._Air_Layers_-_Air_Space
+    2100006: Masonry_-_Brick
+    2300000: 0fm7WLZUT8bAGZt82jGnvp
+    2300002: 0fm7WLZUT8bAGZt82jGnvq
+    2300004: 0MyI6$vKbDogRAQsMIcn6T
+    2300006: 0MyI6$vKbDogRAQsMIcn7Y
+    2300008: 0MyI6$vKbDogRAQsMIcnBC
+    2300010: 1jjw93lYf4QP0IrrL41VE$
+    2300012: 1qOiKbwbn82gUcOev9ltTe
+    2300014: 1qOiKbwbn82gUcOev9ltTf
+    2300016: 1qOiKbwbn82gUcOev9ltTk
+    2300018: 1qOiKbwbn82gUcOev9ltTl
+    2300020: 1w9iTi82nBJxMiICwcwbH8
+    2300022: 1w9iTi82nBJxMiICwcwbH9
+    2300024: 1w9iTi82nBJxMiICwcwbHA
+    2300026: 1w9iTi82nBJxMiICwcwbHB
+    2300028: 1w9iTi82nBJxMiICwcwbJa
+    2300030: 1w9iTi82nBJxMiICwcwbJb
+    2300032: 1w9iTi82nBJxMiICwcwbJY
+    2300034: 1w9iTi82nBJxMiICwcwbT2
+    2300036: 1w9iTi82nBJxMiICwcwbT3
+    2300038: 1w9iTi82nBJxMiICwcwbT5
+    2300040: 2usksQzSfFAfxJiF$_vGtS
+    2300042: 2usksQzSfFAfxJiF$_vGtV
+    2300044: 3U0EBpZK51MhXWvYfuEtyT
+    2300046: 3U0EBpZK51MhXWvYfuEtzM
+    3300000: 0fm7WLZUT8bAGZt82jGnvp
+    3300002: 0fm7WLZUT8bAGZt82jGnvq
+    3300004: 0MyI6$vKbDogRAQsMIcn6T
+    3300006: 0MyI6$vKbDogRAQsMIcn7Y
+    3300008: 0MyI6$vKbDogRAQsMIcnBC
+    3300010: 1jjw93lYf4QP0IrrL41VE$
+    3300012: 1qOiKbwbn82gUcOev9ltTe
+    3300014: 1qOiKbwbn82gUcOev9ltTf
+    3300016: 1qOiKbwbn82gUcOev9ltTk
+    3300018: 1qOiKbwbn82gUcOev9ltTl
+    3300020: 1w9iTi82nBJxMiICwcwbH8
+    3300022: 1w9iTi82nBJxMiICwcwbH9
+    3300024: 1w9iTi82nBJxMiICwcwbHA
+    3300026: 1w9iTi82nBJxMiICwcwbHB
+    3300028: 1w9iTi82nBJxMiICwcwbJa
+    3300030: 1w9iTi82nBJxMiICwcwbJb
+    3300032: 1w9iTi82nBJxMiICwcwbJY
+    3300034: 1w9iTi82nBJxMiICwcwbT2
+    3300036: 1w9iTi82nBJxMiICwcwbT3
+    3300038: 1w9iTi82nBJxMiICwcwbT5
+    3300040: 2usksQzSfFAfxJiF$_vGtS
+    3300042: 2usksQzSfFAfxJiF$_vGtV
+    3300044: 3U0EBpZK51MhXWvYfuEtyT
+    3300046: 3U0EBpZK51MhXWvYfuEtzM
+    4300000: 3U0EBpZK51MhXWvYfuEtyT
+    4300002: 3U0EBpZK51MhXWvYfuEtzM
+    4300004: 1jjw93lYf4QP0IrrL41VE$
+    4300006: 0fm7WLZUT8bAGZt82jGnvq
+    4300008: 0fm7WLZUT8bAGZt82jGnvp
+    4300010: 1qOiKbwbn82gUcOev9ltTl
+    4300012: 1qOiKbwbn82gUcOev9ltTk
+    4300014: 1qOiKbwbn82gUcOev9ltTf
+    4300016: 1qOiKbwbn82gUcOev9ltTe
+    4300018: 1w9iTi82nBJxMiICwcwbT3
+    4300020: 1w9iTi82nBJxMiICwcwbT2
+    4300022: 1w9iTi82nBJxMiICwcwbT5
+    4300024: 1w9iTi82nBJxMiICwcwbJY
+    4300026: 1w9iTi82nBJxMiICwcwbJb
+    4300028: 1w9iTi82nBJxMiICwcwbJa
+    4300030: 1w9iTi82nBJxMiICwcwbH9
+    4300032: 1w9iTi82nBJxMiICwcwbH8
+    4300034: 1w9iTi82nBJxMiICwcwbHB
+    4300036: 1w9iTi82nBJxMiICwcwbHA
+    4300038: 2usksQzSfFAfxJiF$_vGtV
+    4300040: 2usksQzSfFAfxJiF$_vGtS
+    4300042: 0MyI6$vKbDogRAQsMIcnBC
+    4300044: 0MyI6$vKbDogRAQsMIcn7Y
+    4300046: 0MyI6$vKbDogRAQsMIcn6T
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

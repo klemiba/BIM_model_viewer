@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: da137571f1c6b18459ac4cb9f5b998f6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1hOSvn6df7F8_7GcBWlRqU
+    100002: 1hOSvn6df7F8_7GcBWlRrM
+    100004: 2OBrcmyk58NupXoVOHUt0F
+    100006: 2OBrcmyk58NupXoVOHUt2f
+    100008: 2OBrcmyk58NupXoVOHUt5W
+    100010: 2OBrcmyk58NupXoVOHUt8F
+    100012: 2OBrcmyk58NupXoVOHUt8s
+    100014: 2OBrcmyk58NupXoVOHUtBP
+    100016: 2OBrcmyk58NupXoVOHUtC0
+    100018: 2OBrcmyk58NupXoVOHUtDX
+    100020: //RootNode
+    400000: 1hOSvn6df7F8_7GcBWlRqU
+    400002: 1hOSvn6df7F8_7GcBWlRrM
+    400004: 2OBrcmyk58NupXoVOHUt0F
+    400006: 2OBrcmyk58NupXoVOHUt2f
+    400008: 2OBrcmyk58NupXoVOHUt5W
+    400010: 2OBrcmyk58NupXoVOHUt8F
+    400012: 2OBrcmyk58NupXoVOHUt8s
+    400014: 2OBrcmyk58NupXoVOHUtBP
+    400016: 2OBrcmyk58NupXoVOHUtC0
+    400018: 2OBrcmyk58NupXoVOHUtDX
+    400020: //RootNode
+    2100000: Masonry_-_Grout
+    2100002: Ceramic_Tile
+    2100004: Insulation___Thermal_Barriers_-_Semi-rigid_insulation
+    2100006: Wood_-_Flooring
+    2100008: Wood_-_Dimensional_Lumber
+    2100010: Wood_-_Sheathing_-_plywood
+    2300000: 1hOSvn6df7F8_7GcBWlRqU
+    2300002: 1hOSvn6df7F8_7GcBWlRrM
+    2300004: 2OBrcmyk58NupXoVOHUt0F
+    2300006: 2OBrcmyk58NupXoVOHUt2f
+    2300008: 2OBrcmyk58NupXoVOHUt5W
+    2300010: 2OBrcmyk58NupXoVOHUt8F
+    2300012: 2OBrcmyk58NupXoVOHUt8s
+    2300014: 2OBrcmyk58NupXoVOHUtBP
+    2300016: 2OBrcmyk58NupXoVOHUtC0
+    2300018: 2OBrcmyk58NupXoVOHUtDX
+    3300000: 1hOSvn6df7F8_7GcBWlRqU
+    3300002: 1hOSvn6df7F8_7GcBWlRrM
+    3300004: 2OBrcmyk58NupXoVOHUt0F
+    3300006: 2OBrcmyk58NupXoVOHUt2f
+    3300008: 2OBrcmyk58NupXoVOHUt5W
+    3300010: 2OBrcmyk58NupXoVOHUt8F
+    3300012: 2OBrcmyk58NupXoVOHUt8s
+    3300014: 2OBrcmyk58NupXoVOHUtBP
+    3300016: 2OBrcmyk58NupXoVOHUtC0
+    3300018: 2OBrcmyk58NupXoVOHUtDX
+    4300000: 2OBrcmyk58NupXoVOHUt0F
+    4300002: 2OBrcmyk58NupXoVOHUt2f
+    4300004: 2OBrcmyk58NupXoVOHUt5W
+    4300006: 2OBrcmyk58NupXoVOHUt8s
+    4300008: 2OBrcmyk58NupXoVOHUt8F
+    4300010: 2OBrcmyk58NupXoVOHUtBP
+    4300012: 2OBrcmyk58NupXoVOHUtDX
+    4300014: 2OBrcmyk58NupXoVOHUtC0
+    4300016: 1hOSvn6df7F8_7GcBWlRrM
+    4300018: 1hOSvn6df7F8_7GcBWlRqU
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

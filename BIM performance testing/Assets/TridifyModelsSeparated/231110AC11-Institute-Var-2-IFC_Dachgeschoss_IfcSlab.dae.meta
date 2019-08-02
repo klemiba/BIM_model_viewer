@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: 0d6c1f7c6b42a3a4cb0b14938bbc9297
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01DPZ9SBn5r9Sivd0bV8Ar
+    100002: 01Q5XSApT1A8MVwFMrw27s
+    100004: 03TjDzhOTFX9jbLMrZ04Ko
+    100006: 09JX$lRj14w8LMwtAomZqY
+    100008: 0_6U2wqx5EygCAIw2ocirl
+    100010: 0hEXM06OrA5gv_ZOu0dPhm
+    100012: 0LG1dnAtn4qQamxBPgaWX7
+    100014: 0NhW4VLIbBiuXKiyGrq3kz
+    100016: 0UobTn5dzETeVPsaqJjGpw
+    100018: 0y2gVbrHLBEQOsZrBF1Kyc
+    100020: 1GL3Bl4yrCY9XKlcdMQiXb
+    100022: 1m13_kW2X8DhPK7Uom15kV
+    100024: 1mNoyQNRjFqALu0EZLqVjE
+    100026: 1sX1eJEdn4tx6WnOEIL8As
+    100028: //RootNode
+    100030: 2j5_0TlNP02vq$h$fhXZI2
+    100032: 2qBBp57vj5yguk4qD5Rp6P
+    100034: 2s4YT_DyvEIwBQu$XLcqVB
+    100036: 2sqOrgHH1BIwrN$KcJhc_B
+    100038: 2xTaNf8DzFMfTdt$AJsD2d
+    100040: 3Kn4W2ZqD4K8KzX7iS3xhj
+    100042: 3qT9lE$bTCQB_T41jFK_q6
+    100044: 3x663a8XD65viEHNLVdTxd
+    400000: 01DPZ9SBn5r9Sivd0bV8Ar
+    400002: 01Q5XSApT1A8MVwFMrw27s
+    400004: 03TjDzhOTFX9jbLMrZ04Ko
+    400006: 09JX$lRj14w8LMwtAomZqY
+    400008: 0_6U2wqx5EygCAIw2ocirl
+    400010: 0hEXM06OrA5gv_ZOu0dPhm
+    400012: 0LG1dnAtn4qQamxBPgaWX7
+    400014: 0NhW4VLIbBiuXKiyGrq3kz
+    400016: 0UobTn5dzETeVPsaqJjGpw
+    400018: 0y2gVbrHLBEQOsZrBF1Kyc
+    400020: 1GL3Bl4yrCY9XKlcdMQiXb
+    400022: 1m13_kW2X8DhPK7Uom15kV
+    400024: 1mNoyQNRjFqALu0EZLqVjE
+    400026: 1sX1eJEdn4tx6WnOEIL8As
+    400028: //RootNode
+    400030: 2j5_0TlNP02vq$h$fhXZI2
+    400032: 2qBBp57vj5yguk4qD5Rp6P
+    400034: 2s4YT_DyvEIwBQu$XLcqVB
+    400036: 2sqOrgHH1BIwrN$KcJhc_B
+    400038: 2xTaNf8DzFMfTdt$AJsD2d
+    400040: 3Kn4W2ZqD4K8KzX7iS3xhj
+    400042: 3qT9lE$bTCQB_T41jFK_q6
+    400044: 3x663a8XD65viEHNLVdTxd
+    2100000: Farbe,_blau.020
+    2100002: Kunststein_Beton,_dunkel
+    2300000: 01DPZ9SBn5r9Sivd0bV8Ar
+    2300002: 01Q5XSApT1A8MVwFMrw27s
+    2300004: 03TjDzhOTFX9jbLMrZ04Ko
+    2300006: 09JX$lRj14w8LMwtAomZqY
+    2300008: 0_6U2wqx5EygCAIw2ocirl
+    2300010: 0hEXM06OrA5gv_ZOu0dPhm
+    2300012: 0LG1dnAtn4qQamxBPgaWX7
+    2300014: 0NhW4VLIbBiuXKiyGrq3kz
+    2300016: 0UobTn5dzETeVPsaqJjGpw
+    2300018: 0y2gVbrHLBEQOsZrBF1Kyc
+    2300020: 1GL3Bl4yrCY9XKlcdMQiXb
+    2300022: 1m13_kW2X8DhPK7Uom15kV
+    2300024: 1mNoyQNRjFqALu0EZLqVjE
+    2300026: 1sX1eJEdn4tx6WnOEIL8As
+    2300028: 2j5_0TlNP02vq$h$fhXZI2
+    2300030: 2qBBp57vj5yguk4qD5Rp6P
+    2300032: 2s4YT_DyvEIwBQu$XLcqVB
+    2300034: 2sqOrgHH1BIwrN$KcJhc_B
+    2300036: 2xTaNf8DzFMfTdt$AJsD2d
+    2300038: 3Kn4W2ZqD4K8KzX7iS3xhj
+    2300040: 3qT9lE$bTCQB_T41jFK_q6
+    2300042: 3x663a8XD65viEHNLVdTxd
+    3300000: 01DPZ9SBn5r9Sivd0bV8Ar
+    3300002: 01Q5XSApT1A8MVwFMrw27s
+    3300004: 03TjDzhOTFX9jbLMrZ04Ko
+    3300006: 09JX$lRj14w8LMwtAomZqY
+    3300008: 0_6U2wqx5EygCAIw2ocirl
+    3300010: 0hEXM06OrA5gv_ZOu0dPhm
+    3300012: 0LG1dnAtn4qQamxBPgaWX7
+    3300014: 0NhW4VLIbBiuXKiyGrq3kz
+    3300016: 0UobTn5dzETeVPsaqJjGpw
+    3300018: 0y2gVbrHLBEQOsZrBF1Kyc
+    3300020: 1GL3Bl4yrCY9XKlcdMQiXb
+    3300022: 1m13_kW2X8DhPK7Uom15kV
+    3300024: 1mNoyQNRjFqALu0EZLqVjE
+    3300026: 1sX1eJEdn4tx6WnOEIL8As
+    3300028: 2j5_0TlNP02vq$h$fhXZI2
+    3300030: 2qBBp57vj5yguk4qD5Rp6P
+    3300032: 2s4YT_DyvEIwBQu$XLcqVB
+    3300034: 2sqOrgHH1BIwrN$KcJhc_B
+    3300036: 2xTaNf8DzFMfTdt$AJsD2d
+    3300038: 3Kn4W2ZqD4K8KzX7iS3xhj
+    3300040: 3qT9lE$bTCQB_T41jFK_q6
+    3300042: 3x663a8XD65viEHNLVdTxd
+    4300000: 01DPZ9SBn5r9Sivd0bV8Ar
+    4300002: 3qT9lE$bTCQB_T41jFK_q6
+    4300004: 01Q5XSApT1A8MVwFMrw27s
+    4300006: 1m13_kW2X8DhPK7Uom15kV
+    4300008: 2j5_0TlNP02vq$h$fhXZI2
+    4300010: 03TjDzhOTFX9jbLMrZ04Ko
+    4300012: 1sX1eJEdn4tx6WnOEIL8As
+    4300014: 1GL3Bl4yrCY9XKlcdMQiXb
+    4300016: 0LG1dnAtn4qQamxBPgaWX7
+    4300018: 2sqOrgHH1BIwrN$KcJhc_B
+    4300020: 2xTaNf8DzFMfTdt$AJsD2d
+    4300022: 0y2gVbrHLBEQOsZrBF1Kyc
+    4300024: 1mNoyQNRjFqALu0EZLqVjE
+    4300026: 2s4YT_DyvEIwBQu$XLcqVB
+    4300028: 09JX$lRj14w8LMwtAomZqY
+    4300030: 3x663a8XD65viEHNLVdTxd
+    4300032: 3Kn4W2ZqD4K8KzX7iS3xhj
+    4300034: 0UobTn5dzETeVPsaqJjGpw
+    4300036: 0_6U2wqx5EygCAIw2ocirl
+    4300038: 0NhW4VLIbBiuXKiyGrq3kz
+    4300040: 0hEXM06OrA5gv_ZOu0dPhm
+    4300042: 2qBBp57vj5yguk4qD5Rp6P
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 4e76ad3452aa6ce48994a5fc64f5cc1e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0wkEuT1wr1kOyafLY4vy3G
+    100002: 0wkEuT1wr1kOyafLY4vy3H
+    100004: 0wkEuT1wr1kOyafLY4vy4F
+    100006: 0wkEuT1wr1kOyafLY4vy4m
+    100008: 0wkEuT1wr1kOyafLY4vy6k
+    100010: 0wkEuT1wr1kOyafLY4vy6l
+    100012: 0wkEuT1wr1kOyafLY4vy_8
+    100014: 0wkEuT1wr1kOyafLY4vyu$
+    100016: 2gRXFgjRn2HPE$YoDLX0mp
+    100018: 2gRXFgjRn2HPE$YoDLX0q2
+    100020: 2gRXFgjRn2HPE$YoDLX0ra
+    100022: 2gRXFgjRn2HPE$YoDLX0rb
+    100024: 2kvhekJrnDjRw0CDkKW$fQ
+    100026: 2kvhekJrnDjRw0CDkKW$JW
+    100028: 2kvhekJrnDjRw0CDkKW$KL
+    100030: 2kvhekJrnDjRw0CDkKW$UD
+    100032: 2OBrcmyk58NupXoVOHUtEr
+    100034: 2OBrcmyk58NupXoVOHUtHN
+    100036: 2OBrcmyk58NupXoVOHUtI8
+    100038: 2OBrcmyk58NupXoVOHUtM4
+    100040: //RootNode
+    400000: 0wkEuT1wr1kOyafLY4vy3G
+    400002: 0wkEuT1wr1kOyafLY4vy3H
+    400004: 0wkEuT1wr1kOyafLY4vy4F
+    400006: 0wkEuT1wr1kOyafLY4vy4m
+    400008: 0wkEuT1wr1kOyafLY4vy6k
+    400010: 0wkEuT1wr1kOyafLY4vy6l
+    400012: 0wkEuT1wr1kOyafLY4vy_8
+    400014: 0wkEuT1wr1kOyafLY4vyu$
+    400016: 2gRXFgjRn2HPE$YoDLX0mp
+    400018: 2gRXFgjRn2HPE$YoDLX0q2
+    400020: 2gRXFgjRn2HPE$YoDLX0ra
+    400022: 2gRXFgjRn2HPE$YoDLX0rb
+    400024: 2kvhekJrnDjRw0CDkKW$fQ
+    400026: 2kvhekJrnDjRw0CDkKW$JW
+    400028: 2kvhekJrnDjRw0CDkKW$KL
+    400030: 2kvhekJrnDjRw0CDkKW$UD
+    400032: 2OBrcmyk58NupXoVOHUtEr
+    400034: 2OBrcmyk58NupXoVOHUtHN
+    400036: 2OBrcmyk58NupXoVOHUtI8
+    400038: 2OBrcmyk58NupXoVOHUtM4
+    400040: //RootNode
+    2100000: IfcFurnishingElement
+    2100002: Wood_-_Teak
+    2100004: Glass_-_Clear,_Grey
+    2100006: Metal_-_Chrome
+    2300000: 0wkEuT1wr1kOyafLY4vy3G
+    2300002: 0wkEuT1wr1kOyafLY4vy3H
+    2300004: 0wkEuT1wr1kOyafLY4vy4F
+    2300006: 0wkEuT1wr1kOyafLY4vy4m
+    2300008: 0wkEuT1wr1kOyafLY4vy6k
+    2300010: 0wkEuT1wr1kOyafLY4vy6l
+    2300012: 0wkEuT1wr1kOyafLY4vy_8
+    2300014: 0wkEuT1wr1kOyafLY4vyu$
+    2300016: 2gRXFgjRn2HPE$YoDLX0mp
+    2300018: 2gRXFgjRn2HPE$YoDLX0q2
+    2300020: 2gRXFgjRn2HPE$YoDLX0ra
+    2300022: 2gRXFgjRn2HPE$YoDLX0rb
+    2300024: 2kvhekJrnDjRw0CDkKW$fQ
+    2300026: 2kvhekJrnDjRw0CDkKW$JW
+    2300028: 2kvhekJrnDjRw0CDkKW$KL
+    2300030: 2kvhekJrnDjRw0CDkKW$UD
+    2300032: 2OBrcmyk58NupXoVOHUtEr
+    2300034: 2OBrcmyk58NupXoVOHUtHN
+    2300036: 2OBrcmyk58NupXoVOHUtI8
+    2300038: 2OBrcmyk58NupXoVOHUtM4
+    3300000: 0wkEuT1wr1kOyafLY4vy3G
+    3300002: 0wkEuT1wr1kOyafLY4vy3H
+    3300004: 0wkEuT1wr1kOyafLY4vy4F
+    3300006: 0wkEuT1wr1kOyafLY4vy4m
+    3300008: 0wkEuT1wr1kOyafLY4vy6k
+    3300010: 0wkEuT1wr1kOyafLY4vy6l
+    3300012: 0wkEuT1wr1kOyafLY4vy_8
+    3300014: 0wkEuT1wr1kOyafLY4vyu$
+    3300016: 2gRXFgjRn2HPE$YoDLX0mp
+    3300018: 2gRXFgjRn2HPE$YoDLX0q2
+    3300020: 2gRXFgjRn2HPE$YoDLX0ra
+    3300022: 2gRXFgjRn2HPE$YoDLX0rb
+    3300024: 2kvhekJrnDjRw0CDkKW$fQ
+    3300026: 2kvhekJrnDjRw0CDkKW$JW
+    3300028: 2kvhekJrnDjRw0CDkKW$KL
+    3300030: 2kvhekJrnDjRw0CDkKW$UD
+    3300032: 2OBrcmyk58NupXoVOHUtEr
+    3300034: 2OBrcmyk58NupXoVOHUtHN
+    3300036: 2OBrcmyk58NupXoVOHUtI8
+    3300038: 2OBrcmyk58NupXoVOHUtM4
+    4300000: 2gRXFgjRn2HPE$YoDLX0ra
+    4300002: 2gRXFgjRn2HPE$YoDLX0q2
+    4300004: 2OBrcmyk58NupXoVOHUtHN
+    4300006: 2OBrcmyk58NupXoVOHUtEr
+    4300008: 2kvhekJrnDjRw0CDkKW$fQ
+    4300010: 0wkEuT1wr1kOyafLY4vy6k
+    4300012: 0wkEuT1wr1kOyafLY4vy6l
+    4300014: 0wkEuT1wr1kOyafLY4vy4F
+    4300016: 0wkEuT1wr1kOyafLY4vy4m
+    4300018: 0wkEuT1wr1kOyafLY4vy3G
+    4300020: 0wkEuT1wr1kOyafLY4vy3H
+    4300022: 0wkEuT1wr1kOyafLY4vy_8
+    4300024: 0wkEuT1wr1kOyafLY4vyu$
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

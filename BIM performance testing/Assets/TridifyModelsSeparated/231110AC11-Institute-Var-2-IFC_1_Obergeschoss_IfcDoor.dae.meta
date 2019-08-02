@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 0323658f735003743868acd975d40ddb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 00RjztLorCQgcGEHv7fY3g
+    100002: 08uaDJHLH3FAZ6Hg9FwzkG
+    100004: 0aFvTq1m96zgWbjq4TXV_5
+    100006: 0JdG5rMQr10RkgztM3HqwA
+    100008: 0vTIWG60z84eKitb_eWAIR
+    100010: 17HzXMa29CgeqdGTriCwwh
+    100012: 1BWbpTElb4dAcW2J6oyRrZ
+    100014: 1d9QvK4Qv1Iem3fiUhniQB
+    100016: 1gw9pvArXFYfZkbYdrwJwh
+    100018: 1MlsdMSb17ygNfEs7N22qC
+    100020: 1p4YfqvYLCyfRRiNruiahD
+    100022: //RootNode
+    100024: 2dmNSROS54DQzD5NyEFXm$
+    100026: 2ezLa6k3r22f7kZrwjKNLO
+    100028: 2sSHD6n39BZQnSaHjLYpnc
+    100030: 2tu8_KoLfDpho5M9F1jtqL
+    100032: 2VGdy0IID6LxPfFQdDE_rz
+    100034: 32UdM49pfAMxiX5WyXhCuy
+    100036: 35jd8lu1fDJAuZoKl4ldDk
+    100038: 36$lV978n70fzaOS1aGkQb
+    100040: 37NUOXsmX3z9p4Kk0VJikq
+    100042: 3qz8vRMKXCHubRHdl$maGl
+    100044: 3ZJxNn9Nz6HQakewV2F393
+    400000: 00RjztLorCQgcGEHv7fY3g
+    400002: 08uaDJHLH3FAZ6Hg9FwzkG
+    400004: 0aFvTq1m96zgWbjq4TXV_5
+    400006: 0JdG5rMQr10RkgztM3HqwA
+    400008: 0vTIWG60z84eKitb_eWAIR
+    400010: 17HzXMa29CgeqdGTriCwwh
+    400012: 1BWbpTElb4dAcW2J6oyRrZ
+    400014: 1d9QvK4Qv1Iem3fiUhniQB
+    400016: 1gw9pvArXFYfZkbYdrwJwh
+    400018: 1MlsdMSb17ygNfEs7N22qC
+    400020: 1p4YfqvYLCyfRRiNruiahD
+    400022: //RootNode
+    400024: 2dmNSROS54DQzD5NyEFXm$
+    400026: 2ezLa6k3r22f7kZrwjKNLO
+    400028: 2sSHD6n39BZQnSaHjLYpnc
+    400030: 2tu8_KoLfDpho5M9F1jtqL
+    400032: 2VGdy0IID6LxPfFQdDE_rz
+    400034: 32UdM49pfAMxiX5WyXhCuy
+    400036: 35jd8lu1fDJAuZoKl4ldDk
+    400038: 36$lV978n70fzaOS1aGkQb
+    400040: 37NUOXsmX3z9p4Kk0VJikq
+    400042: 3qz8vRMKXCHubRHdl$maGl
+    400044: 3ZJxNn9Nz6HQakewV2F393
+    2100000: Holz_Kiefer.003
+    2100002: Holz_Esche.005
+    2300000: 00RjztLorCQgcGEHv7fY3g
+    2300002: 08uaDJHLH3FAZ6Hg9FwzkG
+    2300004: 0aFvTq1m96zgWbjq4TXV_5
+    2300006: 0JdG5rMQr10RkgztM3HqwA
+    2300008: 0vTIWG60z84eKitb_eWAIR
+    2300010: 17HzXMa29CgeqdGTriCwwh
+    2300012: 1BWbpTElb4dAcW2J6oyRrZ
+    2300014: 1d9QvK4Qv1Iem3fiUhniQB
+    2300016: 1gw9pvArXFYfZkbYdrwJwh
+    2300018: 1MlsdMSb17ygNfEs7N22qC
+    2300020: 1p4YfqvYLCyfRRiNruiahD
+    2300022: 2dmNSROS54DQzD5NyEFXm$
+    2300024: 2ezLa6k3r22f7kZrwjKNLO
+    2300026: 2sSHD6n39BZQnSaHjLYpnc
+    2300028: 2tu8_KoLfDpho5M9F1jtqL
+    2300030: 2VGdy0IID6LxPfFQdDE_rz
+    2300032: 32UdM49pfAMxiX5WyXhCuy
+    2300034: 35jd8lu1fDJAuZoKl4ldDk
+    2300036: 36$lV978n70fzaOS1aGkQb
+    2300038: 37NUOXsmX3z9p4Kk0VJikq
+    2300040: 3qz8vRMKXCHubRHdl$maGl
+    2300042: 3ZJxNn9Nz6HQakewV2F393
+    3300000: 00RjztLorCQgcGEHv7fY3g
+    3300002: 08uaDJHLH3FAZ6Hg9FwzkG
+    3300004: 0aFvTq1m96zgWbjq4TXV_5
+    3300006: 0JdG5rMQr10RkgztM3HqwA
+    3300008: 0vTIWG60z84eKitb_eWAIR
+    3300010: 17HzXMa29CgeqdGTriCwwh
+    3300012: 1BWbpTElb4dAcW2J6oyRrZ
+    3300014: 1d9QvK4Qv1Iem3fiUhniQB
+    3300016: 1gw9pvArXFYfZkbYdrwJwh
+    3300018: 1MlsdMSb17ygNfEs7N22qC
+    3300020: 1p4YfqvYLCyfRRiNruiahD
+    3300022: 2dmNSROS54DQzD5NyEFXm$
+    3300024: 2ezLa6k3r22f7kZrwjKNLO
+    3300026: 2sSHD6n39BZQnSaHjLYpnc
+    3300028: 2tu8_KoLfDpho5M9F1jtqL
+    3300030: 2VGdy0IID6LxPfFQdDE_rz
+    3300032: 32UdM49pfAMxiX5WyXhCuy
+    3300034: 35jd8lu1fDJAuZoKl4ldDk
+    3300036: 36$lV978n70fzaOS1aGkQb
+    3300038: 37NUOXsmX3z9p4Kk0VJikq
+    3300040: 3qz8vRMKXCHubRHdl$maGl
+    3300042: 3ZJxNn9Nz6HQakewV2F393
+    4300000: 1MlsdMSb17ygNfEs7N22qC
+    4300002: 1p4YfqvYLCyfRRiNruiahD
+    4300004: 1BWbpTElb4dAcW2J6oyRrZ
+    4300006: 0JdG5rMQr10RkgztM3HqwA
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

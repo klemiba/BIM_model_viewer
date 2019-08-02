@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:35:47</created>
+    <modified>2019-06-14T13:35:47</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Verputz,_weiß.007-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.942549 0.942549 0.935098 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Verputz,_weiß.007">
+      <instance_effect url="#Verputz,_weiß.007-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-122227-layerset-121953">
+      <mesh>
+        <source id="representation-122227-layerset-121953-positions">
+          <float_array id="representation-122227-layerset-121953-positions-array" count="144">0.3 -0.3 0.0 41.7 -0.3 0.0 41.7 -0.3 0.398949 24.0 -0.3 0.398949 24.0 -0.3 1.33355 18.0 -0.3 1.33355 18.0 -0.3 0.398949 0.3 -0.3 0.398949 0.3 -0.3 0.0 41.7 -0.3 0.0 42.0 0.0 0.0 0.0 0.0 0.0 41.7 -0.3 0.0 42.0 0.0 0.0 42.0 0.0 0.255884 41.7 -0.3 0.398949 42.0 0.0 0.255884 24.0 0.0 0.255884 41.7 -0.3 0.398949 24.0 -0.3 0.398949 24.0 0.0 1.20763 24.0 -0.3 1.33355 24.0 0.0 0.255884 24.0 -0.3 0.398949 18.0 0.0 1.20763 18.0 -0.3 1.33355 24.0 0.0 1.20763 24.0 -0.3 1.33355 18.0 0.0 1.20763 18.0 -0.3 1.33355 18.0 0.0 0.255884 18.0 -0.3 0.398949 18.0 -0.3 0.398949 18.0 0.0 0.255884 0.3 -0.3 0.398949 0.0 0.0 0.255884 0.0 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 0.398949 0.0 0.0 0.255884 42.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.255884 18.0 0.0 0.255884 18.0 0.0 1.20763 24.0 0.0 1.20763 24.0 0.0 0.255884 42.0 0.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-122227-layerset-121953-positions-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-122227-layerset-121953-normals">
+          <float_array id="representation-122227-layerset-121953-normals-array" count="144">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.387005 0.922056 0.0 0.387005 0.922056 0.0 0.387005 0.922056 0.0 0.387005 0.922056 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-122227-layerset-121953-normals-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-122227-layerset-121953-texcoord-0">
+          <float_array id="representation-122227-layerset-121953-texcoord-0-array" count="96">0.3 0.0 41.7 0.0 41.7 0.398949 24.0 0.398949 24.0 1.33355 18.0 1.33355 18.0 0.398949 0.3 0.398949 -0.3 -0.3 -41.7 -0.3 -42.0 0.0 0.0 0.0 -0.3 0.0 0.0 0.0 0.0 0.255884 -0.3 0.398949 42.0 0.0 24.0 0.0 41.7 -0.3 24.0 -0.3 0.0 1.20763 -0.3 1.33355 0.0 0.255884 -0.3 0.398949 18.0 0.0 18.0 -0.3 24.0 0.0 24.0 -0.3 0.0 1.20763 0.3 1.33355 0.0 0.255884 0.3 0.398949 18.0 -0.3 18.0 0.0 0.3 -0.3 0.0 0.0 0.0 0.0 0.3 -0.3 0.3 -0.3 0.0 0.0 -42.0 0.0 0.0 0.0 0.0 0.255884 -18.0 0.255884 -18.0 1.20763 -24.0 1.20763 -24.0 0.255884 -42.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-122227-layerset-121953-texcoord-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-122227-layerset-121953-texcoord-1">
+          <float_array id="representation-122227-layerset-121953-texcoord-1-array" count="96">1.63274e-06 0.985714 0.0 0.0 0.0965734 0.0 0.0965741 0.421429 0.322813 0.421429 0.322813 0.564286 0.0965743 0.564286 0.096575 0.985714 0.687767 0.992857 0.687765 0.00714284 0.615144 0.0 0.615146 1.0 1.0 0.0703151 0.927379 0.0703151 0.927379 0.0642226 1.0 0.0608163 0.848659 0.0 0.84866 0.428571 0.768213 0.00714275 0.768214 0.428571 0.927379 0.00299822 1.0 0.0 0.927379 0.0256588 1.0 0.0222525 0.927379 0.142857 0.84866 0.142857 0.927379 0.0 0.84866 0.0 1.0 0.028657 0.927379 0.0256588 1.0 0.0513176 0.927379 0.0479113 0.687767 0.0 0.768212 0.0 0.687768 0.421429 0.768213 0.428571 1.0 0.0608163 0.927379 0.0608163 0.927379 0.0513176 1.0 0.0547238 0.615143 0.0 0.615144 1.0 0.553202 1.0 0.553202 0.571429 0.322814 0.571429 0.322813 0.428571 0.553201 0.428571 0.553201 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-122227-layerset-121953-texcoord-1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-122227-layerset-121953-vertices">
+          <input semantic="POSITION" source="#representation-122227-layerset-121953-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="28">
+          <input semantic="VERTEX" source="#representation-122227-layerset-121953-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-122227-layerset-121953-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-122227-layerset-121953-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-122227-layerset-121953-texcoord-1" offset="0" set="1"/>
+          <p>7 0 6 5 6 4 4 6 3 2 3 1 6 0 1 3 6 1 8 11 10 9 8 10 15 12 14 14 12 13 17 18 16 17 19 18 23 20 21 23 22 20 24 27 26 24 25 27 29 28 31 28 30 31 34 32 33 35 34 33 38 39 37 39 36 37 47 40 46 44 45 43 45 46 43 42 43 41 46 40 41 43 46 41 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-121832-layerset-121708">
+      <mesh>
+        <source id="representation-121832-layerset-121708-positions">
+          <float_array id="representation-121832-layerset-121708-positions-array" count="72">0.0 -0.3 0.0 17.7 -0.3 0.0 17.7 -0.3 0.398949 0.0 -0.3 0.398949 0.0 -0.3 0.0 17.7 -0.3 0.0 18.0 0.0 0.0 0.0 0.0 0.0 17.7 -0.3 0.0 18.0 0.0 0.0 18.0 0.0 0.255884 17.7 -0.3 0.398949 18.0 0.0 0.255884 0.0 3.55271e-15 0.255884 17.7 -0.3 0.398949 0.0 -0.3 0.398949 0.0 0.0 0.0 0.0 -0.3 0.0 0.0 -0.3 0.398949 0.0 3.55271e-15 0.255884 18.0 0.0 0.0 0.0 0.0 0.0 0.0 3.55271e-15 0.255884 18.0 0.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-121832-layerset-121708-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121832-layerset-121708-normals">
+          <float_array id="representation-121832-layerset-121708-normals-array" count="72">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121832-layerset-121708-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121832-layerset-121708-texcoord-0">
+          <float_array id="representation-121832-layerset-121708-texcoord-0-array" count="48">0.0 0.0 17.7 0.0 17.7 0.398949 0.0 0.398949 0.0 -0.3 -17.7 -0.3 -18.0 0.0 0.0 0.0 -0.3 0.0 0.0 0.0 0.0 0.255884 -0.3 0.398949 18.0 0.0 0.0 3.55271e-15 17.7 -0.3 0.0 -0.3 0.0 0.0 0.3 0.0 0.3 0.398949 -3.55271e-15 0.255884 -18.0 0.0 0.0 0.0 0.0 0.255884 -18.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-121832-layerset-121708-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121832-layerset-121708-texcoord-1">
+          <float_array id="representation-121832-layerset-121708-texcoord-1-array" count="48">2.06286e-06 0.983333 0.0 0.0 0.28539 0.0 0.285392 0.983333 0.5 1.0 0.499998 0.0166666 0.285392 0.0 0.285394 1.0 0.999999 0.0443276 0.785394 0.0443276 0.785394 0.0301118 0.999999 0.0221638 0.785392 0.0 0.785394 1.0 0.68305 0.0166666 0.683052 1.0 1.0 0.0221638 0.785394 0.0221638 0.785394 0.0 1.0 0.00794802 0.683048 0.0 0.68305 1.0 0.500002 1.0 0.5 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121832-layerset-121708-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-121832-layerset-121708-vertices">
+          <input semantic="POSITION" source="#representation-121832-layerset-121708-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="12">
+          <input semantic="VERTEX" source="#representation-121832-layerset-121708-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-121832-layerset-121708-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-121832-layerset-121708-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-121832-layerset-121708-texcoord-1" offset="0" set="1"/>
+          <p>2 3 1 3 0 1 4 7 5 5 7 6 11 8 10 10 8 9 13 14 12 13 15 14 18 19 17 19 16 17 23 20 22 22 20 21 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-121588-layerset-121464">
+      <mesh>
+        <source id="representation-121588-layerset-121464-positions">
+          <float_array id="representation-121588-layerset-121464-positions-array" count="72">0.3 -0.3 0.0 18.0 -0.3 0.0 18.0 -0.3 0.398949 0.3 -0.3 0.398949 0.3 -0.3 0.0 18.0 -0.3 0.0 18.0 0.0 0.0 -2.44921e-16 0.0 0.0 18.0 -0.3 0.0 18.0 0.0 0.0 18.0 3.55271e-15 0.255884 18.0 -0.3 0.398949 18.0 -0.3 0.398949 18.0 3.55271e-15 0.255884 0.3 -0.3 0.398949 -2.44921e-16 0.0 0.255884 -2.44921e-16 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 0.398949 -2.44921e-16 0.0 0.255884 18.0 0.0 0.0 -2.44921e-16 0.0 0.0 -2.44921e-16 0.0 0.255884 18.0 3.55271e-15 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-121588-layerset-121464-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121588-layerset-121464-normals">
+          <float_array id="representation-121588-layerset-121464-normals-array" count="72">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 0.0 0.430433 0.902615 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121588-layerset-121464-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121588-layerset-121464-texcoord-0">
+          <float_array id="representation-121588-layerset-121464-texcoord-0-array" count="48">0.3 0.0 18.0 0.0 18.0 0.398949 0.3 0.398949 -0.3 -0.3 -18.0 -0.3 -18.0 0.0 2.44921e-16 0.0 -0.3 0.0 0.0 0.0 3.55271e-15 0.255884 -0.3 0.398949 18.0 -0.3 18.0 3.55271e-15 0.3 -0.3 -2.44921e-16 0.0 -2.44921e-16 0.0 0.3 -0.3 0.3 -0.3 -2.44921e-16 0.0 -18.0 0.0 2.44921e-16 0.0 2.44921e-16 0.255884 -18.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-121588-layerset-121464-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121588-layerset-121464-texcoord-1">
+          <float_array id="representation-121588-layerset-121464-texcoord-1-array" count="48">2.06287e-06 0.983333 0.0 0.0 0.285391 0.0 0.285393 0.983333 0.500002 0.983333 0.5 0.0 0.285393 0.0 0.285395 1.0 1.0 0.0443276 0.785393 0.0443276 0.785393 0.0301119 1.0 0.0221638 0.683051 0.0 0.785393 0.0 0.683051 0.983333 0.785393 1.0 1.0 0.0221638 0.785393 0.0221638 0.785393 0.0 1.0 0.00794802 0.683051 0.0 0.683051 1.0 0.500002 1.0 0.500002 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121588-layerset-121464-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-121588-layerset-121464-vertices">
+          <input semantic="POSITION" source="#representation-121588-layerset-121464-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="12">
+          <input semantic="VERTEX" source="#representation-121588-layerset-121464-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-121588-layerset-121464-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-121588-layerset-121464-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-121588-layerset-121464-texcoord-1" offset="0" set="1"/>
+          <p>2 3 1 3 0 1 5 4 6 4 7 6 11 8 10 10 8 9 14 12 13 15 14 13 18 19 17 19 16 17 23 20 22 22 20 21 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-121343-layerset-121219">
+      <mesh>
+        <source id="representation-121343-layerset-121219-positions">
+          <float_array id="representation-121343-layerset-121219-positions-array" count="72">0.3 -0.3 0.0 5.7 -0.3 0.0 5.7 -0.3 1.33355 0.3 -0.3 1.33355 0.3 -0.3 0.0 5.7 -0.3 0.0 6.0 0.0 0.0 0.0 0.0 0.0 5.7 -0.3 0.0 6.0 0.0 0.0 6.0 0.0 1.20763 5.7 -0.3 1.33355 0.0 0.0 1.20763 0.3 -0.3 1.33355 6.0 0.0 1.20763 5.7 -0.3 1.33355 0.0 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 1.33355 0.0 0.0 1.20763 6.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.20763 6.0 0.0 1.20763</float_array>
+          <technique_common>
+            <accessor source="#representation-121343-layerset-121219-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121343-layerset-121219-normals">
+          <float_array id="representation-121343-layerset-121219-normals-array" count="72">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.0 0.387005 0.922056 0.0 0.387005 0.922056 0.0 0.387005 0.922056 0.0 0.387005 0.922056 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121343-layerset-121219-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121343-layerset-121219-texcoord-0">
+          <float_array id="representation-121343-layerset-121219-texcoord-0-array" count="48">0.3 0.0 5.7 0.0 5.7 1.33355 0.3 1.33355 -0.3 -0.3 -5.7 -0.3 -6.0 0.0 0.0 0.0 5.7 0.0 6.0 0.0 6.0 1.20763 5.7 1.33355 0.0 0.0 0.3 -0.3 6.0 0.0 5.7 -0.3 0.0 0.0 0.3 -0.3 0.3 -0.3 0.0 0.0 -6.0 0.0 0.0 0.0 0.0 1.20763 -6.0 1.20763</float_array>
+          <technique_common>
+            <accessor source="#representation-121343-layerset-121219-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121343-layerset-121219-texcoord-1">
+          <float_array id="representation-121343-layerset-121219-texcoord-1-array" count="48">0.348367 0.9 0.348367 0.0 0.73306 0.0 0.73306 0.9 0.913458 0.95 0.913458 0.05 0.826916 0.0 0.826917 1.0 1.0 0.222259 0.913458 0.222259 0.913458 0.0209873 1.0 0.0 0.826916 1.0 0.73306 0.95 0.826916 0.0 0.73306 0.05 0.913458 0.222259 1.0 0.222259 1.0 0.444517 0.913458 0.42353 0.348367 0.0 0.348367 1.0 2.75108e-07 1.0 0.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121343-layerset-121219-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-121343-layerset-121219-vertices">
+          <input semantic="POSITION" source="#representation-121343-layerset-121219-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="12">
+          <input semantic="VERTEX" source="#representation-121343-layerset-121219-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-121343-layerset-121219-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-121343-layerset-121219-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-121343-layerset-121219-texcoord-1" offset="0" set="1"/>
+          <p>2 3 1 3 0 1 4 7 6 5 4 6 10 11 8 10 8 9 13 15 14 12 13 14 18 19 17 19 16 17 22 23 21 23 20 21 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-121154-layerset-120462">
+      <mesh>
+        <source id="representation-121154-layerset-120462-positions">
+          <float_array id="representation-121154-layerset-120462-positions-array" count="180">0.3 -0.3 0.0 13.7 -0.3 0.0 13.7 -0.3 1.33355 12.6927 -0.3 1.75635 10.456 -0.3 2.36321 8.15878 -0.3 2.66932 5.84122 -0.3 2.66932 3.54396 -0.3 2.36321 1.30726 -0.3 1.75635 0.3 -0.3 1.33355 0.3 -0.3 0.0 13.7 -0.3 0.0 13.7 0.0 0.0 0.0 0.0 0.0 13.7 -0.3 0.0 13.7 0.0 0.0 13.7 0.0 1.33355 13.7 -0.3 1.33355 13.7 0.0 1.33355 12.6927 0.0 1.75635 13.7 -0.3 1.33355 12.6927 -0.3 1.75635 12.6927 -0.3 1.75635 12.6927 0.0 1.75635 10.456 -0.3 2.36321 10.456 0.0 2.36321 10.456 0.0 2.36321 10.456 -0.3 2.36321 8.15878 -0.3 2.66932 8.15878 0.0 2.66932 8.15878 0.0 2.66932 8.15878 -0.3 2.66932 5.84122 -0.3 2.66932 5.84122 0.0 2.66932 5.84122 -0.3 2.66932 5.84122 0.0 2.66932 3.54396 -0.3 2.36321 3.54396 0.0 2.36321 3.54396 -0.3 2.36321 3.54396 0.0 2.36321 1.30726 -0.3 1.75635 1.30726 0.0 1.75635 1.30726 0.0 1.75635 1.30726 -0.3 1.75635 0.3 -0.3 1.33355 0.0 0.0 1.20763 0.0 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 1.33355 0.0 0.0 1.20763 13.7 0.0 0.0 0.0 0.0 0.0 0.0 0.0 1.20763 1.30726 0.0 1.75635 3.54396 0.0 2.36321 5.84122 0.0 2.66932 8.15878 0.0 2.66932 10.456 0.0 2.36321 12.6927 0.0 1.75635 13.7 0.0 1.33355</float_array>
+          <technique_common>
+            <accessor source="#representation-121154-layerset-120462-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121154-layerset-120462-normals">
+          <float_array id="representation-121154-layerset-120462-normals-array" count="180">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121154-layerset-120462-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121154-layerset-120462-texcoord-0">
+          <float_array id="representation-121154-layerset-120462-texcoord-0-array" count="120">0.3 0.0 13.7 0.0 13.7 1.33355 12.6927 1.75635 10.456 2.36321 8.15878 2.66932 5.84122 2.66932 3.54396 2.36321 1.30726 1.75635 0.3 1.33355 -0.3 -0.3 -13.7 -0.3 -13.7 0.0 0.0 0.0 -0.3 0.0 0.0 0.0 0.0 1.33355 -0.3 1.33355 13.7 0.0 12.6927 0.0 13.7 -0.3 12.6927 -0.3 12.6927 -0.3 12.6927 0.0 10.456 -0.3 10.456 0.0 10.456 0.0 10.456 -0.3 8.15878 -0.3 8.15878 0.0 8.15878 0.0 8.15878 -0.3 5.84122 -0.3 5.84122 0.0 5.84122 -0.3 5.84122 0.0 3.54396 -0.3 3.54396 0.0 3.54396 -0.3 3.54396 0.0 1.30726 -0.3 1.30726 0.0 1.30726 0.0 1.30726 -0.3 0.3 -0.3 0.0 0.0 0.0 0.0 0.3 -0.3 0.3 -0.3 0.0 0.0 -13.7 0.0 0.0 0.0 0.0 1.20763 -1.30726 1.75635 -3.54396 2.36321 -5.84122 2.66932 -8.15878 2.66932 -10.456 2.36321 -12.6927 1.75635 -13.7 1.33355</float_array>
+          <technique_common>
+            <accessor source="#representation-121154-layerset-120462-texcoord-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-121154-layerset-120462-texcoord-1">
+          <float_array id="representation-121154-layerset-120462-texcoord-1-array" count="120">0.408238 0.978102 0.408238 0.0 0.612187 0.0 0.676848 0.0735226 0.769659 0.236785 0.816475 0.404468 0.816475 0.573634 0.769659 0.741317 0.676848 0.90458 0.612187 0.978102 0.862357 0.978102 0.862356 0.0 0.816475 0.0 0.816476 1.0 0.908238 0.332428 0.954119 0.332428 0.954119 0.429767 0.908238 0.429767 0.954119 0.335414 0.954119 0.258459 1.0 0.335414 1.0 0.258459 0.862357 0.169165 0.908238 0.169165 0.862357 0.336848 0.908238 0.336848 0.908238 0.0 0.862357 0.0 0.862357 0.169165 0.908238 0.169165 0.908238 0.167683 0.954119 0.167683 0.954119 0.0 0.908238 0.0 0.954119 0.332428 0.908238 0.332428 0.954119 0.169165 0.908238 0.169165 1.0 0.155981 0.954119 0.155981 1.0 0.0 0.954119 8.70141e-09 0.954119 0.258459 1.0 0.258459 1.0 0.189657 0.954119 0.169165 0.862357 0.336848 0.908238 0.336848 0.908238 0.434188 0.862357 0.424996 0.408237 0.0 0.408238 1.0 0.223547 1.0 0.139627 0.90458 0.0468159 0.741317 3.6463e-08 0.573634 0.0 0.404468 0.0468159 0.236785 0.139627 0.0735226 0.204288 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-121154-layerset-120462-texcoord-1-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-121154-layerset-120462-vertices">
+          <input semantic="POSITION" source="#representation-121154-layerset-120462-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="36">
+          <input semantic="VERTEX" source="#representation-121154-layerset-120462-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-121154-layerset-120462-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-121154-layerset-120462-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-121154-layerset-120462-texcoord-1" offset="0" set="1"/>
+          <p>8 9 0 8 0 7 7 0 6 2 3 1 3 4 1 4 5 1 6 0 1 5 6 1 11 10 12 10 13 12 16 17 15 17 14 15 19 20 18 19 21 20 25 22 23 25 24 22 29 27 26 29 28 27 33 31 30 33 32 31 37 34 35 37 36 34 41 38 39 41 40 38 44 43 42 45 44 42 48 49 47 49 46 47 58 59 50 58 50 57 57 50 56 52 53 51 53 54 51 54 55 51 56 50 51 55 56 51 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-120397-layerset-119709">
+      <mesh>
+        <source id="representation-120397-layerset-119709-positions">
+          <float_array id="representation-120397-layerset-119709-positions-array" count="180">0.3 -0.3 0.0 13.7 -0.3 0.0 13.7 -0.3 1.33355 12.6927 -0.3 1.75635 10.456 -0.3 2.36321 8.15878 -0.3 2.66932 5.84122 -0.3 2.66932 3.54396 -0.3 2.36321 1.30726 -0.3 1.75635 0.3 -0.3 1.33355 0.3 -0.3 0.0 13.7 -0.3 0.0 14.0 0.0 0.0 0.3 0.0 0.0 13.7 -0.3 0.0 14.0 0.0 0.0 14.0 0.0 1.20763 13.7 -0.3 1.33355 14.0 0.0 1.20763 12.6927 0.0 1.75635 13.7 -0.3 1.33355 12.6927 -0.3 1.75635 12.6927 0.0 1.75635 12.6927 -0.3 1.75635 10.456 -0.3 2.36321 10.456 0.0 2.36321 10.456 -0.3 2.36321 10.456 0.0 2.36321 8.15878 -0.3 2.66932 8.15878 0.0 2.66932 8.15878 -0.3 2.66932 8.15878 0.0 2.66932 5.84122 -0.3 2.66932 5.84122 0.0 2.66932 5.84122 0.0 2.66932 5.84122 -0.3 2.66932 3.54396 -0.3 2.36321 3.54396 0.0 2.36321 3.54396 0.0 2.36321 3.54396 -0.3 2.36321 1.30726 -0.3 1.75635 1.30726 0.0 1.75635 1.30726 -0.3 1.75635 1.30726 0.0 1.75635 0.3 -0.3 1.33355 0.3 0.0 1.33355 0.3 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 1.33355 0.3 0.0 1.33355 14.0 0.0 0.0 0.3 0.0 0.0 0.3 0.0 1.33355 1.30726 0.0 1.75635 3.54396 0.0 2.36321 5.84122 0.0 2.66932 8.15878 0.0 2.66932 10.456 0.0 2.36321 12.6927 0.0 1.75635 14.0 0.0 1.20763</float_array>
+          <technique_common>
+            <accessor source="#representation-120397-layerset-119709-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-120397-layerset-119709-normals">
+          <float_array id="representation-120397-layerset-119709-normals-array" count="180">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.387005 0.0 0.922056 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.261849 0.0 0.965087 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.132054 0.0 0.991211 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.132054 0.0 0.991211 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.261849 0.0 0.965087 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -0.387005 0.0 0.922056 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-120397-layerset-119709-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-120397-layerset-119709-texcoord-0">
+          <float_array id="representation-120397-layerset-119709-texcoord-0-array" count="120">0.3 0.0 13.7 0.0 13.7 1.33355 12.6927 1.75635 10.456 2.36321 8.15878 2.66932 5.84122 2.66932 3.54396 2.36321 1.30726 1.75635 0.3 1.33355 -0.3 -0.3 -13.7 -0.3 -14.0 0.0 -0.3 0.0 13.7 0.0 14.0 0.0 14.0 1.20763 13.7 1.33355 14.0 0.0 12.6927 0.0 13.7 -0.3 12.6927 -0.3 12.6927 0.0 12.6927 -0.3 10.456 -0.3 10.456 0.0 10.456 -0.3 10.456 0.0 8.15878 -0.3 8.15878 0.0 8.15878 -0.3 8.15878 0.0 5.84122 -0.3 5.84122 0.0 5.84122 0.0 5.84122 -0.3 3.54396 -0.3 3.54396 0.0 3.54396 0.0 3.54396 -0.3 1.30726 -0.3 1.30726 0.0 1.30726 -0.3 1.30726 0.0 0.3 -0.3 0.3 0.0 0.0 0.0 0.3 0.0 0.3 1.33355 0.0 1.33355 -14.0 0.0 -0.3 0.0 -0.3 1.33355 -1.30726 1.75635 -3.54396 2.36321 -5.84122 2.66932 -8.15878 2.66932 -10.456 2.36321 -12.6927 1.75635 -14.0 1.20763</float_array>
+          <technique_common>
+            <accessor source="#representation-120397-layerset-119709-texcoord-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-120397-layerset-119709-texcoord-1">
+          <float_array id="representation-120397-layerset-119709-texcoord-1-array" count="120">0.408238 0.978102 0.408238 0.0 0.612187 0.0 0.676848 0.0735226 0.769659 0.236785 0.816475 0.404468 0.816475 0.573634 0.76966 0.741317 0.676848 0.904579 0.612187 0.978102 0.862357 1.0 0.862356 0.0218978 0.816475 0.0 0.816476 1.0 0.954119 0.434188 0.908238 0.434188 0.908238 0.34604 0.954119 0.336848 0.908238 0.336848 0.908238 0.436723 0.862357 0.359768 0.862357 0.436723 0.862357 0.336848 0.908238 0.336848 0.908238 0.169165 0.862357 0.169165 0.908238 0.169165 0.862357 0.169165 0.908238 0.0 0.862357 0.0 0.954119 0.167683 0.908238 0.167683 0.954119 3.48056e-08 0.908238 0.0 0.908238 0.332428 0.954119 0.332428 0.954119 0.169165 0.908238 0.169165 0.954119 0.155981 1.0 0.155981 1.0 0.0 0.954119 0.0 1.0 0.322123 0.954119 0.322123 1.0 0.253321 0.954119 0.253321 0.954119 0.155981 1.0 0.155981 1.0 0.253321 0.954119 0.253321 0.408237 0.0 0.408238 1.0 0.204288 1.0 0.139627 0.926477 0.0468159 0.763215 3.6463e-08 0.595532 0.0 0.426366 0.0468159 0.258683 0.139627 0.0954205 0.223546 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-120397-layerset-119709-texcoord-1-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-120397-layerset-119709-vertices">
+          <input semantic="POSITION" source="#representation-120397-layerset-119709-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="36">
+          <input semantic="VERTEX" source="#representation-120397-layerset-119709-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-120397-layerset-119709-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-120397-layerset-119709-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-120397-layerset-119709-texcoord-1" offset="0" set="1"/>
+          <p>8 9 0 8 0 7 7 0 6 2 3 1 3 4 1 4 5 1 6 0 1 5 6 1 10 13 11 11 13 12 16 17 14 16 14 15 19 20 18 19 21 20 25 23 22 25 24 23 29 26 27 29 28 26 33 30 31 33 32 30 37 35 34 37 36 35 41 39 38 41 40 39 45 42 43 45 44 42 48 49 47 49 46 47 58 59 50 58 50 57 57 50 56 52 53 51 53 54 51 54 55 51 56 50 51 55 56 51 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-119644-layerset-119218">
+      <mesh>
+        <source id="representation-119644-layerset-119218-positions">
+          <float_array id="representation-119644-layerset-119218-positions-array" count="180">0.3 -0.3 0.0 11.7 -0.3 0.0 11.7 -0.3 0.398949 10.9747 -0.3 0.744832 9.0292 -0.3 1.33952 7.01718 -0.3 1.64017 4.98282 -0.3 1.64017 2.9708 -0.3 1.33952 1.0253 -0.3 0.744832 0.3 -0.3 0.398949 0.3 -0.3 0.0 11.7 -0.3 0.0 12.0 0.0 0.0 0.0 0.0 0.0 11.7 -0.3 0.0 12.0 0.0 0.0 12.0 0.0 0.255884 11.7 -0.3 0.398949 12.0 0.0 0.255884 10.9747 0.0 0.744832 11.7 -0.3 0.398949 10.9747 -0.3 0.744832 10.9747 0.0 0.744832 10.9747 -0.3 0.744832 9.0292 -0.3 1.33952 9.0292 0.0 1.33952 9.0292 0.0 1.33952 9.0292 -0.3 1.33952 7.01718 -0.3 1.64017 7.01718 0.0 1.64017 7.01718 0.0 1.64017 7.01718 -0.3 1.64017 4.98282 -0.3 1.64017 4.98282 0.0 1.64017 4.98282 -0.3 1.64017 4.98282 0.0 1.64017 2.9708 -0.3 1.33952 2.9708 0.0 1.33952 2.9708 -0.3 1.33952 2.9708 0.0 1.33952 1.0253 -0.3 0.744832 1.0253 0.0 0.744832 1.0253 -0.3 0.744832 1.0253 0.0 0.744832 0.3 -0.3 0.398949 0.0 0.0 0.255884 0.0 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 0.398949 0.0 0.0 0.255884 12.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.255884 1.0253 0.0 0.744832 2.9708 0.0 1.33952 4.98282 0.0 1.64017 7.01718 0.0 1.64017 9.0292 0.0 1.33952 10.9747 0.0 0.744832 12.0 0.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-119644-layerset-119218-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119644-layerset-119218-normals">
+          <float_array id="representation-119644-layerset-119218-normals-array" count="180">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-119644-layerset-119218-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119644-layerset-119218-texcoord-0">
+          <float_array id="representation-119644-layerset-119218-texcoord-0-array" count="120">0.3 0.0 11.7 0.0 11.7 0.398949 10.9747 0.744832 9.0292 1.33952 7.01718 1.64017 4.98282 1.64017 2.9708 1.33952 1.0253 0.744832 0.3 0.398949 -0.3 -0.3 -11.7 -0.3 -12.0 0.0 0.0 0.0 11.7 0.0 12.0 0.0 12.0 0.255884 11.7 0.398949 12.0 0.0 10.9747 0.0 11.7 -0.3 10.9747 -0.3 10.9747 0.0 10.9747 -0.3 9.0292 -0.3 9.0292 0.0 9.0292 0.0 9.0292 -0.3 7.01718 -0.3 7.01718 0.0 7.01718 0.0 7.01718 -0.3 4.98282 -0.3 4.98282 0.0 4.98282 -0.3 4.98282 0.0 2.9708 -0.3 2.9708 0.0 2.9708 -0.3 2.9708 0.0 1.0253 -0.3 1.0253 0.0 1.0253 -0.3 1.0253 0.0 0.3 -0.3 0.0 0.0 0.0 0.0 0.3 -0.3 0.3 -0.3 0.0 0.0 -12.0 0.0 0.0 0.0 0.0 0.255884 -1.0253 0.744832 -2.9708 1.33952 -4.98282 1.64017 -7.01718 1.64017 -9.0292 1.33952 -10.9747 0.744832 -12.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-119644-layerset-119218-texcoord-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119644-layerset-119218-texcoord-1">
+          <float_array id="representation-119644-layerset-119218-texcoord-1-array" count="120">0.366082 0.95 0.366081 0.0 0.455126 0.0 0.532326 0.0604416 0.665059 0.222567 0.732163 0.390235 0.732163 0.559765 0.665059 0.727433 0.532326 0.889558 0.455126 0.95 0.799122 0.975 0.799122 0.025 0.732163 0.0 0.732163 1.0 0.933041 0.356604 0.866081 0.356604 0.866081 0.33528 0.933041 0.323358 1.0 0.147193 1.0 0.23952 0.933041 0.174208 0.933041 0.23952 0.799122 0.338128 0.866081 0.338128 0.866081 0.169064 0.799122 0.169064 0.799122 0.169064 0.866081 0.169064 0.866081 0.0 0.799122 0.0 0.866081 0.165351 0.93304 0.165351 0.933041 3.97364e-08 0.866081 0.0 0.933041 0.323358 0.866081 0.323358 0.933041 0.165351 0.866081 0.165351 1.0 0.147193 0.933041 0.147193 1.0 0.0 0.933041 4.96705e-09 1.0 0.313865 0.933041 0.313865 1.0 0.261273 0.933041 0.23952 0.866081 0.371374 0.799122 0.371374 0.799122 0.338128 0.866081 0.35005 0.366081 0.0 0.366081 1.0 0.308969 1.0 0.199837 0.914558 0.0671035 0.752433 1.06429e-07 0.584765 0.0 0.415235 0.0671033 0.247567 0.199836 0.0854417 0.308968 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-119644-layerset-119218-texcoord-1-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-119644-layerset-119218-vertices">
+          <input semantic="POSITION" source="#representation-119644-layerset-119218-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="36">
+          <input semantic="VERTEX" source="#representation-119644-layerset-119218-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-119644-layerset-119218-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-119644-layerset-119218-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-119644-layerset-119218-texcoord-1" offset="0" set="1"/>
+          <p>8 9 0 8 0 7 2 3 1 3 4 1 7 0 1 6 7 1 5 6 1 4 5 1 10 13 12 11 10 12 17 14 16 16 14 15 19 20 18 19 21 20 24 23 22 25 24 22 29 27 26 29 28 27 32 31 30 33 32 30 36 34 35 37 36 35 41 38 39 41 40 38 44 42 43 45 44 43 48 49 47 49 46 47 59 50 58 58 50 57 52 53 51 53 54 51 57 50 51 56 57 51 55 56 51 54 55 51 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-119154-layerset-118723">
+      <mesh>
+        <source id="representation-119154-layerset-118723-positions">
+          <float_array id="representation-119154-layerset-118723-positions-array" count="180">0.3 -0.3 0.0 11.7 -0.3 0.0 11.7 -0.3 0.398949 10.9747 -0.3 0.744832 9.0292 -0.3 1.33952 7.01718 -0.3 1.64017 4.98282 -0.3 1.64017 2.9708 -0.3 1.33952 1.0253 -0.3 0.744832 0.3 -0.3 0.398949 0.3 -0.3 0.0 11.7 -0.3 0.0 12.0 0.0 0.0 0.0 0.0 0.0 11.7 -0.3 0.0 12.0 0.0 0.0 12.0 0.0 0.255884 11.7 -0.3 0.398949 12.0 0.0 0.255884 10.9747 0.0 0.744832 11.7 -0.3 0.398949 10.9747 -0.3 0.744832 10.9747 -0.3 0.744832 10.9747 0.0 0.744832 9.0292 -0.3 1.33952 9.0292 0.0 1.33952 9.0292 -0.3 1.33952 9.0292 0.0 1.33952 7.01718 -0.3 1.64017 7.01718 0.0 1.64017 7.01718 -0.3 1.64017 7.01718 0.0 1.64017 4.98282 -0.3 1.64017 4.98282 0.0 1.64017 4.98282 0.0 1.64017 4.98282 -0.3 1.64017 2.9708 -0.3 1.33952 2.9708 0.0 1.33952 2.9708 0.0 1.33952 2.9708 -0.3 1.33952 1.0253 -0.3 0.744832 1.0253 0.0 0.744832 1.0253 0.0 0.744832 1.0253 -0.3 0.744832 0.3 -0.3 0.398949 0.0 0.0 0.255884 0.0 0.0 0.0 0.3 -0.3 0.0 0.3 -0.3 0.398949 0.0 0.0 0.255884 12.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.255884 1.0253 0.0 0.744832 2.9708 0.0 1.33952 4.98282 0.0 1.64017 7.01718 0.0 1.64017 9.0292 0.0 1.33952 10.9747 0.0 0.744832 12.0 0.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-119154-layerset-118723-positions-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119154-layerset-118723-normals">
+          <float_array id="representation-119154-layerset-118723-normals-array" count="180">0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.707083 -0.707083 0.0 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.430433 0.0 0.902615 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.292306 0.0 0.956298 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.147771 0.0 0.989013 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.147771 0.0 0.989013 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.292306 0.0 0.956298 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.430433 0.0 0.902615 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 -0.707083 -0.707083 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-119154-layerset-118723-normals-array" count="60" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119154-layerset-118723-texcoord-0">
+          <float_array id="representation-119154-layerset-118723-texcoord-0-array" count="120">0.3 0.0 11.7 0.0 11.7 0.398949 10.9747 0.744832 9.0292 1.33952 7.01718 1.64017 4.98282 1.64017 2.9708 1.33952 1.0253 0.744832 0.3 0.398949 -0.3 -0.3 -11.7 -0.3 -12.0 0.0 0.0 0.0 11.7 0.0 12.0 0.0 12.0 0.255884 11.7 0.398949 12.0 0.0 10.9747 0.0 11.7 -0.3 10.9747 -0.3 10.9747 -0.3 10.9747 0.0 9.0292 -0.3 9.0292 0.0 9.0292 -0.3 9.0292 0.0 7.01718 -0.3 7.01718 0.0 7.01718 -0.3 7.01718 0.0 4.98282 -0.3 4.98282 0.0 4.98282 0.0 4.98282 -0.3 2.9708 -0.3 2.9708 0.0 2.9708 0.0 2.9708 -0.3 1.0253 -0.3 1.0253 0.0 1.0253 0.0 1.0253 -0.3 0.3 -0.3 0.0 0.0 0.0 0.0 0.3 -0.3 0.3 -0.3 0.0 0.0 -12.0 0.0 0.0 0.0 0.0 0.255884 -1.0253 0.744832 -2.9708 1.33952 -4.98282 1.64017 -7.01718 1.64017 -9.0292 1.33952 -10.9747 0.744832 -12.0 0.255884</float_array>
+          <technique_common>
+            <accessor source="#representation-119154-layerset-118723-texcoord-0-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-119154-layerset-118723-texcoord-1">
+          <float_array id="representation-119154-layerset-118723-texcoord-1-array" count="120">0.366082 0.95 0.366081 0.0 0.455126 0.0 0.532326 0.0604416 0.665059 0.222567 0.732163 0.390235 0.732163 0.559765 0.665059 0.727433 0.532326 0.889558 0.455126 0.95 0.799122 0.975 0.799122 0.025 0.732163 0.0 0.732163 1.0 0.933041 0.356604 0.866081 0.356604 0.866081 0.33528 0.933041 0.323358 1.0 0.147193 1.0 0.23952 0.933041 0.174208 0.933041 0.23952 0.866081 0.338128 0.799122 0.338128 0.866081 0.169064 0.799122 0.169064 0.866081 0.169064 0.799122 0.169064 0.866081 0.0 0.799122 0.0 0.93304 0.165351 0.866081 0.165351 0.933041 3.97364e-08 0.866081 0.0 0.866081 0.323358 0.933041 0.323358 0.933041 0.165351 0.866081 0.165351 0.933041 0.147193 1.0 0.147193 1.0 0.0 0.933041 4.96705e-09 0.933041 0.313865 1.0 0.313865 1.0 0.261273 0.933041 0.23952 0.866081 0.371374 0.799122 0.371374 0.799122 0.338128 0.866081 0.35005 0.366081 0.0 0.366081 1.0 0.308969 1.0 0.199837 0.914558 0.0671035 0.752433 1.06429e-07 0.584765 0.0 0.415235 0.0671033 0.247567 0.199836 0.0854417 0.308968 0.0</float_array>
+          <technique_common>
+            <accessor source="#representation-119154-layerset-118723-texcoord-1-array" count="60" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-119154-layerset-118723-vertices">
+          <input semantic="POSITION" source="#representation-119154-layerset-118723-positions"/>
+        </vertices>
+        <triangles material="Verputz,_weiß.007" count="36">
+          <input semantic="VERTEX" source="#representation-119154-layerset-118723-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-119154-layerset-118723-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-119154-layerset-118723-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-119154-layerset-118723-texcoord-1" offset="0" set="1"/>
+          <p>8 9 0 8 0 7 2 3 1 3 4 1 7 0 1 6 7 1 5 6 1 4 5 1 10 13 12 11 10 12 17 14 16 16 14 15 19 20 18 19 21 20 24 22 23 25 24 23 29 26 27 29 28 26 33 30 31 33 32 30 36 35 34 37 36 34 41 39 38 41 40 39 44 43 42 45 44 42 48 49 47 49 46 47 59 50 58 58 50 57 52 53 51 53 54 51 57 50 51 56 57 51 55 56 51 54 55 51 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="2OU4curhvDMPArGs3c5lc0" name="2OU4curhvDMPArGs3c5lc0" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 42.0 -8.74228e-08 -1.0 0.0 2.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-122227-layerset-121953">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3hmLvediX7gRVGzmAdPrx3" name="3hmLvediX7gRVGzmAdPrx3" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 24.0 0.0 1.0 0.0 14.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-121832-layerset-121708">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="12gYtU2FL0SvTEriHSUNbg" name="12gYtU2FL0SvTEriHSUNbg" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 2.44921e-16 0.0 1.0 0.0 14.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-121588-layerset-121464">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0bg0AtKu104BS2oVEJMTxV" name="0bg0AtKu104BS2oVEJMTxV" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 18.0 0.0 1.0 0.0 16.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-121343-layerset-121219">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0CfDD9v019POgJaaj_XgfQ" name="0CfDD9v019POgJaaj_XgfQ" type="NODE">
+        <matrix sid="transform">-4.37114e-08 1.0 0.0 24.0 -1.0 -4.37114e-08 0.0 16.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-121154-layerset-120462">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="05pt4VPQf37w1V18yX4Rbi" name="05pt4VPQf37w1V18yX4Rbi" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 18.0 1.0 -4.37114e-08 0.0 2.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-120397-layerset-119709">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0cxniC0UzD0wuIz01g7Uyw" name="0cxniC0UzD0wuIz01g7Uyw" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 2.44921e-16 1.0 -4.37114e-08 0.0 2.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-119644-layerset-119218">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3xKoz5lYr2kBHotkF1f8iz" name="3xKoz5lYr2kBHotkF1f8iz" type="NODE">
+        <matrix sid="transform">-4.37114e-08 1.0 0.0 42.0 -1.0 -4.37114e-08 0.0 14.0 0.0 0.0 1.0 9.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-119154-layerset-118723">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Verputz,_weiß.007" target="#Verputz,_weiß.007"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

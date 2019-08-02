@@ -1,0 +1,205 @@
+fileFormatVersion: 2
+guid: f5a29bc269c4da64ea37f9a4797fbe2e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 0iEHWY1$XA8eQeeULq4j_U
+    100002: 0iEHWY1$XA8eQeeULq4jDb
+    100004: 0iEHWY1$XA8eQeeULq4jE6
+    100006: 0iEHWY1$XA8eQeeULq4jpl
+    100008: 0iEHWY1$XA8eQeeULq4jZ1
+    100010: 1aj$VJZFn2TxepZUBcKpee
+    100012: 1aj$VJZFn2TxepZUBcKphf
+    100014: 2O2Fr$t4X7Zf8NOew3FKGS
+    100016: 2O2Fr$t4X7Zf8NOew3FKIu
+    100018: 2O2Fr$t4X7Zf8NOew3FKRH
+    100020: 2O2Fr$t4X7Zf8NOew3FKRi
+    100022: 2O2Fr$t4X7Zf8NOew3FKST
+    100024: 2O2Fr$t4X7Zf8NOew3FL8v
+    100026: 2O2Fr$t4X7Zf8NOew3FLTF
+    100028: 2O2Fr$t4X7Zf8NOew3FNau
+    100030: 2O2Fr$t4X7Zf8NOew3FNbT
+    100032: 2O2Fr$t4X7Zf8NOew3FNhv
+    100034: 2O2Fr$t4X7Zf8NOew3FNld
+    100036: 2O2Fr$t4X7Zf8NOew3FNqI
+    100038: 2O2Fr$t4X7Zf8NOew3FNr2
+    100040: 2O2Fr$t4X7Zf8NOew3FNtn
+    100042: //RootNode
+    400000: 0iEHWY1$XA8eQeeULq4j_U
+    400002: 0iEHWY1$XA8eQeeULq4jDb
+    400004: 0iEHWY1$XA8eQeeULq4jE6
+    400006: 0iEHWY1$XA8eQeeULq4jpl
+    400008: 0iEHWY1$XA8eQeeULq4jZ1
+    400010: 1aj$VJZFn2TxepZUBcKpee
+    400012: 1aj$VJZFn2TxepZUBcKphf
+    400014: 2O2Fr$t4X7Zf8NOew3FKGS
+    400016: 2O2Fr$t4X7Zf8NOew3FKIu
+    400018: 2O2Fr$t4X7Zf8NOew3FKRH
+    400020: 2O2Fr$t4X7Zf8NOew3FKRi
+    400022: 2O2Fr$t4X7Zf8NOew3FKST
+    400024: 2O2Fr$t4X7Zf8NOew3FL8v
+    400026: 2O2Fr$t4X7Zf8NOew3FLTF
+    400028: 2O2Fr$t4X7Zf8NOew3FNau
+    400030: 2O2Fr$t4X7Zf8NOew3FNbT
+    400032: 2O2Fr$t4X7Zf8NOew3FNhv
+    400034: 2O2Fr$t4X7Zf8NOew3FNld
+    400036: 2O2Fr$t4X7Zf8NOew3FNqI
+    400038: 2O2Fr$t4X7Zf8NOew3FNr2
+    400040: 2O2Fr$t4X7Zf8NOew3FNtn
+    400042: //RootNode
+    2100000: Metal_-_Stud_Layer
+    2100002: Plasterboard
+    2100004: Default_Wall
+    2100006: Masonry_-_Brick
+    2100008: Misc._Air_Layers_-_Air_Space
+    2100010: Insulation___Thermal_Barriers_-_Rigid_insulation
+    2100012: Masonry_-_Concrete_Block
+    2300000: 0iEHWY1$XA8eQeeULq4j_U
+    2300002: 0iEHWY1$XA8eQeeULq4jDb
+    2300004: 0iEHWY1$XA8eQeeULq4jE6
+    2300006: 0iEHWY1$XA8eQeeULq4jpl
+    2300008: 0iEHWY1$XA8eQeeULq4jZ1
+    2300010: 1aj$VJZFn2TxepZUBcKpee
+    2300012: 1aj$VJZFn2TxepZUBcKphf
+    2300014: 2O2Fr$t4X7Zf8NOew3FKGS
+    2300016: 2O2Fr$t4X7Zf8NOew3FKIu
+    2300018: 2O2Fr$t4X7Zf8NOew3FKRH
+    2300020: 2O2Fr$t4X7Zf8NOew3FKRi
+    2300022: 2O2Fr$t4X7Zf8NOew3FKST
+    2300024: 2O2Fr$t4X7Zf8NOew3FL8v
+    2300026: 2O2Fr$t4X7Zf8NOew3FLTF
+    2300028: 2O2Fr$t4X7Zf8NOew3FNau
+    2300030: 2O2Fr$t4X7Zf8NOew3FNbT
+    2300032: 2O2Fr$t4X7Zf8NOew3FNhv
+    2300034: 2O2Fr$t4X7Zf8NOew3FNld
+    2300036: 2O2Fr$t4X7Zf8NOew3FNqI
+    2300038: 2O2Fr$t4X7Zf8NOew3FNr2
+    2300040: 2O2Fr$t4X7Zf8NOew3FNtn
+    3300000: 0iEHWY1$XA8eQeeULq4j_U
+    3300002: 0iEHWY1$XA8eQeeULq4jDb
+    3300004: 0iEHWY1$XA8eQeeULq4jE6
+    3300006: 0iEHWY1$XA8eQeeULq4jpl
+    3300008: 0iEHWY1$XA8eQeeULq4jZ1
+    3300010: 1aj$VJZFn2TxepZUBcKpee
+    3300012: 1aj$VJZFn2TxepZUBcKphf
+    3300014: 2O2Fr$t4X7Zf8NOew3FKGS
+    3300016: 2O2Fr$t4X7Zf8NOew3FKIu
+    3300018: 2O2Fr$t4X7Zf8NOew3FKRH
+    3300020: 2O2Fr$t4X7Zf8NOew3FKRi
+    3300022: 2O2Fr$t4X7Zf8NOew3FKST
+    3300024: 2O2Fr$t4X7Zf8NOew3FL8v
+    3300026: 2O2Fr$t4X7Zf8NOew3FLTF
+    3300028: 2O2Fr$t4X7Zf8NOew3FNau
+    3300030: 2O2Fr$t4X7Zf8NOew3FNbT
+    3300032: 2O2Fr$t4X7Zf8NOew3FNhv
+    3300034: 2O2Fr$t4X7Zf8NOew3FNld
+    3300036: 2O2Fr$t4X7Zf8NOew3FNqI
+    3300038: 2O2Fr$t4X7Zf8NOew3FNr2
+    3300040: 2O2Fr$t4X7Zf8NOew3FNtn
+    4300000: 1aj$VJZFn2TxepZUBcKphf
+    4300002: 1aj$VJZFn2TxepZUBcKpee
+    4300004: 0iEHWY1$XA8eQeeULq4jE6
+    4300006: 0iEHWY1$XA8eQeeULq4jDb
+    4300008: 0iEHWY1$XA8eQeeULq4jpl
+    4300010: 0iEHWY1$XA8eQeeULq4j_U
+    4300012: 0iEHWY1$XA8eQeeULq4jZ1
+    4300014: 2O2Fr$t4X7Zf8NOew3FL8v
+    4300016: 2O2Fr$t4X7Zf8NOew3FLTF
+    4300018: 2O2Fr$t4X7Zf8NOew3FKGS
+    4300020: 2O2Fr$t4X7Zf8NOew3FKIu
+    4300022: 2O2Fr$t4X7Zf8NOew3FKST
+    4300024: 2O2Fr$t4X7Zf8NOew3FKRH
+    4300026: 2O2Fr$t4X7Zf8NOew3FKRi
+    4300028: 2O2Fr$t4X7Zf8NOew3FNbT
+    4300030: 2O2Fr$t4X7Zf8NOew3FNau
+    4300032: 2O2Fr$t4X7Zf8NOew3FNld
+    4300034: 2O2Fr$t4X7Zf8NOew3FNhv
+    4300036: 2O2Fr$t4X7Zf8NOew3FNr2
+    4300038: 2O2Fr$t4X7Zf8NOew3FNqI
+    4300040: 2O2Fr$t4X7Zf8NOew3FNtn
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 2
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

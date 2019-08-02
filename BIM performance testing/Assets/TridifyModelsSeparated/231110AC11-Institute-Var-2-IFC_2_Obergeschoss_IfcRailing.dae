@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:35:41</created>
+    <modified>2019-06-14T13:35:41</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Farbe,_weiß.001-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.95 0.95 0.95 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Farbe,_weiß.001">
+      <instance_effect url="#Farbe,_weiß.001-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-64648">
+      <mesh>
+        <source id="representation-64648-positions">
+          <float_array id="representation-64648-positions-array" count="72">2.285 1.77636e-15 0.0 0.0 0.0 0.0 0.0 0.015 0.0 2.285 0.015 0.0 2.285 1.77636e-15 0.0 0.0 0.0 0.0 2.285 1.77636e-15 0.8 0.0 0.0 0.8 0.0 0.0 0.0 0.0 0.015 0.0 0.0 0.0 0.8 0.0 0.015 0.8 0.0 0.015 0.0 2.285 0.015 0.0 0.0 0.015 0.8 2.285 0.015 0.8 2.285 0.015 0.0 2.285 1.77636e-15 0.0 2.285 0.015 0.8 2.285 1.77636e-15 0.8 2.285 1.77636e-15 0.8 0.0 0.0 0.8 2.285 0.015 0.8 0.0 0.015 0.8</float_array>
+          <technique_common>
+            <accessor source="#representation-64648-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64648-normals">
+          <float_array id="representation-64648-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-64648-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64648-texcoord-0">
+          <float_array id="representation-64648-texcoord-0-array" count="48">-2.285 1.77636e-15 0.0 0.0 0.0 0.015 -2.285 0.015 2.285 0.0 0.0 0.0 2.285 0.8 0.0 0.8 0.0 0.0 -0.015 0.0 0.0 0.8 -0.015 0.8 0.0 0.0 -2.285 0.0 0.0 0.8 -2.285 0.8 0.015 0.0 1.77636e-15 0.0 0.015 0.8 1.77636e-15 0.8 2.285 1.77636e-15 0.0 0.0 2.285 0.015 0.0 0.015</float_array>
+          <technique_common>
+            <accessor source="#representation-64648-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64648-texcoord-1">
+          <float_array id="representation-64648-texcoord-1-array" count="48">0.990881 0.0 0.990881 1.0 0.981763 1.0 0.981763 0.0 0.972644 1.0 0.972644 0.0 0.486322 1.0 0.486322 2.64325e-08 0.990882 0.350109 1.0 0.350109 0.990881 0.0 1.0 0.0 0.486322 1.0 0.486322 0.0 2.53637e-07 1.0 0.0 0.0 1.0 0.350109 0.990881 0.350109 1.0 0.700219 0.990881 0.700219 0.972644 0.0 0.972644 1.0 0.981762 0.0 0.981763 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-64648-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-64648-vertices">
+          <input semantic="POSITION" source="#representation-64648-positions"/>
+        </vertices>
+        <triangles material="Farbe,_weiß.001" count="12">
+          <input semantic="VERTEX" source="#representation-64648-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-64648-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-64648-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-64648-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 3 0 5 4 6 5 6 7 8 10 11 8 11 9 15 13 12 15 12 14 18 17 16 18 19 17 23 21 20 23 20 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-64384">
+      <mesh>
+        <source id="representation-64384-positions">
+          <float_array id="representation-64384-positions-array" count="72">2.45 0.0 0.0 0.0 0.0 0.0 0.0 0.015 0.0 2.45 0.015 0.0 2.45 0.0 0.0 0.0 0.0 0.0 2.45 0.0 0.8 0.0 0.0 0.8 0.0 0.0 0.0 0.0 0.015 0.0 0.0 0.0 0.8 0.0 0.015 0.8 0.0 0.015 0.0 2.45 0.015 0.0 0.0 0.015 0.8 2.45 0.015 0.8 2.45 0.015 0.0 2.45 0.0 0.0 2.45 0.015 0.8 2.45 0.0 0.8 2.45 0.0 0.8 0.0 0.0 0.8 2.45 0.015 0.8 0.0 0.015 0.8</float_array>
+          <technique_common>
+            <accessor source="#representation-64384-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64384-normals">
+          <float_array id="representation-64384-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-64384-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64384-texcoord-0">
+          <float_array id="representation-64384-texcoord-0-array" count="48">-2.45 0.0 0.0 0.0 0.0 0.015 -2.45 0.015 2.45 0.0 0.0 0.0 2.45 0.8 0.0 0.8 0.0 0.0 -0.015 0.0 0.0 0.8 -0.015 0.8 0.0 0.0 -2.45 0.0 0.0 0.8 -2.45 0.8 0.015 0.0 0.0 0.0 0.015 0.8 0.0 0.8 2.45 0.0 0.0 0.0 2.45 0.015 0.0 0.015</float_array>
+          <technique_common>
+            <accessor source="#representation-64384-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-64384-texcoord-1">
+          <float_array id="representation-64384-texcoord-1-array" count="48">0.981762 0.0 0.981763 1.0 0.972644 1.0 0.972644 0.0 0.486322 0.0 0.486322 1.0 0.972644 0.0 0.972644 1.0 0.990882 0.326531 1.0 0.326531 0.990881 0.0 1.0 0.0 0.486322 1.0 0.486322 0.0 2.53637e-07 1.0 0.0 0.0 1.0 0.326531 0.990881 0.326531 1.0 0.653061 0.990881 0.653061 0.981763 0.0 0.981763 1.0 0.990881 0.0 0.990881 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-64384-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-64384-vertices">
+          <input semantic="POSITION" source="#representation-64384-positions"/>
+        </vertices>
+        <triangles material="Farbe,_weiß.001" count="12">
+          <input semantic="VERTEX" source="#representation-64384-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-64384-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-64384-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-64384-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 3 0 4 6 7 4 7 5 8 10 11 8 11 9 15 13 12 15 12 14 18 17 16 18 19 17 23 21 20 23 20 22 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="1e37$aOvHAn8RjUTHO3fVt" name="1e37$aOvHAn8RjUTHO3fVt" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 22.1425 -8.74228e-08 -1.0 0.0 14.14 0.0 0.0 1.0 6.1 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-64648">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="26U0nxarH8_x8tgH561X5B" name="26U0nxarH8_x8tgH561X5B" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 22.1575 1.0 -4.37114e-08 0.0 11.675 0.0 0.0 1.0 6.1 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-64384">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1WGpVnFtzE7xNQ0hhegKo8" name="1WGpVnFtzE7xNQ0hhegKo8" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 19.8575 1.0 -4.37114e-08 0.0 11.675 0.0 0.0 1.0 6.1 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-64384">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>Tridify Collada Exporter 1.0</authoring_tool>
+    </contributor>
+    <created>2019-06-14T13:34:53</created>
+    <modified>2019-06-14T13:34:53</modified>
+    <unit name="METER" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Farbe,_weiß.001-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <diffuse>
+              <color>0.95 0.95 0.95 1.0</color>
+            </diffuse>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Farbe,_weiß.001">
+      <instance_effect url="#Farbe,_weiß.001-fx"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="representation-19425">
+      <mesh>
+        <source id="representation-19425-positions">
+          <float_array id="representation-19425-positions-array" count="72">0.3 0.0 0.0 0.0 0.0 0.0 0.0 0.3 0.0 0.3 0.3 0.0 0.3 0.0 0.0 0.0 0.0 0.0 0.3 0.0 0.5 0.0 0.0 0.5 0.0 0.0 0.0 0.0 0.3 0.0 0.0 0.0 0.5 0.0 0.3 0.5 0.0 0.3 0.0 0.3 0.3 0.0 0.0 0.3 0.5 0.3 0.3 0.5 0.3 0.3 0.0 0.3 0.0 0.0 0.3 0.3 0.5 0.3 0.0 0.5 0.3 0.0 0.5 0.0 0.0 0.5 0.3 0.3 0.5 0.0 0.3 0.5</float_array>
+          <technique_common>
+            <accessor source="#representation-19425-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-19425-normals">
+          <float_array id="representation-19425-normals-array" count="72">0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-19425-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-19425-texcoord-0">
+          <float_array id="representation-19425-texcoord-0-array" count="48">-0.3 0.0 0.0 0.0 0.0 0.3 -0.3 0.3 0.3 0.0 0.0 0.0 0.3 0.5 0.0 0.5 0.0 0.0 -0.3 0.0 0.0 0.5 -0.3 0.5 0.0 0.0 -0.3 0.0 0.0 0.5 -0.3 0.5 0.3 0.0 0.0 0.0 0.3 0.5 0.0 0.5 0.3 0.0 0.0 0.0 0.3 0.3 0.0 0.3</float_array>
+          <technique_common>
+            <accessor source="#representation-19425-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-19425-texcoord-1">
+          <float_array id="representation-19425-texcoord-1-array" count="48">0.666667 0.5 0.666667 0.8 0.333333 0.8 0.333333 0.5 3.31137e-08 1.0 0.333333 1.0 0.0 0.5 0.333333 0.5 0.333334 0.5 0.666667 0.5 0.333333 0.0 0.666667 0.0 1.0 0.0 0.666667 2.98023e-08 1.0 0.5 0.666667 0.5 2.31796e-07 0.5 0.333333 0.5 0.0 8.94069e-08 0.333333 0.0 1.0 0.5 0.666667 0.5 1.0 0.8 0.666667 0.8</float_array>
+          <technique_common>
+            <accessor source="#representation-19425-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-19425-vertices">
+          <input semantic="POSITION" source="#representation-19425-positions"/>
+        </vertices>
+        <triangles material="Farbe,_weiß.001" count="12">
+          <input semantic="VERTEX" source="#representation-19425-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-19425-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-19425-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-19425-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 3 0 4 6 7 4 7 5 8 10 11 8 11 9 15 13 12 15 12 14 19 17 16 19 16 18 22 21 20 22 23 21 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="representation-18753">
+      <mesh>
+        <source id="representation-18753-positions">
+          <float_array id="representation-18753-positions-array" count="72">1.6 8.88178e-16 0.0 0.0 0.0 0.0 0.0 0.8 0.0 1.6 0.8 0.0 1.6 8.88178e-16 0.0 0.0 0.0 0.0 1.6 8.88178e-16 0.8 0.0 0.0 0.8 0.0 0.0 0.0 0.0 0.8 0.0 0.0 0.0 0.8 0.0 0.8 0.8 0.0 0.8 0.0 1.6 0.8 0.0 0.0 0.8 0.8 1.6 0.8 0.8 1.6 0.8 0.0 1.6 8.88178e-16 0.0 1.6 0.8 0.8 1.6 8.88178e-16 0.8 1.6 8.88178e-16 0.8 0.0 0.0 0.8 1.6 0.8 0.8 0.0 0.8 0.8</float_array>
+          <technique_common>
+            <accessor source="#representation-18753-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-18753-normals">
+          <float_array id="representation-18753-normals-array" count="72">0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -0.999969 0.0 0.0 -0.999969 0.0 0.0 -1.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 -1.0 0.0 0.0 0.0 0.999969 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 1.0 0.0 0.0 0.0 0.0 1.0 0.0 0.0 0.999969 0.0 0.0 0.999969 0.0 0.0 1.0</float_array>
+          <technique_common>
+            <accessor source="#representation-18753-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-18753-texcoord-0">
+          <float_array id="representation-18753-texcoord-0-array" count="48">-1.6 8.88178e-16 0.0 0.0 0.0 0.8 -1.6 0.8 1.6 0.0 0.0 0.0 1.6 0.8 0.0 0.8 0.0 0.0 -0.8 0.0 0.0 0.8 -0.8 0.8 0.0 0.0 -1.6 0.0 0.0 0.8 -1.6 0.8 0.8 0.0 8.88178e-16 0.0 0.8 0.8 8.88178e-16 0.8 1.6 8.88178e-16 0.0 0.0 1.6 0.8 0.0 0.8</float_array>
+          <technique_common>
+            <accessor source="#representation-18753-texcoord-0-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="representation-18753-texcoord-1">
+          <float_array id="representation-18753-texcoord-1-array" count="48">0.333333 0.5 0.333333 1.0 9.9341e-08 1.0 0.0 0.5 0.666667 0.5 0.666667 0.0 0.333333 0.5 0.333333 1.88745e-08 0.666667 0.75 0.666667 0.5 0.333333 0.75 0.333333 0.5 0.333333 0.5 0.333333 0.0 1.73847e-07 0.5 0.0 3.72529e-08 1.0 0.75 1.0 0.5 0.666667 0.75 0.666667 0.5 0.666667 3.72529e-08 0.666667 0.5 1.0 0.0 1.0 0.5</float_array>
+          <technique_common>
+            <accessor source="#representation-18753-texcoord-1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="representation-18753-vertices">
+          <input semantic="POSITION" source="#representation-18753-positions"/>
+        </vertices>
+        <triangles material="Farbe,_weiß.001" count="12">
+          <input semantic="VERTEX" source="#representation-18753-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#representation-18753-normals" offset="0"/>
+          <input semantic="TEXCOORD" source="#representation-18753-texcoord-0" offset="0" set="0"/>
+          <input semantic="TEXCOORD" source="#representation-18753-texcoord-1" offset="0" set="1"/>
+          <p>2 0 1 2 3 0 5 4 6 5 6 7 8 10 11 8 11 9 15 13 12 15 12 14 18 17 16 18 19 17 22 21 20 22 23 21 </p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="TridifyScene">
+      <node id="0yQDJsqyH8SxODovysDAPx" name="0yQDJsqyH8SxODovysDAPx" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 39.6467 0.0 1.0 0.0 3.11035 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="12ewscBPX8TO20fizC01c1" name="12ewscBPX8TO20fizC01c1" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 3.84893 0.0 1.0 0.0 2.87075 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0PHxAz4Mz6deTAW0Bg48qa" name="0PHxAz4Mz6deTAW0Bg48qa" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 12.9655 0.0 1.0 0.0 12.7137 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0Zh1XcHrb67ww2PT6GHvWU" name="0Zh1XcHrb67ww2PT6GHvWU" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 10.7548 0.0 1.0 0.0 11.7978 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3$Or0IscP2QwYDfcHtTvP$" name="3$Or0IscP2QwYDfcHtTvP$" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 7.49135 0.0 1.0 0.0 12.5979 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2ac9e1BT96ZAB5qrv0LY1U" name="2ac9e1BT96ZAB5qrv0LY1U" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 1.16449 0.0 1.0 0.0 11.8399 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1wB4a7dCr10hjA64sQASOs" name="1wB4a7dCr10hjA64sQASOs" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 1.79612 0.0 1.0 0.0 2.99707 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3Fas3llhbBh9X004hBAIlC" name="3Fas3llhbBh9X004hBAIlC" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 7.82822 0.0 1.0 0.0 2.98655 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3mdCjAdrPENxEJc7JsHQHA" name="3mdCjAdrPENxEJc7JsHQHA" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 9.8705 0.0 1.0 0.0 2.91285 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="23PhpBVjn93AtYg$TgQDLi" name="23PhpBVjn93AtYg$TgQDLi" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 13.8182 0.0 1.0 0.0 2.96549 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1FE8CtiW100xXfCcvMbGZY" name="1FE8CtiW100xXfCcvMbGZY" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 15.8605 0.0 1.0 0.0 2.95496 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3FbQRBjA12hA$$V1TpgMZN" name="3FbQRBjA12hA$$V1TpgMZN" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 19.838 0.0 1.0 0.0 2.98479 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="35gnZQeI53KeKv$o8xXWCY" name="35gnZQeI53KeKv$o8xXWCY" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 21.8557 0.0 1.0 0.0 2.96725 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="24JOkmJxf0GOisNyZ3FF$C" name="24JOkmJxf0GOisNyZ3FF$C" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 27.9832 0.0 1.0 0.0 11.9074 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="14Xie0oVj4ZglTrZ1ZM6H_" name="14Xie0oVj4ZglTrZ1ZM6H_" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 31.7115 0.0 1.0 0.0 11.8467 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3uG8sjdwr9WvIJ2E5J1vnl" name="3uG8sjdwr9WvIJ2E5J1vnl" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 34.7228 0.0 1.0 0.0 11.9575 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0MwwQwktD1EABufkWsF6jR" name="0MwwQwktD1EABufkWsF6jR" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 37.723 0.0 1.0 0.0 11.9575 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3KG27wZLbFaxu7wvjAtGKk" name="3KG27wZLbFaxu7wvjAtGKk" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 40.5864 0.0 1.0 0.0 12.0101 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3knwp7Zd90qPHbstf1VRar" name="3knwp7Zd90qPHbstf1VRar" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 40.5536 0.0 1.0 0.0 4.31675 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0wOs8cwRn3Cgmq_aLC_Oc2" name="0wOs8cwRn3Cgmq_aLC_Oc2" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 36.6088 0.0 1.0 0.0 3.14674 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2qUri1qbLFngpPcA8UGe8D" name="2qUri1qbLFngpPcA8UGe8D" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 33.9165 0.0 1.0 0.0 3.67428 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0hMAE7lDbCl8oEWalE9nKQ" name="0hMAE7lDbCl8oEWalE9nKQ" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 31.7518 0.0 1.0 0.0 3.60151 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3IYA4nCCH8M80noAVj1s7N" name="3IYA4nCCH8M80noAVj1s7N" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 28.7345 0.0 1.0 0.0 3.02563 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0tY7LaMUT29xmFtCjT7$Tc" name="0tY7LaMUT29xmFtCjT7$Tc" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 24.9763 0.0 1.0 0.0 2.92036 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2R5wDhDefB6Ob2SgSotdBS" name="2R5wDhDefB6Ob2SgSotdBS" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 4.7648 0.0 1.0 0.0 12.1452 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-19425">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0iabNzJqPCA9ptg2HynprV" name="0iabNzJqPCA9ptg2HynprV" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 15.8 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2J6cZ8ikD0LQU8mWRIxn7Z" name="2J6cZ8ikD0LQU8mWRIxn7Z" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 33.8 1.0 -4.37114e-08 0.0 3.1 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="001lu2mo55kwdGauS8LRxn" name="001lu2mo55kwdGauS8LRxn" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 32.2 0.0 1.0 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2_$5lBnKnFou2_bANCFK3B" name="2_$5lBnKnFou2_bANCFK3B" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 33.0 1.0 -4.37114e-08 0.0 3.1 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3_y8v12Lz4KR1UK3TN6qRe" name="3_y8v12Lz4KR1UK3TN6qRe" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 9.8 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="330dYeUbrElh0YlMzoTR7O" name="330dYeUbrElh0YlMzoTR7O" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 29.9 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0NlvTwoNb2b9zVnJSo5F73" name="0NlvTwoNb2b9zVnJSo5F73" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 24.9 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3yNXKcVj99lAvPT2UEyZ2b" name="3yNXKcVj99lAvPT2UEyZ2b" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 41.7 1.0 -4.37114e-08 0.0 3.5 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1bBYVH$oL5ORExvNxEoec1" name="1bBYVH$oL5ORExvNxEoec1" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 39.0 0.0 1.0 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1K_d1XY_H0eR6YQt18Z3A$" name="1K_d1XY_H0eR6YQt18Z3A$" type="NODE">
+        <matrix sid="transform">1.0 0.0 0.0 36.1 0.0 1.0 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2a0MZ65LPAovJFCqtf_zKL" name="2a0MZ65LPAovJFCqtf_zKL" type="NODE">
+        <matrix sid="transform">-1.0 8.74228e-08 0.0 8.35 -8.74228e-08 -1.0 0.0 13.7 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3asragEFTC7ANo8AbuT5f0" name="3asragEFTC7ANo8AbuT5f0" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 12.9 1.0 -4.37114e-08 0.0 12.1 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3L1mIBs6z9ogCIZXMzLon3" name="3L1mIBs6z9ogCIZXMzLon3" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 11.9 1.0 -4.37114e-08 0.0 11.0165 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1Wf59vCvr60f0gYAhSG32Y" name="1Wf59vCvr60f0gYAhSG32Y" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 5.9 1.0 -4.37114e-08 0.0 11.5 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2Tnz7eiWn96fYzN2y_ZGL$" name="2Tnz7eiWn96fYzN2y_ZGL$" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 1.1 1.0 -4.37114e-08 0.0 11.0165 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2$ggPbypH5bewZ6ww_a1T0" name="2$ggPbypH5bewZ6ww_a1T0" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 41.7 1.0 -4.37114e-08 0.0 11.2348 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2pkKx0m_bEbfjzzBNbASG_" name="2pkKx0m_bEbfjzzBNbASG_" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 38.9 1.0 -4.37114e-08 0.0 11.2167 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0C68vVxz1F_RziZYAfcHRO" name="0C68vVxz1F_RziZYAfcHRO" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 35.9 1.0 -4.37114e-08 0.0 11.1986 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="0qmJgxjdH3IBqV20iXIpL6" name="0qmJgxjdH3IBqV20iXIpL6" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 32.9 1.0 -4.37114e-08 0.0 11.271 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="08Pzy1FAf8zh5TqA5mdXl$" name="08Pzy1FAf8zh5TqA5mdXl$" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 27.9 1.0 -4.37114e-08 0.0 11.1081 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="36GqY9dAL1U8z7GaExMms3" name="36GqY9dAL1U8z7GaExMms3" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 21.0 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1Q1MFJN9j2pv1BLE6RiOuK" name="1Q1MFJN9j2pv1BLE6RiOuK" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 21.8 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="2NItBPmLX4phu7hB4RNo_9" name="2NItBPmLX4phu7hB4RNo_9" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 3.8 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="3KZ2b1pvXFm9M9Ry1f7XBP" name="3KZ2b1pvXFm9M9Ry1f7XBP" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 3.0 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1dMEjnMYb30fvDOMo6UnWr" name="1dMEjnMYb30fvDOMo6UnWr" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 15.0 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="1$mThV5ZH5x8FMcVAgBdXr" name="1$mThV5ZH5x8FMcVAgBdXr" type="NODE">
+        <matrix sid="transform">-4.37114e-08 -1.0 0.0 9.0 1.0 -4.37114e-08 0.0 2.3 0.0 0.0 1.0 6.0 0.0 0.0 0.0 1.0</matrix>
+        <instance_geometry url="#representation-18753">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Farbe,_weiß.001" target="#Farbe,_weiß.001"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#TridifyScene"/>
+  </scene>
+</COLLADA>
